@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80" role="img" aria-label="Cadiz Shore Excursions">
+  <defs>
+    <linearGradient id="andalusia" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2a7d66"/>
+      <stop offset="1" stop-color="#123830"/>
+    </linearGradient>
+  </defs>
+  <circle cx="40" cy="40" r="40" fill="url(#andalusia)"/>
+  <path d="M22 48 L40 22 L58 48 Z" fill="#c45a2a" opacity="0.95"/>
+  <rect x="34" y="44" width="12" height="18" rx="1" fill="#ffffff" opacity="0.9"/>
+  <path d="M14 58c6 0 6 3 12 3s6-3 12-3 6 3 12 3 6-3 12-3 6 3 6 3v8H14z" fill="#ffffff" opacity="0.5"/>
+</svg>

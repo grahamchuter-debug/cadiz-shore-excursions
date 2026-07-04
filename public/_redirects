@@ -1,0 +1,8 @@
+# Canonical host redirect: www -> non-www (301). Cloudflare Pages supports
+# absolute-URL sources in _redirects for host normalisation.
+https://www.cadizshoreexcursions.com/*  https://cadizshoreexcursions.com/:splat  301!
+http://www.cadizshoreexcursions.com/*   https://cadizshoreexcursions.com/:splat  301!
+
+# HTTP -> HTTPS on the apex is handled automatically by Cloudflare
+# ("Always Use HTTPS"). Kept here as a defensive fallback.
+http://cadizshoreexcursions.com/*       https://cadizshoreexcursions.com/:splat  301!

@@ -1,0 +1,120 @@
+@import "tailwindcss";
+
+@theme inline {
+  --color-coastal-50: #eef6f4;
+  --color-coastal-100: #d4ebe4;
+  --color-coastal-200: #a8d6c8;
+  --color-coastal-300: #6fb8a3;
+  --color-coastal-400: #3d9a7f;
+  --color-coastal-500: #2a7d66;
+  --color-coastal-600: #226654;
+  --color-coastal-700: #1d5446;
+  --color-coastal-800: #18453a;
+  --color-coastal-900: #123830;
+  --color-maple-400: #d45a4a;
+  --color-maple-500: #b83d32;
+  --color-maple-600: #9a3028;
+  --color-autumn-300: #e8c46a;
+  --color-autumn-400: #d4a83a;
+  --font-sans: var(--font-inter);
+  --font-display: var(--font-playfair);
+}
+
+html { scroll-behavior: smooth; }
+
+body {
+  @apply bg-white text-gray-800 antialiased;
+  font-family: var(--font-sans), system-ui, sans-serif;
+}
+
+h1, h2, h3, h4 { font-family: var(--font-display), Georgia, serif; }
+
+.section-padding { @apply px-4 py-16 sm:px-6 lg:px-8 lg:py-20; }
+.container-wide { @apply mx-auto max-w-7xl; }
+.section-eyebrow { @apply text-sm font-medium tracking-wide text-coastal-700; }
+.section-title { @apply font-display text-3xl font-semibold leading-tight text-gray-900 sm:text-4xl; }
+.section-subtitle { @apply mt-4 max-w-2xl text-base leading-relaxed text-gray-600 sm:text-lg; }
+
+.btn-primary {
+  @apply inline-flex items-center justify-center rounded-xl bg-coastal-800 px-6 py-3.5 text-sm font-semibold text-white shadow-lg transition-all duration-300 hover:-translate-y-0.5 hover:bg-coastal-900 focus:outline-none focus:ring-2 focus:ring-coastal-500 focus:ring-offset-2;
+}
+
+.btn-secondary {
+  @apply inline-flex items-center justify-center rounded-xl border border-coastal-200 bg-white px-6 py-3.5 text-sm font-semibold text-coastal-800 shadow-sm transition-all duration-300 hover:-translate-y-0.5 hover:border-coastal-300 hover:bg-coastal-50 focus:outline-none focus:ring-2 focus:ring-coastal-500 focus:ring-offset-2;
+}
+
+.btn-accent {
+  @apply inline-flex items-center justify-center rounded-xl bg-maple-500 px-6 py-3.5 text-sm font-semibold text-white shadow-lg transition-all duration-300 hover:-translate-y-0.5 hover:bg-maple-600 focus:outline-none focus:ring-2 focus:ring-maple-400 focus:ring-offset-2;
+}
+
+.nav-card {
+  @apply relative block overflow-hidden rounded-2xl border border-gray-200/90 bg-white p-5 text-gray-900 shadow-md transition-all duration-300 hover:-translate-y-0.5 hover:shadow-lg sm:p-6;
+}
+
+.nav-card::before {
+  content: "";
+  @apply pointer-events-none absolute inset-x-0 top-0 z-0 h-1 bg-gradient-to-r from-coastal-600 via-autumn-400 to-maple-500;
+}
+
+.nav-card > * { @apply relative z-[1]; }
+
+.card-editorial {
+  @apply overflow-hidden rounded-2xl border border-gray-100 bg-white shadow-md transition-all duration-300 hover:shadow-lg;
+}
+
+.home-hero {
+  @apply relative overflow-hidden text-white pt-12 pb-14 sm:pt-14 sm:pb-16 lg:pt-16 lg:pb-20;
+}
+
+.home-hero-heading {
+  @apply font-display text-4xl font-semibold leading-[1.06] sm:text-[2.5rem] lg:text-[2.75rem] max-w-4xl;
+}
+
+.hero-bg {
+  @apply absolute inset-0 bg-gradient-to-br from-coastal-900 via-coastal-800 to-coastal-700;
+}
+
+.hero-bg::after {
+  content: "";
+  @apply absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,rgba(207,95,58,0.18),transparent_55%)];
+}
+
+.hero-overlay {
+  @apply absolute inset-0;
+  background:
+    linear-gradient(135deg, rgba(18, 48, 79, 0.9) 0%, rgba(22, 58, 97, 0.62) 45%, rgba(18, 48, 79, 0.85) 100%),
+    radial-gradient(ellipse at top right, rgba(207, 95, 58, 0.22), transparent 55%);
+}
+
+.card-feature {
+  @apply rounded-2xl border border-coastal-100 bg-gradient-to-br from-coastal-50/80 to-white p-6 sm:p-8;
+}
+
+.card-accent {
+  @apply rounded-2xl border border-maple-500/20 bg-gradient-to-br from-maple-500/5 to-white p-6 sm:p-8;
+}
+
+.footer-depth {
+  background: linear-gradient(180deg, #12304f 0%, #0d2440 40%, #081726 100%);
+}
+
+.placeholder-widget {
+  @apply rounded-xl border-2 border-dashed border-coastal-200 bg-coastal-50/50 p-6 text-center;
+}
+
+.placeholder-widget-label {
+  @apply text-xs font-semibold uppercase tracking-wider text-coastal-600;
+}
+
+.pill {
+  @apply inline-flex items-center rounded-full bg-coastal-50 px-3 py-1 text-xs font-medium text-coastal-800;
+}
+
+.pill-accent {
+  @apply inline-flex items-center rounded-full bg-maple-500/10 px-3 py-1 text-xs font-medium text-maple-600;
+}
+
+.prose-body p { @apply mt-4 text-base leading-relaxed text-gray-700; }
+.prose-body h2 { @apply mt-10 font-display text-2xl font-semibold text-gray-900; }
+.prose-body h3 { @apply mt-6 font-display text-xl font-semibold text-gray-900; }
+.prose-body ul { @apply mt-4 list-disc space-y-2 pl-5 text-gray-700; }
