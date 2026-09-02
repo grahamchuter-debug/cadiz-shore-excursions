@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { buildMetadata } from "@/lib/seo";
 import { PageHero } from "@/components/PageHero";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
@@ -41,7 +42,7 @@ export default function AboutPage() {
               We are not affiliated with any cruise line or the Port of Cadiz. Ship schedules and travel times are indicative — always confirm all-aboard times with your cruise line.
             </p>
             <p>
-              Have a question we haven&apos;t answered? <a href="/enquire">Get in touch</a> and we&apos;ll help you plan.
+              Have a question we haven&apos;t answered? <Link href="/enquire">Get in touch</Link> and we&apos;ll help you plan.
             </p>
           </div>
           <div className="mt-12">

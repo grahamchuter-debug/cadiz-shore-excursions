@@ -27,6 +27,7 @@ export function PhotoHeroBand({
         src={image.src}
         alt={image.alt}
         className="absolute inset-0 h-full w-full object-cover"
+        style={image.objectPosition ? { objectPosition: image.objectPosition } : undefined}
         fetchPriority="high"
       />
       <div className={`absolute inset-0 ${overlayClassName}`} aria-hidden="true" />

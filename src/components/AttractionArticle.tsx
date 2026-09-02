@@ -5,6 +5,7 @@ import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { FAQSection } from "@/components/FAQSection";
 import { PlanningLinks } from "@/components/PlanningLinks";
 import { JsonLd } from "@/components/JsonLd";
+import { SevilleComparison } from "@/components/SevilleComparison";
 import { breadcrumbSchema, faqSchema, articleSchema } from "@/lib/schema";
 import { getAttractionImage } from "@/lib/images";
 import { attractions } from "@/data/attractions";
@@ -45,6 +46,12 @@ export function AttractionArticle({ page }: { page: AttractionPage }) {
           <div className="prose-body">
             {page.body.map((p, i) => <p key={i}>{p}</p>)}
           </div>
+
+          {page.slug === "seville-from-cadiz-cruise-port" && (
+            <div className="mt-10 -mx-4 sm:-mx-6 lg:mx-0">
+              <SevilleComparison />
+            </div>
+          )}
 
           <h2 className="section-title text-2xl mt-10 mb-4">How to get there</h2>
           <div className="overflow-x-auto rounded-xl border border-gray-200 shadow-sm">

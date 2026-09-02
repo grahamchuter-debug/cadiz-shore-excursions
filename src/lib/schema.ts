@@ -155,3 +155,52 @@ export function webPageSchema({
     url: absoluteUrl(SITE.url, path),
   };
 }
+
+export function productOfferSchema({
+  name,
+  headline,
+  description,
+  path,
+  image,
+  price,
+  currency,
+  duration,
+}: {
+  name: string;
+  headline: string;
+  description: string;
+  path: string;
+  image?: string;
+  price: number | null;
+  currency: string;
+  duration?: string;
+}) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "TouristTrip",
+    name,
+    alternateName: headline,
+    description,
+    url: absoluteUrl(SITE.url, path),
+    ...(image ? { image: absoluteUrl(SITE.url, image) } : {}),
+    ...(duration
+      ? {
+          additionalProperty: {
+            "@type": "PropertyValue",
+            name: "Duration",
+            value: duration,
+          },
+        }
+      : {}),
+    ...(price != null
+      ? {
+          offers: {
+            "@type": "Offer",
+            price,
+            priceCurrency: currency,
+            url: absoluteUrl(SITE.url, path),
+          },
+        }
+      : {}),
+  };
+}

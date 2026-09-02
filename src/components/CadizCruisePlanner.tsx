@@ -9,6 +9,9 @@ import {
   type PlannerInput,
   type PlannerResult,
 } from "@/data/planner";
+import { getBookableProduct } from "@/data/bookable-products";
+import { PlannerBookableMatch, PlannerIndependentDayNote } from "@/components/PlannerBookableMatch";
+import { trackPlannerEvent } from "@/platform/booking/analytics";
 
 function Section({ title, links }: { title: string; links: PlannerLink[] }) {
   if (!links.length) return null;
@@ -45,24 +48,38 @@ export function CadizCruisePlanner() {
   const [budget, setBudget] = useState<PlannerInput["budget"]>("mid");
   const [style, setStyle] = useState<PlannerInput["style"]>("mix");
   const [plan, setPlan] = useState<PlannerResult | null>(null);
+  const [guestSnapshot, setGuestSnapshot] = useState({ adults: 2, children: 0 });
 
   function toggleInterest(id: string) {
     setInterests((prev) => (prev.includes(id) ? prev.filter((i) => i !== id) : [...prev, id]));
   }
 
   function generate() {
-    setPlan(
-      generateCadizPlan({
-        arrivalTime,
-        departureTime,
-        adults: Number(adults) || 1,
-        children: Number(children) || 0,
-        interests,
-        mobility,
-        budget,
-        style,
-      }),
-    );
+    const adultCount = Number(adults) || 1;
+    const childCount = Number(children) || 0;
+    const nextPlan = generateCadizPlan({
+      arrivalTime,
+      departureTime,
+      adults: adultCount,
+      children: childCount,
+      interests,
+      mobility,
+      budget,
+      style,
+    });
+    setGuestSnapshot({ adults: adultCount, children: childCount });
+    setPlan(nextPlan);
+    trackPlannerEvent("planner_completed", {
+      theme: nextPlan.headline,
+      independentDay: nextPlan.independentDay ?? false,
+      hasRecommendation: Boolean(nextPlan.commercial?.primary),
+    });
+    if (nextPlan.commercial?.primary) {
+      trackPlannerEvent("planner_product_recommended", {
+        productId: nextPlan.commercial.primary.productId,
+        alternativeProductId: nextPlan.commercial.alternative?.productId ?? null,
+      });
+    }
   }
 
   function downloadPdf() {
@@ -83,6 +100,20 @@ export function CadizCruisePlanner() {
     };
     write(plan.summary);
     y += 2;
+    if (plan.commercial?.primary) {
+      const product = getBookableProduct(plan.commercial.primary.productId);
+      doc.setFont("helvetica", "bold");
+      write("Best match for your day");
+      doc.setFont("helvetica", "normal");
+      if (product) write(`${product.name}: ${plan.commercial.primary.matchReason}`, 24);
+      y += 2;
+    } else if (plan.independentNote) {
+      doc.setFont("helvetica", "bold");
+      write("Independent exploration");
+      doc.setFont("helvetica", "normal");
+      write(plan.independentNote, 24);
+      y += 2;
+    }
     const block = (title: string, items: { label: string; why: string }[]) => {
       if (!items.length) return;
       doc.setFont("helvetica", "bold");
@@ -100,6 +131,21 @@ export function CadizCruisePlanner() {
     plan.dayPlan.forEach((s) => write(`${s.time}: ${s.text}`, 24));
     doc.save("cadiz-cruise-plan.pdf");
   }
+
+  const primaryMatch =
+    plan?.commercial?.primary && getBookableProduct(plan.commercial.primary.productId)
+      ? {
+          product: getBookableProduct(plan.commercial.primary.productId)!,
+          matchReason: plan.commercial.primary.matchReason,
+        }
+      : null;
+  const alternativeMatch =
+    plan?.commercial?.alternative && getBookableProduct(plan.commercial.alternative.productId)
+      ? {
+          product: getBookableProduct(plan.commercial.alternative.productId)!,
+          matchReason: plan.commercial.alternative.matchReason,
+        }
+      : null;
 
   return (
     <div className="card-feature">
@@ -177,6 +223,37 @@ export function CadizCruisePlanner() {
             </div>
             <p className="mt-2 text-sm text-gray-700 leading-relaxed">{plan.summary}</p>
           </div>
+
+          {primaryMatch ? (
+            <PlannerBookableMatch
+              primary={primaryMatch}
+              alternative={alternativeMatch}
+              guests={guestSnapshot}
+              onRequestBook={() => {
+                trackPlannerEvent("planner_product_clicked", { productId: primaryMatch.product.id, action: "request_to_book" });
+                trackPlannerEvent("planner_booking_started", { productId: primaryMatch.product.id, source: "planner" });
+              }}
+              onAlternativeRequestBook={
+                alternativeMatch
+                  ? () => {
+                      trackPlannerEvent("planner_product_clicked", {
+                        productId: alternativeMatch.product.id,
+                        action: "request_to_book",
+                        variant: "alternative",
+                      });
+                      trackPlannerEvent("planner_booking_started", {
+                        productId: alternativeMatch.product.id,
+                        source: "planner",
+                        variant: "alternative",
+                      });
+                    }
+                  : undefined
+              }
+            />
+          ) : plan.independentNote ? (
+            <PlannerIndependentDayNote note={plan.independentNote} />
+          ) : null}
+
           <Section title="Recommended shore excursions" links={plan.excursions} />
           <Section title="Planning guides" links={plan.guides} />
           <Section title="Logistics & reassurance" links={plan.logistics} />

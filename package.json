@@ -4,15 +4,19 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
+    "prebuild": "node scripts/optimize-images.mjs",
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
     "check-links": "node scripts/check-links.mjs",
     "verify-images": "node scripts/verify-images.mjs",
+    "optimize:images": "node scripts/optimize-images.mjs",
     "seo-qa": "node scripts/seo-qa.mjs",
     "download-images": "node scripts/download-images.mjs",
     "deploy": "npm run build && wrangler deploy",
-    "pages:deploy": "npm run build && wrangler pages deploy out --project-name=cadiz-shore-excursions"
+    "pages:deploy": "npm run build && wrangler pages deploy out --project-name=cadiz-shore-excursions",
+    "test:booking": "npx --yes tsx --test shared/world-booking/booking.test.ts shared/world-booking/cadiz-products.test.ts shared/world-booking/email.test.ts shared/world-booking/date-picker.test.ts workers/bookings/src/passenger-crypto.test.ts workers/bookings/src/request.test.ts workers/bookings/src/operator.test.ts src/data/planner-recommendations.test.ts src/components/booking-engine/date-field.test.ts src/platform/booking/debug-tools.test.ts",
+    "bookings:dev": "wrangler dev --config workers/bookings/wrangler.jsonc --port 8788"
   },
   "engines": {
     "node": ">=20"
@@ -21,7 +25,8 @@
     "jspdf": "^4.2.1",
     "next": "16.2.9",
     "react": "19.2.4",
-    "react-dom": "19.2.4"
+    "react-dom": "19.2.4",
+    "stripe": "^22.5.0"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",
@@ -30,6 +35,7 @@
     "@types/react-dom": "^19",
     "eslint": "^9",
     "eslint-config-next": "16.2.9",
+    "sharp": "^0.33.5",
     "tailwindcss": "^4",
     "typescript": "^5",
     "wrangler": "^4.106.0"

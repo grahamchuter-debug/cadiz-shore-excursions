@@ -114,7 +114,16 @@ h1, h2, h3, h4 { font-family: var(--font-display), Georgia, serif; }
   @apply inline-flex items-center rounded-full bg-maple-500/10 px-3 py-1 text-xs font-medium text-maple-600;
 }
 
-.prose-body p { @apply mt-4 text-base leading-relaxed text-gray-700; }
+.price-amount {
+  font-family: var(--font-sans), system-ui, sans-serif;
+  font-variant-numeric: tabular-nums;
+}
+
+/* World 2.0 — full-field native date picker */
+.w2-date-field-input[type="date"] {
+  cursor: pointer;
+}
+
 .prose-body h2 { @apply mt-10 font-display text-2xl font-semibold text-gray-900; }
 .prose-body h3 { @apply mt-6 font-display text-xl font-semibold text-gray-900; }
 .prose-body ul { @apply mt-4 list-disc space-y-2 pl-5 text-gray-700; }

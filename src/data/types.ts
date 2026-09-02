@@ -3,7 +3,7 @@ export interface FAQ {
   answer: string;
 }
 
-export type Pace = "Relaxed" | "Moderate" | "Active";
+export type Pace = "Easy" | "Relaxed" | "Moderate" | "Active";
 
 export interface ExcursionPage {
   slug: string;

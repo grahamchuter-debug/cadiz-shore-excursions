@@ -25,6 +25,9 @@ export function PageHero({
         src={imageSrc}
         alt={imageAlt}
         className="absolute inset-0 h-full w-full object-cover"
+        style={imageSrc === siteImages.hero.src && siteImages.hero.objectPosition
+          ? { objectPosition: siteImages.hero.objectPosition }
+          : undefined}
         fetchPriority="high"
       />
       <div className="hero-overlay" aria-hidden="true" />

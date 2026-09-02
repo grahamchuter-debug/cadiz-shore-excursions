@@ -2,6 +2,147 @@ import type { ExcursionPage } from "./types";
 
 export const excursions: ExcursionPage[] = [
   {
+    slug: "seville-on-your-own",
+    title: "Seville On Your Own — Plaza de España & Free Time",
+    seoTitle: "Seville On Your Own from Cadiz Cruise Port — Plaza de España & Free Time",
+    metaDescription:
+      "Flexible Seville day from Cadiz cruise port: return coach, Plaza de España stop and ~3–4 hours free in the historic centre from €88 — timed for your ship's all-aboard.",
+    category: "Day trip",
+    tagline: "Return transport from the pier, Plaza de España, and hours that are actually yours in Seville.",
+    duration: "Approximately 8 hours",
+    pace: "Easy",
+    bestFor: "Independent travellers who want Seville logistics handled without a full guided monument circuit",
+    overview:
+      "Seville is the headline inland day from a Cadiz cruise call — but the hard part is the road, not deciding which plaza to photograph. This day solves the transfer and the return buffer, stops at Plaza de España, then leaves you roughly three to four hours to shape the historic centre yourself. Cathedral and Real Alcázar tickets stay optional during free time, so you pay for timing confidence rather than monuments you may not want to enter.",
+    body: [
+      "From the Cadiz cruise pier, Seville is about ninety minutes inland each way. That road time is real on any Seville day; what changes is how your hours in the city are spent. Here the coach covers meeting at the pier, the long transfer, a scenic introduction that includes Plaza de España, and a planned return about an hour before scheduled departure.",
+      "After the organised stop, free time is the point of the day. Walk Santa Cruz, queue for the Cathedral or Alcázar if you choose, find tapas, or simply sit in a plaza — admissions during free time are not included. That trade-off is deliberate: Best Value prioritises flexibility after the drive from Cadiz.",
+      "Choose this when your port window is long enough for the inland trip (typically seven-plus hours ashore) and you already know how you use unstructured time in a historic centre. If you want skip-the-line Cathedral and Real Alcázar built in with a smaller group, compare Small-Group Seville instead.",
+    ],
+    highlights: [
+      "Return coach from the Cadiz cruise pier",
+      "Plaza de España organised stop",
+      "Panoramic Seville orientation en route",
+      "Approximately 3–4 hours free time in the historic centre",
+      "Return planned about one hour before ship departure",
+    ],
+    included: [
+      "Air-conditioned round-trip transport from the cruise ship pier",
+      "Plaza de España stop and panoramic sightseeing",
+      "Approximately 3–4 hours independent free time in Seville",
+      "Return timing aimed at about one hour before scheduled departure",
+    ],
+    portLogistics:
+      "Meet at the Cadiz cruise ship pier. Allow roughly 90 minutes each way to Seville. The day is typically about eight hours door to door (sometimes nearer seven on shorter calls). Stay with the stated meet time after free time — independent wandering past coach departure is how port days go wrong.",
+    tips: [
+      "Best on a long Cadiz call — under seven hours ashore, stay in walkable Cadiz instead",
+      "Cathedral and Alcázar tickets are not included; buy ahead if you plan to enter during free time",
+      "If you enter the Real Alcázar independently, carry a valid passport — Spanish ticket systems often require matching ID",
+      "Wear comfortable shoes; Seville's centre is cobbled and exposed at midday",
+    ],
+    faqs: [
+      {
+        question: "What is included besides the coach?",
+        answer:
+          "Return transport from the Cadiz pier, panoramic orientation and a Plaza de España stop, plus around 3–4 hours free in the historic centre. Cathedral, Real Alcázar and other attraction tickets during free time are not included.",
+      },
+      {
+        question: "How long is the drive from Cadiz to Seville?",
+        answer:
+          "About 90 minutes each way. That is why this is a full inland day — plan on roughly eight hours door to door when your ship call allows it.",
+      },
+      {
+        question: "Is this better than a fully guided Seville tour?",
+        answer:
+          "It is better if you want freedom and value after the transfer. If you prefer skip-the-line Cathedral and Real Alcázar with a max-20 guide, choose Small-Group Seville instead.",
+      },
+      {
+        question: "Will I get back to the ship on time?",
+        answer:
+          "The plan targets return about one hour before scheduled departure. Keep to the meet time after free time; the coach will not wait for late guests.",
+      },
+    ],
+    relatedExcursionSlugs: [
+      "small-group-seville",
+      "seville-highlights",
+      "seville-cathedral-and-alcazar",
+    ],
+    featured: true,
+    availability: "available",
+  },
+  {
+    slug: "small-group-seville",
+    title: "Small-Group Seville — Cathedral & Real Alcázar",
+    seoTitle: "Small-Group Seville from Cadiz — Cathedral & Real Alcázar Shore Excursion",
+    metaDescription:
+      "Small-group Seville day from Cadiz cruise port: max 20 per guide, skip-the-line Cathedral and Real Alcázar, guided Santa Cruz — passport details required before booking.",
+    category: "Day trip",
+    tagline: "Guided Seville with the headline monuments included — smaller group, tickets handled.",
+    duration: "Approximately 8 hours",
+    pace: "Moderate",
+    bestFor: "Cruise passengers who want Cathedral and Alcázar organised after the long drive from Cadiz",
+    overview:
+      "If Seville's two essential interiors matter more than maximising free wandering, this is the fuller day from Cadiz. A maximum of 20 guests per guide, guided time in Santa Cruz, and skip-the-line admission to the Cathedral and Real Alcázar are built into the schedule — with return timing aimed at about one hour before your ship departs.",
+    body: [
+      "The Cadiz-to-Seville road still takes about ninety minutes each way. What you buy here is not a shorter transfer — it is a smaller guided day with the hard tickets included. After panoramic orientation and Plaza de España, the centrepiece is roughly an hour in the Cathedral and roughly an hour in the Real Alcázar, plus guided Santa Cruz.",
+      "Free time shrinks to about one to two hours because the inclusions take priority. That is the honest trade-off versus Seville On Your Own, where free time runs closer to three or four hours and monument tickets stay optional.",
+      "Before you book, every guest must provide passport information (full name, passport number, date of birth and nationality) and carry a valid passport on the tour. That is a supplier requirement for Cathedral and Real Alcázar admission — not optional paperwork.",
+    ],
+    highlights: [
+      "Maximum 20 guests per guide",
+      "Skip-the-line Seville Cathedral admission",
+      "Skip-the-line Real Alcázar admission",
+      "Guided Santa Cruz quarter",
+      "Return coach timed for a Cadiz cruise call",
+    ],
+    included: [
+      "Small-group excursion — maximum 20 guests per official guide",
+      "Air-conditioned round-trip transport from the cruise ship pier",
+      "Panoramic Seville sightseeing including Plaza de España",
+      "Guided visit in the Santa Cruz quarter",
+      "Skip-the-line Seville Cathedral and Real Alcázar admissions",
+      "Approximately 1–2 hours free time (schedule dependent)",
+      "Bottled water",
+    ],
+    portLogistics:
+      "Depart from the Cadiz cruise ship pier for a full inland day — typically about eight hours. Confirm your all-aboard time before booking; Cathedral and Alcázar visits leave less unstructured margin than a free-time-only day.",
+    tips: [
+      "Have passport details ready for every guest before you request to book",
+      "Wear modest clothing suitable for a cathedral visit plus comfortable walking shoes",
+      "Expect cobbles, standing time and substantial walking inside both monuments",
+      "Choose Seville On Your Own instead if you want ~3–4 hours free and optional tickets",
+    ],
+    faqs: [
+      {
+        question: "Do I need a passport before booking?",
+        answer:
+          "Yes. Before you book, every guest must provide passport information — full name, passport number, date of birth and nationality — and must carry a valid passport on the tour. This is required for Cathedral and Real Alcázar admission.",
+      },
+      {
+        question: "What is the difference from Seville On Your Own?",
+        answer:
+          "This day includes skip-the-line Cathedral and Real Alcázar visits with a max-20 guide and less free time (~1–2 hours). Seville On Your Own prioritises ~3–4 hours free time; monument tickets there are optional and paid separately.",
+      },
+      {
+        question: "How long is the drive from Cadiz?",
+        answer:
+          "About 90 minutes each way. An eight-hour day from the pier still leaves less free wandering than the Best Value option because the monument visits are built in.",
+      },
+      {
+        question: "Is the group really small?",
+        answer:
+          "Yes — maximum 20 guests per official guide, which is meaningfully smaller than a full coach day from the cruise pier.",
+      },
+    ],
+    relatedExcursionSlugs: [
+      "seville-on-your-own",
+      "seville-cathedral-and-alcazar",
+      "seville-highlights",
+    ],
+    featured: true,
+    availability: "available",
+  },
+  {
     slug: "seville-highlights",
     title: "Seville Highlights Shore Excursion",
     seoTitle: "Seville Highlights Shore Excursion from Cadiz Cruise Port",
@@ -50,12 +191,13 @@ export const excursions: ExcursionPage[] = [
       },
       {
         question: "Will we go inside the Cathedral or Alcázar on a highlights tour?",
-        answer: "Usually it's an exterior and photo stop unless the tour specifically includes timed entry. For in-depth visits to both monuments, choose our Seville Cathedral & Alcázar excursion.",
+        answer: "Usually it's an exterior and photo stop unless the tour specifically includes timed entry. For in-depth visits to both monuments, choose our Seville Cathedral & Alcázar excursion — or bookable Small-Group Seville with tickets included.",
       },
     ],
     relatedExcursionSlugs: [
+      "seville-on-your-own",
+      "small-group-seville",
       "seville-cathedral-and-alcazar",
-      "small-group-seville-tour",
       "cadiz-walking-tour",
     ],
     featured: true,
@@ -114,9 +256,9 @@ export const excursions: ExcursionPage[] = [
       },
     ],
     relatedExcursionSlugs: [
+      "small-group-seville",
+      "seville-on-your-own",
       "seville-highlights",
-      "small-group-seville-tour",
-      "private-andalusia-shore-excursion",
     ],
     featured: false,
     availability: "register-interest",
@@ -595,9 +737,9 @@ export const excursions: ExcursionPage[] = [
       },
     ],
     relatedExcursionSlugs: [
+      "small-group-seville",
+      "seville-on-your-own",
       "seville-highlights",
-      "seville-cathedral-and-alcazar",
-      "private-andalusia-shore-excursion",
     ],
     featured: false,
     availability: "register-interest",

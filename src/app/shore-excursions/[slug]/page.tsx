@@ -8,6 +8,8 @@ import { PlanningLinks } from "@/components/PlanningLinks";
 import { JsonLd } from "@/components/JsonLd";
 import { breadcrumbSchema, faqSchema, articleSchema } from "@/lib/schema";
 import { getExcursionBySlug, getAllExcursionSlugs, excursions } from "@/data/excursions";
+import { getProductExperience } from "@/data/product-pages";
+import { ProductPage } from "@/components/product/ProductPage";
 import { getExcursionImage } from "@/lib/images";
 
 export function generateStaticParams() {
@@ -25,6 +27,12 @@ export default async function ExcursionDetailPage({ params }: { params: Promise<
   const { slug } = await params;
   const e = getExcursionBySlug(slug);
   if (!e) notFound();
+
+  const experience = getProductExperience(slug);
+  if (experience) {
+    return <ProductPage experience={experience} excursion={e} />;
+  }
+
   const image = getExcursionImage(slug);
   const related = e.relatedExcursionSlugs.map((s) => excursions.find((x) => x.slug === s)).filter(Boolean);
 

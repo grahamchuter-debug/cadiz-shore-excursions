@@ -6,7 +6,9 @@ import { JsonLd } from "@/components/JsonLd";
 import { breadcrumbSchema, faqSchema, travelGuideSchema } from "@/lib/schema";
 import { coreSections, getHomepageFaqs } from "@/data/homepage";
 import { getFeaturedExcursions } from "@/data/excursions";
+import { getPriorityProducts } from "@/data/bookable-products";
 import { siteImages, getExcursionImage } from "@/lib/images";
+import { PriorityProductCard } from "@/components/PriorityProductCard";
 
 export const metadata = buildMetadata({
   title: "Cadiz Shore Excursions & Andalusia Cruise Planning",
@@ -19,6 +21,7 @@ export const metadata = buildMetadata({
 export default function HomePage() {
   const faqs = getHomepageFaqs();
   const featured = getFeaturedExcursions().slice(0, 6);
+  const priorityProducts = getPriorityProducts();
 
   return (
     <>
@@ -35,7 +38,13 @@ export default function HomePage() {
       />
 
       <section className="home-hero">
-        <img src={siteImages.hero.src} alt={siteImages.hero.alt} className="absolute inset-0 h-full w-full object-cover" fetchPriority="high" />
+        <img
+          src={siteImages.hero.src}
+          alt={siteImages.hero.alt}
+          className="absolute inset-0 h-full w-full object-cover"
+          style={siteImages.hero.objectPosition ? { objectPosition: siteImages.hero.objectPosition } : undefined}
+          fetchPriority="high"
+        />
         <div className="hero-overlay" aria-hidden="true" />
         <div className="container-wide relative z-10 px-4 sm:px-6 lg:px-8">
           <p className="section-eyebrow mb-2 text-coastal-100">Andalusia cruise gateway</p>
@@ -56,6 +65,23 @@ export default function HomePage() {
       </section>
 
       <VisitorTypeSelector />
+
+      <section className="section-padding bg-coastal-50/50">
+        <div className="container-wide">
+          <div className="mx-auto max-w-2xl text-center">
+            <p className="section-eyebrow">Bookable Seville days</p>
+            <h2 className="section-title mt-2">Two clear ways to do Seville from Cádiz</h2>
+            <p className="section-subtitle mx-auto">
+              Freedom and value, or guided Cathedral &amp; Alcázar — both timed for a cruise call.
+            </p>
+          </div>
+          <div className="mt-8 grid gap-6 sm:grid-cols-2">
+            {priorityProducts.map((product) => (
+              <PriorityProductCard key={product.id} product={product} />
+            ))}
+          </div>
+        </div>
+      </section>
 
       <section className="section-padding bg-white">
         <div className="container-wide">
@@ -80,13 +106,14 @@ export default function HomePage() {
           <div className="mb-10 flex flex-col gap-4 sm:flex-row sm:items-end sm:justify-between">
             <div>
               <h2 className="section-title">Featured Shore Excursions</h2>
-              <p className="section-subtitle">Premium, cruise-passenger-focused experiences — register interest as direct tours launch.</p>
+              <p className="section-subtitle">Premium, cruise-passenger-focused experiences — register interest as more direct tours launch.</p>
             </div>
             <Link href="/shore-excursions" className="btn-secondary shrink-0">All Excursions</Link>
           </div>
           <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
             {featured.map((e) => {
               const image = getExcursionImage(e.slug);
+              const available = e.availability === "available";
               return (
                 <Link key={e.slug} href={`/shore-excursions/${e.slug}`} className="card-editorial group overflow-hidden">
                   <div className="relative aspect-[16/9] overflow-hidden">
@@ -99,7 +126,9 @@ export default function HomePage() {
                     <h3 className="font-display text-lg font-bold text-gray-900 group-hover:text-coastal-800">{e.title}</h3>
                     <p className="mt-2 text-sm text-gray-600">{e.tagline}</p>
                     <p className="mt-3 text-xs font-medium text-coastal-700">{e.duration} · {e.pace}</p>
-                    <span className="mt-2 inline-block pill-accent">Register interest</span>
+                    <span className={`mt-2 inline-block ${available ? "pill bg-coastal-800 text-white" : "pill-accent"}`}>
+                      {available ? "Available" : "Register interest"}
+                    </span>
                   </div>
                 </Link>
               );

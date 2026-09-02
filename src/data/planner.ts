@@ -1,4 +1,5 @@
 import { excursions } from "./excursions";
+import { recommendBookableProducts } from "./planner-recommendations";
 
 export interface PlannerInput {
   arrivalTime: string;
@@ -25,6 +26,12 @@ export interface PlannerResult {
   logistics: PlannerLink[];
   dayPlan: { time: string; text: string }[];
   returnConfidence: "high" | "medium" | "low";
+  commercial?: {
+    primary: { productId: string; matchReason: string };
+    alternative?: { productId: string; matchReason: string };
+  };
+  independentDay?: boolean;
+  independentNote?: string;
 }
 
 export const INTEREST_OPTIONS = [
@@ -40,11 +47,11 @@ export const INTEREST_OPTIONS = [
 ];
 
 const INTEREST_TO_EXCURSION: Record<string, string[]> = {
-  seville: ["seville-highlights", "seville-cathedral-and-alcazar", "small-group-seville-tour"],
+  seville: ["seville-on-your-own", "small-group-seville", "seville-highlights", "seville-cathedral-and-alcazar"],
   cadiz: ["cadiz-walking-tour", "cadiz-highlights"],
   food: ["andalusian-food-experience", "cadiz-walking-tour"],
   wine: ["jerez-and-sherry-experience", "andalusian-food-experience"],
-  history: ["cadiz-walking-tour", "seville-cathedral-and-alcazar", "cadiz-highlights"],
+  history: ["cadiz-walking-tour", "small-group-seville", "seville-cathedral-and-alcazar", "cadiz-highlights"],
   beaches: ["cadiz-highlights", "cadiz-walking-tour"],
   villages: ["white-villages-tour"],
   culture: ["flamenco-experience", "cadiz-walking-tour"],
@@ -93,25 +100,28 @@ export function generateCadizPlan(input: PlannerInput): PlannerResult {
   if (shortDay) {
     pushSlug("cadiz-walking-tour");
     pushSlug("cadiz-highlights");
-    ["seville-highlights", "seville-cathedral-and-alcazar", "white-villages-tour"].forEach((s) => {
+    ["seville-on-your-own", "small-group-seville", "seville-highlights", "seville-cathedral-and-alcazar", "white-villages-tour"].forEach((s) => {
       const idx = excSlugs.indexOf(s);
       if (idx >= 0) excSlugs.splice(idx, 1);
     });
   } else if (standardDay) {
-    if (activeInterests.includes("seville") && longDay === false) pushSlug("seville-highlights");
+    if (activeInterests.includes("seville") && longDay === false) pushSlug("seville-on-your-own");
     if (activeInterests.includes("wine")) pushSlug("jerez-and-sherry-experience");
     if (activeInterests.includes("villages")) pushSlug("white-villages-tour");
   } else if (longDay) {
-    if (activeInterests.includes("seville")) pushSlug("seville-cathedral-and-alcazar");
+    if (activeInterests.includes("seville")) pushSlug("small-group-seville");
     if (activeInterests.includes("villages")) pushSlug("white-villages-tour");
     if (activeInterests.includes("food")) pushSlug("andalusian-food-experience");
   }
 
   if (style === "guided" && party >= 2) pushSlug("private-andalusia-shore-excursion");
   if (budget === "premium") pushSlug("private-andalusia-shore-excursion");
-  if (activeInterests.includes("seville") && style === "guided") pushSlug("small-group-seville-tour");
+  if (activeInterests.includes("seville") && style === "guided") pushSlug("small-group-seville");
+  if (activeInterests.includes("seville") && (style === "diy" || style === "mix")) pushSlug("seville-on-your-own");
 
   const reasonMap: Record<string, string> = {
+    "seville-on-your-own": "Best Value Seville — transport, Plaza de España and ~3–4 hours free time.",
+    "small-group-seville": "Best Overall — Cathedral and Real Alcázar included with a max-20 guide.",
     "seville-highlights": longDay ? "You have enough hours for Andalusia's headline city." : "Only on long port days — check your departure time.",
     "seville-cathedral-and-alcazar": "The deepest Seville experience when your call is 8+ hours.",
     "cadiz-walking-tour": "Walkable from the pier — low-risk and rich in history.",
@@ -174,11 +184,27 @@ export function generateCadizPlan(input: PlannerInput): PlannerResult {
   }
 
   let returnConfidence: PlannerResult["returnConfidence"] = "high";
-  if (excSlugs.some((s) => ["seville-highlights", "seville-cathedral-and-alcazar"].includes(s)) && !longDay) returnConfidence = "low";
+  if (excSlugs.some((s) => ["seville-on-your-own", "small-group-seville", "seville-highlights", "seville-cathedral-and-alcazar"].includes(s)) && !longDay) returnConfidence = "low";
   else if (excSlugs.includes("white-villages-tour") && shortDay) returnConfidence = "medium";
   else if (shortDay) returnConfidence = "medium";
 
   const interestLabels = activeInterests.map((i) => INTEREST_OPTIONS.find((o) => o.id === i)?.label ?? i).join(", ");
+
+  const recommendation = recommendBookableProducts(input, "cadiz", hours);
+  const commercial: PlannerResult["commercial"] = recommendation.primary
+    ? {
+        primary: {
+          productId: recommendation.primary.productId,
+          matchReason: recommendation.primary.matchReason,
+        },
+        alternative: recommendation.alternative
+          ? {
+              productId: recommendation.alternative.productId,
+              matchReason: recommendation.alternative.matchReason,
+            }
+          : undefined,
+      }
+    : undefined;
 
   return {
     headline: `Your Cadiz Port-Day Plan (${hours.toFixed(1)} hours ashore)`,
@@ -188,5 +214,8 @@ export function generateCadizPlan(input: PlannerInput): PlannerResult {
     logistics,
     dayPlan,
     returnConfidence,
+    commercial,
+    independentDay: recommendation.independentDay,
+    independentNote: recommendation.independentNote,
   };
 }

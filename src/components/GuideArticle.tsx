@@ -5,18 +5,22 @@ import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { FAQSection } from "@/components/FAQSection";
 import { PlanningLinks } from "@/components/PlanningLinks";
 import { JsonLd } from "@/components/JsonLd";
+import { CommercialPlacementList } from "@/components/EditorialProductRecommend";
 import { breadcrumbSchema, faqSchema, articleSchema } from "@/lib/schema";
 import { getGuideImage } from "@/lib/images";
 import { getGuideBySlug, getAllGuideSlugs } from "@/data/guides";
 import { getExcursionBySlug } from "@/data/excursions";
+import { getCommercialPlacements } from "@/data/commercial-placements";
 
 export function GuideArticle({ page }: { page: GuidePage }) {
-  const image = getGuideImage(page.slug);
+  const path = `/${page.slug}`;
+  const image = getGuideImage(page.imageKey ?? page.slug);
   const related = page.relatedGuideSlugs.map((s) => getGuideBySlug(s)).filter(Boolean);
+  const placements = getCommercialPlacements(path);
 
   const breadcrumbs = [
     { name: "Home", path: "/" },
-    { name: page.title, path: `/${page.slug}` },
+    { name: page.title, path },
   ];
 
   return (
@@ -25,7 +29,7 @@ export function GuideArticle({ page }: { page: GuidePage }) {
         data={[
           breadcrumbSchema(breadcrumbs),
           faqSchema(page.faqs),
-          articleSchema({ title: page.seoTitle, description: page.metaDescription, path: `/${page.slug}`, image: image.src }),
+          articleSchema({ title: page.seoTitle, description: page.metaDescription, path, image: image.src }),
         ]}
       />
       <PhotoHeroBand image={image} eyebrow={page.eyebrow} title={page.title} subtitle={page.tagline} compact />
@@ -69,6 +73,8 @@ export function GuideArticle({ page }: { page: GuidePage }) {
               </div>
             </div>
           )}
+
+          <CommercialPlacementList placements={placements} />
 
           {page.highlights && page.highlights.length > 0 && (
             <div className="mt-10 card-feature">

@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Inter, Playfair_Display } from "next/font/google";
+import { NavigationScrollReset } from "@/components/navigation/NavigationScrollReset";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { JsonLd } from "@/components/JsonLd";
@@ -29,6 +30,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     <html lang="en-GB" className={`${inter.variable} ${playfair.variable}`}>
       <body className="min-h-screen flex flex-col font-sans">
         <JsonLd data={[organizationSchema(), websiteSchema(), travelAgencySchema()]} />
+        <NavigationScrollReset />
         <Header />
         <main className="flex-1">{children}</main>
         <Footer />

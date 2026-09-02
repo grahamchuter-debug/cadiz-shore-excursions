@@ -60,7 +60,7 @@ export const guides: GuidePage[] = [
       "cadiz-markets-and-tapas-guide",
     ],
     relatedExcursionSlugs: ["cadiz-walking-tour", "cadiz-highlights"],
-    imageKey: "old-town",
+    imageKey: "cadiz-cathedral-coast",
   },
   {
     slug: "cadiz-cathedral-guide",
@@ -119,7 +119,7 @@ export const guides: GuidePage[] = [
       "best-cadiz-excursions-for-history-lovers",
     ],
     relatedExcursionSlugs: ["cadiz-walking-tour", "cadiz-highlights"],
-    imageKey: "cathedral",
+    imageKey: "cadiz-cathedral-waterfront",
   },
   {
     slug: "best-things-to-do-in-cadiz-from-a-cruise-ship",
@@ -203,7 +203,7 @@ export const guides: GuidePage[] = [
       "jerez-and-sherry-experience",
       "white-villages-tour",
     ],
-    imageKey: "city-highlights",
+    imageKey: "cadiz-cathedral-waterfront",
   },
   {
     slug: "one-day-in-cadiz-from-a-cruise-ship",
@@ -267,7 +267,7 @@ export const guides: GuidePage[] = [
       "independent-vs-cruise-line-excursions",
     ],
     relatedExcursionSlugs: ["cadiz-walking-tour", "cadiz-highlights"],
-    imageKey: "old-town",
+    imageKey: "cadiz-cathedral-coast",
   },
   {
     slug: "sherry-bodegas-tour",
@@ -326,7 +326,7 @@ export const guides: GuidePage[] = [
       "vejer-de-la-frontera-guide",
     ],
     relatedExcursionSlugs: ["jerez-and-sherry-experience", "andalusian-food-experience"],
-    imageKey: "sherry",
+    imageKey: "cadiz-cathedral-waterfront",
   },
   {
     slug: "white-villages-from-cadiz",
@@ -386,7 +386,7 @@ export const guides: GuidePage[] = [
       "best-things-to-do-in-cadiz-from-a-cruise-ship",
     ],
     relatedExcursionSlugs: ["white-villages-tour", "private-andalusia-shore-excursion"],
-    imageKey: "white-villages",
+    imageKey: "andalusia-vejer-white-village",
   },
   {
     slug: "vejer-de-la-frontera-guide",
@@ -436,7 +436,7 @@ export const guides: GuidePage[] = [
       "andalusian-food-guide",
     ],
     relatedExcursionSlugs: ["white-villages-tour", "private-andalusia-shore-excursion"],
-    imageKey: "vejer",
+    imageKey: "andalusia-vejer-street",
   },
   {
     slug: "andalusian-food-guide",
@@ -498,7 +498,7 @@ export const guides: GuidePage[] = [
       "best-cadiz-excursions-for-food-and-wine-lovers",
     ],
     relatedExcursionSlugs: ["andalusian-food-experience", "jerez-and-sherry-experience"],
-    imageKey: "tapas",
+    imageKey: "seville-tapas-bar",
   },
   {
     slug: "flamenco-experiences-from-cadiz",
@@ -559,7 +559,7 @@ export const guides: GuidePage[] = [
       "best-cadiz-excursions-for-history-lovers",
     ],
     relatedExcursionSlugs: ["flamenco-experience", "jerez-and-sherry-experience"],
-    imageKey: "flamenco",
+    imageKey: "seville-flamenco",
   },
   {
     slug: "cadiz-markets-and-tapas-guide",
@@ -621,7 +621,7 @@ export const guides: GuidePage[] = [
       "one-day-in-cadiz-from-a-cruise-ship",
     ],
     relatedExcursionSlugs: ["andalusian-food-experience", "cadiz-walking-tour"],
-    imageKey: "markets",
+    imageKey: "seville-tapas-bar",
   },
   {
     slug: "independent-vs-cruise-line-excursions",
@@ -683,7 +683,7 @@ export const guides: GuidePage[] = [
       "best-things-to-do-in-cadiz-from-a-cruise-ship",
     ],
     relatedExcursionSlugs: ["private-andalusia-shore-excursion", "cadiz-highlights"],
-    imageKey: "private-tour",
+    imageKey: "andalusia-vejer-white-village",
   },
   {
     slug: "best-cadiz-excursions-for-first-time-visitors",
@@ -763,7 +763,7 @@ export const guides: GuidePage[] = [
       "cadiz-walking-tour",
       "jerez-and-sherry-experience",
     ],
-    imageKey: "city-highlights",
+    imageKey: "cadiz-cathedral-waterfront",
   },
   {
     slug: "best-cadiz-excursions-for-repeat-visitors",
@@ -850,7 +850,7 @@ export const guides: GuidePage[] = [
       "flamenco-experience",
       "private-andalusia-shore-excursion",
     ],
-    imageKey: "white-villages",
+    imageKey: "andalusia-vejer-white-village",
   },
   {
     slug: "best-cadiz-excursions-for-food-and-wine-lovers",
@@ -929,7 +929,7 @@ export const guides: GuidePage[] = [
       "jerez-and-sherry-experience",
       "cadiz-walking-tour",
     ],
-    imageKey: "tapas",
+    imageKey: "seville-tapas-bar",
   },
   {
     slug: "best-cadiz-excursions-for-history-lovers",
@@ -1016,7 +1016,7 @@ export const guides: GuidePage[] = [
       "small-group-seville-tour",
       "jerez-and-sherry-experience",
     ],
-    imageKey: "cathedral",
+    imageKey: "cadiz-cathedral-waterfront",
   },
 ];
 

@@ -1,24 +1,6006 @@
 [
-  { "date": "2026-04-08", "ship": "MSC Virtuosa", "cruiseLine": "MSC Cruises", "arrival": "08:00", "departure": "18:00", "timeInPort": "10h", "terminal": "Alfonso XIII", "callType": "Port of call" },
-  { "date": "2026-04-15", "ship": "Costa Diadema", "cruiseLine": "Costa Cruises", "arrival": "07:30", "departure": "17:30", "timeInPort": "10h", "terminal": "Alfonso XIII", "callType": "Port of call" },
-  { "date": "2026-04-22", "ship": "Celebrity Infinity", "cruiseLine": "Celebrity Cruises", "arrival": "08:00", "departure": "19:00", "timeInPort": "11h", "terminal": "Alfonso XIII", "callType": "Port of call" },
-  { "date": "2026-05-06", "ship": "Norwegian Viva", "cruiseLine": "Norwegian Cruise Line", "arrival": "07:00", "departure": "18:00", "timeInPort": "11h", "terminal": "Alfonso XIII", "callType": "Port of call" },
-  { "date": "2026-05-13", "ship": "Seabourn Ovation", "cruiseLine": "Seabourn", "arrival": "08:00", "departure": "17:00", "timeInPort": "9h", "terminal": "Alfonso XIII", "callType": "Port of call" },
-  { "date": "2026-05-20", "ship": "Azamara Onward", "cruiseLine": "Azamara", "arrival": "08:00", "departure": "20:00", "timeInPort": "12h", "terminal": "Alfonso XIII", "callType": "Port of call" },
-  { "date": "2026-06-03", "ship": "Queen Victoria", "cruiseLine": "Cunard", "arrival": "07:00", "departure": "18:00", "timeInPort": "11h", "terminal": "Alfonso XIII", "callType": "Port of call" },
-  { "date": "2026-06-10", "ship": "Silver Moon", "cruiseLine": "Silversea", "arrival": "08:00", "departure": "19:00", "timeInPort": "11h", "terminal": "Alfonso XIII", "callType": "Port of call" },
-  { "date": "2026-06-17", "ship": "Regal Princess", "cruiseLine": "Princess Cruises", "arrival": "07:30", "departure": "17:30", "timeInPort": "10h", "terminal": "Alfonso XIII", "callType": "Port of call" },
-  { "date": "2026-07-01", "ship": "MSC Seaview", "cruiseLine": "MSC Cruises", "arrival": "08:00", "departure": "20:00", "timeInPort": "12h", "terminal": "Alfonso XIII", "callType": "Port of call" },
-  { "date": "2026-07-08", "ship": "Costa Smeralda", "cruiseLine": "Costa Cruises", "arrival": "07:00", "departure": "18:00", "timeInPort": "11h", "terminal": "Alfonso XIII", "callType": "Port of call" },
-  { "date": "2026-07-15", "ship": "Celebrity Apex", "cruiseLine": "Celebrity Cruises", "arrival": "08:00", "departure": "19:00", "timeInPort": "11h", "terminal": "Alfonso XIII", "callType": "Port of call" },
-  { "date": "2026-08-05", "ship": "Norwegian Epic", "cruiseLine": "Norwegian Cruise Line", "arrival": "07:30", "departure": "18:30", "timeInPort": "11h", "terminal": "Alfonso XIII", "callType": "Port of call" },
-  { "date": "2026-08-12", "ship": "Oceania Riviera", "cruiseLine": "Oceania Cruises", "arrival": "08:00", "departure": "19:00", "timeInPort": "11h", "terminal": "Alfonso XIII", "callType": "Port of call" },
-  { "date": "2026-09-02", "ship": "Ventura", "cruiseLine": "P&O Cruises", "arrival": "07:00", "departure": "18:00", "timeInPort": "11h", "terminal": "Alfonso XIII", "callType": "Port of call" },
-  { "date": "2026-09-09", "ship": "MSC Magnifica", "cruiseLine": "MSC Cruises", "arrival": "08:00", "departure": "18:00", "timeInPort": "10h", "terminal": "Alfonso XIII", "callType": "Port of call" },
-  { "date": "2026-09-16", "ship": "Celebrity Silhouette", "cruiseLine": "Celebrity Cruises", "arrival": "07:30", "departure": "19:30", "timeInPort": "12h", "terminal": "Alfonso XIII", "callType": "Port of call" },
-  { "date": "2026-10-07", "ship": "Queen Elizabeth", "cruiseLine": "Cunard", "arrival": "08:00", "departure": "18:00", "timeInPort": "10h", "terminal": "Alfonso XIII", "callType": "Port of call" },
-  { "date": "2026-10-14", "ship": "Azamara Quest", "cruiseLine": "Azamara", "arrival": "08:00", "departure": "20:00", "timeInPort": "12h", "terminal": "Alfonso XIII", "callType": "Port of call" },
-  { "date": "2026-10-21", "ship": "Silver Spirit", "cruiseLine": "Silversea", "arrival": "07:00", "departure": "17:00", "timeInPort": "10h", "terminal": "Alfonso XIII", "callType": "Port of call" },
-  { "date": "2027-04-14", "ship": "MSC World Europa", "cruiseLine": "MSC Cruises", "arrival": "08:00", "departure": "18:00", "timeInPort": "10h", "terminal": "Alfonso XIII", "callType": "Port of call" },
-  { "date": "2027-05-12", "ship": "Costa Toscana", "cruiseLine": "Costa Cruises", "arrival": "07:30", "departure": "17:30", "timeInPort": "10h", "terminal": "Alfonso XIII", "callType": "Port of call" }
+  {
+    "date": "2026-07-06",
+    "ship": "MSC Opera",
+    "cruiseLine": "MSC Cruises",
+    "arrival": "07:00",
+    "departure": "17:00",
+    "timeInPort": "10h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2026-07-08",
+    "ship": "Arvia",
+    "cruiseLine": "P & O Cruises",
+    "arrival": "",
+    "departure": "",
+    "timeInPort": null,
+    "callType": "Port of call"
+  },
+  {
+    "date": "2026-07-10",
+    "ship": "Norwegian Dawn",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "07:00",
+    "departure": "19:00",
+    "timeInPort": "12h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2026-07-12",
+    "ship": "AIDAstella",
+    "cruiseLine": "AIDA",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2026-07-12",
+    "ship": "Celebrity Equinox",
+    "cruiseLine": "Celebrity Cruises",
+    "arrival": "09:00",
+    "departure": "23:59",
+    "timeInPort": "14h 59m",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2026-07-13",
+    "ship": "Mein Schiff 6",
+    "cruiseLine": "TUI Cruises",
+    "arrival": "08:00",
+    "departure": "19:00",
+    "timeInPort": "11h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2026-07-14",
+    "ship": "Norwegian Dawn",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "07:00",
+    "departure": "19:00",
+    "timeInPort": "12h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2026-07-16",
+    "ship": "MSC Opera",
+    "cruiseLine": "MSC Cruises",
+    "arrival": "07:00",
+    "departure": "17:00",
+    "timeInPort": "10h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2026-07-20",
+    "ship": "Britannia",
+    "cruiseLine": "P & O Cruises",
+    "arrival": "",
+    "departure": "",
+    "timeInPort": null,
+    "callType": "Port of call"
+  },
+  {
+    "date": "2026-07-21",
+    "ship": "Oceania Nautica",
+    "cruiseLine": "Oceania Cruises",
+    "arrival": "07:00",
+    "departure": "19:00",
+    "timeInPort": "12h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2026-07-21",
+    "ship": "Sky Princess",
+    "cruiseLine": "Princess Cruises",
+    "arrival": "10:00",
+    "departure": "20:00",
+    "timeInPort": "10h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2026-07-22",
+    "ship": "AIDAstella",
+    "cruiseLine": "AIDA",
+    "arrival": "08:00",
+    "departure": "18:00",
+    "timeInPort": "10h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2026-07-24",
+    "ship": "Norwegian Dawn",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "07:00",
+    "departure": "19:00",
+    "timeInPort": "12h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2026-07-25",
+    "ship": "Europa 2",
+    "cruiseLine": "Hapag Lloyd",
+    "arrival": "07:00",
+    "departure": "19:00",
+    "timeInPort": "12h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2026-07-26",
+    "ship": "MSC Opera",
+    "cruiseLine": "MSC Cruises",
+    "arrival": "07:00",
+    "departure": "17:00",
+    "timeInPort": "10h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2026-07-27",
+    "ship": "Mein Schiff 6",
+    "cruiseLine": "TUI Cruises",
+    "arrival": "07:00",
+    "departure": "17:00",
+    "timeInPort": "10h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2026-07-28",
+    "ship": "Liberty Of The Seas",
+    "cruiseLine": "Royal Caribbean Cruises",
+    "arrival": "11:00",
+    "departure": "20:00",
+    "timeInPort": "9h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2026-07-28",
+    "ship": "Oceania Nautica",
+    "cruiseLine": "Oceania Cruises",
+    "arrival": "07:00",
+    "departure": "17:00",
+    "timeInPort": "10h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2026-07-28",
+    "ship": "Ventura",
+    "cruiseLine": "P & O Cruises",
+    "arrival": "",
+    "departure": "",
+    "timeInPort": null,
+    "callType": "Port of call"
+  },
+  {
+    "date": "2026-07-29",
+    "ship": "MSC Virtuosa",
+    "cruiseLine": "MSC Cruises",
+    "arrival": "08:00",
+    "departure": "19:00",
+    "timeInPort": "11h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2026-07-29",
+    "ship": "Norwegian Dawn",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "09:00",
+    "departure": "22:00",
+    "timeInPort": "13h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2026-07-30",
+    "ship": "Harmony Of The Seas",
+    "cruiseLine": "Royal Caribbean Cruises",
+    "arrival": "08:00",
+    "departure": "18:00",
+    "timeInPort": "10h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2026-08-03",
+    "ship": "Britannia",
+    "cruiseLine": "P & O Cruises",
+    "arrival": "",
+    "departure": "",
+    "timeInPort": null,
+    "callType": "Port of call"
+  },
+  {
+    "date": "2026-08-05",
+    "ship": "MSC Opera",
+    "cruiseLine": "MSC Cruises",
+    "arrival": "07:00",
+    "departure": "17:00",
+    "timeInPort": "10h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2026-08-06",
+    "ship": "Renaissance",
+    "cruiseLine": "CFC Croisieres",
+    "arrival": "06:30",
+    "departure": "19:00",
+    "timeInPort": "12h 30m",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2026-08-07",
+    "ship": "Norwegian Dawn",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "07:00",
+    "departure": "19:00",
+    "timeInPort": "12h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2026-08-08",
+    "ship": "Explora III",
+    "cruiseLine": "Explora Journeys",
+    "arrival": "08:00",
+    "departure": "22:00",
+    "timeInPort": "14h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2026-08-10",
+    "ship": "Mein Schiff 6",
+    "cruiseLine": "TUI Cruises",
+    "arrival": "07:00",
+    "departure": "20:00",
+    "timeInPort": "13h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2026-08-10",
+    "ship": "Mein Schiff Flow",
+    "cruiseLine": "TUI Cruises",
+    "arrival": "07:00",
+    "departure": "17:00",
+    "timeInPort": "10h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2026-08-11",
+    "ship": "Norwegian Dawn",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "07:00",
+    "departure": "19:00",
+    "timeInPort": "12h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2026-08-13",
+    "ship": "Arvia",
+    "cruiseLine": "P & O Cruises",
+    "arrival": "",
+    "departure": "",
+    "timeInPort": null,
+    "callType": "Port of call"
+  },
+  {
+    "date": "2026-08-13",
+    "ship": "Oceania Sirena",
+    "cruiseLine": "Oceania Cruises",
+    "arrival": "11:00",
+    "departure": "21:00",
+    "timeInPort": "10h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2026-08-15",
+    "ship": "Borealis",
+    "cruiseLine": "Fred Olsen Cruise Lines",
+    "arrival": "",
+    "departure": "",
+    "timeInPort": null,
+    "callType": "Port of call"
+  },
+  {
+    "date": "2026-08-15",
+    "ship": "MSC Opera",
+    "cruiseLine": "MSC Cruises",
+    "arrival": "07:00",
+    "departure": "17:00",
+    "timeInPort": "10h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2026-08-16",
+    "ship": "Crystal Serenity",
+    "cruiseLine": "Crystal Cruises",
+    "arrival": "07:00",
+    "departure": "19:00",
+    "timeInPort": "12h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2026-08-16",
+    "ship": "Silver Muse",
+    "cruiseLine": "Silversea Cruises",
+    "arrival": "08:00",
+    "departure": "23:00",
+    "timeInPort": "15h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2026-08-17",
+    "ship": "Britannia",
+    "cruiseLine": "P & O Cruises",
+    "arrival": "",
+    "departure": "",
+    "timeInPort": null,
+    "callType": "Port of call"
+  },
+  {
+    "date": "2026-08-17",
+    "ship": "MSC Virtuosa",
+    "cruiseLine": "MSC Cruises",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2026-08-19",
+    "ship": "Seven Seas Navigator",
+    "cruiseLine": "Regent Seven Seas Cruises",
+    "arrival": "07:00",
+    "departure": "23:59",
+    "timeInPort": "16h 59m",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2026-08-20",
+    "ship": "Ambience",
+    "cruiseLine": "Ambassador Cruise Line",
+    "arrival": "08:00",
+    "departure": "18:00",
+    "timeInPort": "10h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2026-08-22",
+    "ship": "Norwegian Dawn",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "07:00",
+    "departure": "15:00",
+    "timeInPort": "8h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2026-08-23",
+    "ship": "AIDAstella",
+    "cruiseLine": "AIDA",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2026-08-24",
+    "ship": "Mein Schiff 6",
+    "cruiseLine": "TUI Cruises",
+    "arrival": "07:00",
+    "departure": "20:00",
+    "timeInPort": "13h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2026-08-24",
+    "ship": "Silver Muse",
+    "cruiseLine": "Silversea Cruises",
+    "arrival": "08:00",
+    "departure": "22:15",
+    "timeInPort": "14h 15m",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2026-08-25",
+    "ship": "MSC Opera",
+    "cruiseLine": "MSC Cruises",
+    "arrival": "07:00",
+    "departure": "17:00",
+    "timeInPort": "10h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2026-08-25",
+    "ship": "Norwegian Dawn",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "07:00",
+    "departure": "19:00",
+    "timeInPort": "12h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2026-08-25",
+    "ship": "Oceania Nautica",
+    "cruiseLine": "Oceania Cruises",
+    "arrival": "11:00",
+    "departure": "23:00",
+    "timeInPort": "12h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2026-08-26",
+    "ship": "MSC Virtuosa",
+    "cruiseLine": "MSC Cruises",
+    "arrival": "07:00",
+    "departure": "18:00",
+    "timeInPort": "11h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2026-08-27",
+    "ship": "Arvia",
+    "cruiseLine": "P & O Cruises",
+    "arrival": "",
+    "departure": "",
+    "timeInPort": null,
+    "callType": "Port of call"
+  },
+  {
+    "date": "2026-08-27",
+    "ship": "Norwegian Sky",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "10:00",
+    "departure": "20:30",
+    "timeInPort": "10h 30m",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2026-08-27",
+    "ship": "Queen Anne",
+    "cruiseLine": "Cunard Line",
+    "arrival": "",
+    "departure": "",
+    "timeInPort": null,
+    "callType": "Port of call"
+  },
+  {
+    "date": "2026-09-02",
+    "ship": "AIDAstella",
+    "cruiseLine": "AIDA",
+    "arrival": "08:00",
+    "departure": "18:00",
+    "timeInPort": "10h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2026-09-03",
+    "ship": "Celebrity Eclipse",
+    "cruiseLine": "Celebrity Cruises",
+    "arrival": "09:00",
+    "departure": "19:00",
+    "timeInPort": "10h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2026-09-03",
+    "ship": "Oceania Allura",
+    "cruiseLine": "Oceania Cruises",
+    "arrival": "09:00",
+    "departure": "18:00",
+    "timeInPort": "9h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2026-09-04",
+    "ship": "Liberty Of The Seas",
+    "cruiseLine": "Royal Caribbean Cruises",
+    "arrival": "11:00",
+    "departure": "20:00",
+    "timeInPort": "9h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2026-09-04",
+    "ship": "MSC Opera",
+    "cruiseLine": "MSC Cruises",
+    "arrival": "07:00",
+    "departure": "17:00",
+    "timeInPort": "10h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2026-09-04",
+    "ship": "Norwegian Dawn",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "07:00",
+    "departure": "19:00",
+    "timeInPort": "12h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2026-09-05",
+    "ship": "Celebrity Equinox",
+    "cruiseLine": "Celebrity Cruises",
+    "arrival": "07:00",
+    "departure": "17:00",
+    "timeInPort": "10h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2026-09-07",
+    "ship": "Mein Schiff 6",
+    "cruiseLine": "TUI Cruises",
+    "arrival": "08:00",
+    "departure": "19:00",
+    "timeInPort": "11h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2026-09-07",
+    "ship": "Oceania Nautica",
+    "cruiseLine": "Oceania Cruises",
+    "arrival": "",
+    "departure": "03:00",
+    "timeInPort": null,
+    "callType": "Port of call",
+    "notes": "departure only"
+  },
+  {
+    "date": "2026-09-08",
+    "ship": "Norwegian Dawn",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "07:00",
+    "departure": "19:00",
+    "timeInPort": "12h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2026-09-13",
+    "ship": "Liberty Of The Seas",
+    "cruiseLine": "Royal Caribbean Cruises",
+    "arrival": "11:00",
+    "departure": "20:00",
+    "timeInPort": "9h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2026-09-13",
+    "ship": "Mein Schiff 6",
+    "cruiseLine": "TUI Cruises",
+    "arrival": "08:00",
+    "departure": "21:00",
+    "timeInPort": "13h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2026-09-14",
+    "ship": "MSC Opera",
+    "cruiseLine": "MSC Cruises",
+    "arrival": "07:00",
+    "departure": "17:00",
+    "timeInPort": "10h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2026-09-15",
+    "ship": "Celebrity Apex",
+    "cruiseLine": "Celebrity Cruises",
+    "arrival": "07:00",
+    "departure": "15:00",
+    "timeInPort": "8h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2026-09-15",
+    "ship": "Seven Seas Mariner",
+    "cruiseLine": "Regent Seven Seas Cruises",
+    "arrival": "11:30",
+    "departure": "20:00",
+    "timeInPort": "8h 30m",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2026-09-16",
+    "ship": "Europa",
+    "cruiseLine": "Hapag Lloyd",
+    "arrival": "07:00",
+    "departure": "19:00",
+    "timeInPort": "12h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2026-09-16",
+    "ship": "MSC Virtuosa",
+    "cruiseLine": "MSC Cruises",
+    "arrival": "10:00",
+    "departure": "20:00",
+    "timeInPort": "10h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2026-09-17",
+    "ship": "Aurora",
+    "cruiseLine": "P & O Cruises",
+    "arrival": "",
+    "departure": "",
+    "timeInPort": null,
+    "callType": "Port of call"
+  },
+  {
+    "date": "2026-09-18",
+    "ship": "Norwegian Dawn",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "07:00",
+    "departure": "19:00",
+    "timeInPort": "12h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2026-09-20",
+    "ship": "Mein Schiff Flow",
+    "cruiseLine": "TUI Cruises",
+    "arrival": "07:00",
+    "departure": "17:00",
+    "timeInPort": "10h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2026-09-21",
+    "ship": "SeaDream II",
+    "cruiseLine": "SeaDream Yacht Club",
+    "arrival": "",
+    "departure": "",
+    "timeInPort": null,
+    "callType": "Port of call"
+  },
+  {
+    "date": "2026-09-22",
+    "ship": "Norwegian Dawn",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "07:00",
+    "departure": "19:00",
+    "timeInPort": "12h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2026-09-22",
+    "ship": "Silver Spirit",
+    "cruiseLine": "Silversea Cruises",
+    "arrival": "08:00",
+    "departure": "23:00",
+    "timeInPort": "15h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2026-09-22",
+    "ship": "Ventura",
+    "cruiseLine": "P & O Cruises",
+    "arrival": "",
+    "departure": "",
+    "timeInPort": null,
+    "callType": "Port of call"
+  },
+  {
+    "date": "2026-09-23",
+    "ship": "Celebrity Xcel",
+    "cruiseLine": "Celebrity Cruises",
+    "arrival": "07:00",
+    "departure": "17:00",
+    "timeInPort": "10h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2026-09-23",
+    "ship": "Queen Anne",
+    "cruiseLine": "Cunard Line",
+    "arrival": "",
+    "departure": "",
+    "timeInPort": null,
+    "callType": "Port of call"
+  },
+  {
+    "date": "2026-09-24",
+    "ship": "Arvia",
+    "cruiseLine": "P & O Cruises",
+    "arrival": "",
+    "departure": "",
+    "timeInPort": null,
+    "callType": "Port of call"
+  },
+  {
+    "date": "2026-09-24",
+    "ship": "MSC Opera",
+    "cruiseLine": "MSC Cruises",
+    "arrival": "07:00",
+    "departure": "17:00",
+    "timeInPort": "10h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2026-09-30",
+    "ship": "Costa Diadema",
+    "cruiseLine": "Costa Cruises",
+    "arrival": "07:30",
+    "departure": "16:30",
+    "timeInPort": "9h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2026-10-02",
+    "ship": "Norwegian Dawn",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "07:00",
+    "departure": "19:00",
+    "timeInPort": "12h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2026-10-02",
+    "ship": "Oceania Insignia",
+    "cruiseLine": "Oceania Cruises",
+    "arrival": "12:00",
+    "departure": "20:00",
+    "timeInPort": "8h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2026-10-04",
+    "ship": "MSC Opera",
+    "cruiseLine": "MSC Cruises",
+    "arrival": "07:00",
+    "departure": "17:00",
+    "timeInPort": "10h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2026-10-05",
+    "ship": "Balmoral",
+    "cruiseLine": "Fred Olsen Cruise Lines",
+    "arrival": "",
+    "departure": "",
+    "timeInPort": null,
+    "callType": "Port of call"
+  },
+  {
+    "date": "2026-10-06",
+    "ship": "Artania",
+    "cruiseLine": "Phoenix Reisen",
+    "arrival": "14:00",
+    "departure": "23:00",
+    "timeInPort": "9h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2026-10-06",
+    "ship": "Marella Explorer",
+    "cruiseLine": "Marella Cruises",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2026-10-06",
+    "ship": "Norwegian Dawn",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "07:00",
+    "departure": "19:00",
+    "timeInPort": "12h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2026-10-07",
+    "ship": "Arvia",
+    "cruiseLine": "P & O Cruises",
+    "arrival": "",
+    "departure": "",
+    "timeInPort": null,
+    "callType": "Port of call"
+  },
+  {
+    "date": "2026-10-07",
+    "ship": "Celebrity Equinox",
+    "cruiseLine": "Celebrity Cruises",
+    "arrival": "08:00",
+    "departure": "18:00",
+    "timeInPort": "10h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2026-10-08",
+    "ship": "Oceania Marina",
+    "cruiseLine": "Oceania Cruises",
+    "arrival": "07:00",
+    "departure": "20:00",
+    "timeInPort": "13h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2026-10-09",
+    "ship": "Crystal Serenity",
+    "cruiseLine": "Crystal Cruises",
+    "arrival": "07:00",
+    "departure": "23:00",
+    "timeInPort": "16h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2026-10-09",
+    "ship": "Viking Mira",
+    "cruiseLine": "Viking Cruises",
+    "arrival": "",
+    "departure": "",
+    "timeInPort": null,
+    "callType": "Port of call"
+  },
+  {
+    "date": "2026-10-11",
+    "ship": "Seven Seas Grandeur",
+    "cruiseLine": "Regent Seven Seas Cruises",
+    "arrival": "07:00",
+    "departure": "20:00",
+    "timeInPort": "13h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2026-10-12",
+    "ship": "Mein Schiff 2",
+    "cruiseLine": "TUI Cruises",
+    "arrival": "08:00",
+    "departure": "19:00",
+    "timeInPort": "11h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2026-10-12",
+    "ship": "Viking Saturn",
+    "cruiseLine": "Viking Cruises",
+    "arrival": "",
+    "departure": "",
+    "timeInPort": null,
+    "callType": "Port of call"
+  },
+  {
+    "date": "2026-10-13",
+    "ship": "Costa Diadema",
+    "cruiseLine": "Costa Cruises",
+    "arrival": "12:00",
+    "departure": "21:00",
+    "timeInPort": "9h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2026-10-13",
+    "ship": "Royal Clipper",
+    "cruiseLine": "Star Clippers",
+    "arrival": "",
+    "departure": "",
+    "timeInPort": null,
+    "callType": "Port of call"
+  },
+  {
+    "date": "2026-10-13",
+    "ship": "Ventura",
+    "cruiseLine": "P & O Cruises",
+    "arrival": "",
+    "departure": "",
+    "timeInPort": null,
+    "callType": "Port of call"
+  },
+  {
+    "date": "2026-10-14",
+    "ship": "Celebrity Xcel",
+    "cruiseLine": "Celebrity Cruises",
+    "arrival": "07:00",
+    "departure": "17:00",
+    "timeInPort": "10h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2026-10-16",
+    "ship": "Europa 2",
+    "cruiseLine": "Hapag Lloyd",
+    "arrival": "08:00",
+    "departure": "24:00",
+    "timeInPort": "16h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2026-10-16",
+    "ship": "Norwegian Dawn",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "07:00",
+    "departure": "19:00",
+    "timeInPort": "12h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2026-10-17",
+    "ship": "Island Princess",
+    "cruiseLine": "Princess Cruises",
+    "arrival": "08:00",
+    "departure": "20:00",
+    "timeInPort": "12h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2026-10-18",
+    "ship": "Norwegian Star",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "08:00",
+    "departure": "22:00",
+    "timeInPort": "14h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2026-10-20",
+    "ship": "Arvia",
+    "cruiseLine": "P & O Cruises",
+    "arrival": "",
+    "departure": "",
+    "timeInPort": null,
+    "callType": "Port of call"
+  },
+  {
+    "date": "2026-10-20",
+    "ship": "Bolette",
+    "cruiseLine": "Fred Olsen Cruise Lines",
+    "arrival": "",
+    "departure": "",
+    "timeInPort": null,
+    "callType": "Port of call"
+  },
+  {
+    "date": "2026-10-20",
+    "ship": "Norwegian Dawn",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "07:00",
+    "departure": "19:00",
+    "timeInPort": "12h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2026-10-21",
+    "ship": "AIDAmar",
+    "cruiseLine": "AIDA",
+    "arrival": "09:00",
+    "departure": "19:00",
+    "timeInPort": "10h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2026-10-21",
+    "ship": "Costa Diadema",
+    "cruiseLine": "Costa Cruises",
+    "arrival": "07:30",
+    "departure": "16:30",
+    "timeInPort": "9h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2026-10-21",
+    "ship": "SeaDream II",
+    "cruiseLine": "SeaDream Yacht Club",
+    "arrival": "",
+    "departure": "",
+    "timeInPort": null,
+    "callType": "Port of call"
+  },
+  {
+    "date": "2026-10-23",
+    "ship": "MSC Meraviglia",
+    "cruiseLine": "MSC Cruises",
+    "arrival": "07:00",
+    "departure": "17:00",
+    "timeInPort": "10h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2026-10-24",
+    "ship": "Viking Vela",
+    "cruiseLine": "Viking Cruises",
+    "arrival": "",
+    "departure": "",
+    "timeInPort": null,
+    "callType": "Port of call"
+  },
+  {
+    "date": "2026-10-26",
+    "ship": "Britannia",
+    "cruiseLine": "P & O Cruises",
+    "arrival": "",
+    "departure": "",
+    "timeInPort": null,
+    "callType": "Port of call"
+  },
+  {
+    "date": "2026-10-26",
+    "ship": "Norwegian Star",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "09:00",
+    "departure": "20:00",
+    "timeInPort": "11h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2026-10-27",
+    "ship": "Celebrity Xcel",
+    "cruiseLine": "Celebrity Cruises",
+    "arrival": "08:00",
+    "departure": "18:00",
+    "timeInPort": "10h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2026-10-27",
+    "ship": "Silver Dawn",
+    "cruiseLine": "Silversea Cruises",
+    "arrival": "07:00",
+    "departure": "23:00",
+    "timeInPort": "16h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2026-10-28",
+    "ship": "Legend Of The Seas",
+    "cruiseLine": "Royal Caribbean Cruises",
+    "arrival": "08:00",
+    "departure": "18:00",
+    "timeInPort": "10h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2026-10-30",
+    "ship": "Norwegian Dawn",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "07:00",
+    "departure": "19:00",
+    "timeInPort": "12h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2026-10-31",
+    "ship": "Mein Schiff 7",
+    "cruiseLine": "TUI Cruises",
+    "arrival": "07:00",
+    "departure": "17:00",
+    "timeInPort": "10h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2026-11-01",
+    "ship": "Norwegian Star",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "09:00",
+    "departure": "22:00",
+    "timeInPort": "13h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2026-11-02",
+    "ship": "Norwegian Dawn",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "11:00",
+    "departure": "21:00",
+    "timeInPort": "10h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2026-11-02",
+    "ship": "Norwegian Escape",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "07:30",
+    "departure": "19:30",
+    "timeInPort": "12h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2026-11-03",
+    "ship": "AIDAstella",
+    "cruiseLine": "AIDA",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2026-11-03",
+    "ship": "Explora I",
+    "cruiseLine": "Explora Journeys",
+    "arrival": "09:00",
+    "departure": "21:00",
+    "timeInPort": "12h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2026-11-03",
+    "ship": "Norwegian Epic",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "07:00",
+    "departure": "19:00",
+    "timeInPort": "12h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2026-11-04",
+    "ship": "AIDAblu",
+    "cruiseLine": "AIDA",
+    "arrival": "06:30",
+    "departure": "15:30",
+    "timeInPort": "9h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2026-11-04",
+    "ship": "Sun Princess",
+    "cruiseLine": "Princess Cruises",
+    "arrival": "07:00",
+    "departure": "18:30",
+    "timeInPort": "11h 30m",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2026-11-05",
+    "ship": "Mein Schiff 4",
+    "cruiseLine": "TUI Cruises",
+    "arrival": "08:00",
+    "departure": "19:00",
+    "timeInPort": "11h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2026-11-05",
+    "ship": "Norwegian Gem",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "07:00",
+    "departure": "19:00",
+    "timeInPort": "12h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2026-11-05",
+    "ship": "Wind Surf",
+    "cruiseLine": "Windstar Cruises",
+    "arrival": "07:00",
+    "departure": "23:59",
+    "timeInPort": "16h 59m",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2026-11-06",
+    "ship": "Costa Diadema",
+    "cruiseLine": "Costa Cruises",
+    "arrival": "08:00",
+    "departure": "20:00",
+    "timeInPort": "12h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2026-11-07",
+    "ship": "Arcadia",
+    "cruiseLine": "P & O Cruises",
+    "arrival": "",
+    "departure": "",
+    "timeInPort": null,
+    "callType": "Port of call"
+  },
+  {
+    "date": "2026-11-07",
+    "ship": "Oceania Insignia",
+    "cruiseLine": "Oceania Cruises",
+    "arrival": "07:00",
+    "departure": "19:00",
+    "timeInPort": "12h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2026-11-07",
+    "ship": "Star Flyer",
+    "cruiseLine": "Star Clippers",
+    "arrival": "",
+    "departure": "",
+    "timeInPort": null,
+    "callType": "Port of call"
+  },
+  {
+    "date": "2026-11-08",
+    "ship": "Viking Vesta",
+    "cruiseLine": "Viking Cruises",
+    "arrival": "",
+    "departure": "",
+    "timeInPort": null,
+    "callType": "Port of call"
+  },
+  {
+    "date": "2026-11-11",
+    "ship": "Costa Fascinosa",
+    "cruiseLine": "Costa Cruises",
+    "arrival": "09:30",
+    "departure": "19:00",
+    "timeInPort": "9h 30m",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2026-11-11",
+    "ship": "MSC Virtuosa",
+    "cruiseLine": "MSC Cruises",
+    "arrival": "08:00",
+    "departure": "20:00",
+    "timeInPort": "12h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2026-11-13",
+    "ship": "Volendam",
+    "cruiseLine": "Holland America Line",
+    "arrival": "08:00",
+    "departure": "18:00",
+    "timeInPort": "10h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2026-11-14",
+    "ship": "Europa",
+    "cruiseLine": "Hapag Lloyd",
+    "arrival": "07:00",
+    "departure": "17:00",
+    "timeInPort": "10h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2026-11-16",
+    "ship": "Costa Favolosa",
+    "cruiseLine": "Costa Cruises",
+    "arrival": "13:00",
+    "departure": "19:00",
+    "timeInPort": "6h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2026-11-16",
+    "ship": "Iona",
+    "cruiseLine": "P & O Cruises",
+    "arrival": "",
+    "departure": "",
+    "timeInPort": null,
+    "callType": "Port of call"
+  },
+  {
+    "date": "2026-11-17",
+    "ship": "Costa Smeralda",
+    "cruiseLine": "Costa Cruises",
+    "arrival": "08:00",
+    "departure": "16:00",
+    "timeInPort": "8h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2026-11-17",
+    "ship": "Mein Schiff 4",
+    "cruiseLine": "TUI Cruises",
+    "arrival": "08:00",
+    "departure": "21:00",
+    "timeInPort": "13h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2026-11-20",
+    "ship": "Silver Spirit",
+    "cruiseLine": "Silversea Cruises",
+    "arrival": "08:00",
+    "departure": "22:15",
+    "timeInPort": "14h 15m",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2026-11-21",
+    "ship": "Azamara Onward",
+    "cruiseLine": "Azamara Cruises",
+    "arrival": "08:00",
+    "departure": "18:00",
+    "timeInPort": "10h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2026-11-21",
+    "ship": "Costa Fascinosa",
+    "cruiseLine": "Costa Cruises",
+    "arrival": "10:00",
+    "departure": "19:00",
+    "timeInPort": "9h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2026-11-22",
+    "ship": "Viking Neptune",
+    "cruiseLine": "Viking Cruises",
+    "arrival": "",
+    "departure": "",
+    "timeInPort": null,
+    "callType": "Port of call"
+  },
+  {
+    "date": "2026-11-25",
+    "ship": "Bolette",
+    "cruiseLine": "Fred Olsen Cruise Lines",
+    "arrival": "",
+    "departure": "",
+    "timeInPort": null,
+    "callType": "Port of call"
+  },
+  {
+    "date": "2026-11-26",
+    "ship": "Nieuw Statendam",
+    "cruiseLine": "Holland America Line",
+    "arrival": "11:00",
+    "departure": "20:00",
+    "timeInPort": "9h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2026-11-26",
+    "ship": "Silver Ray",
+    "cruiseLine": "Silversea Cruises",
+    "arrival": "08:00",
+    "departure": "23:00",
+    "timeInPort": "15h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2026-11-26",
+    "ship": "Viking Neptune",
+    "cruiseLine": "Viking Cruises",
+    "arrival": "",
+    "departure": "",
+    "timeInPort": null,
+    "callType": "Port of call"
+  },
+  {
+    "date": "2026-11-27",
+    "ship": "Arcadia",
+    "cruiseLine": "P & O Cruises",
+    "arrival": "",
+    "departure": "",
+    "timeInPort": null,
+    "callType": "Port of call"
+  },
+  {
+    "date": "2026-12-01",
+    "ship": "Costa Fascinosa",
+    "cruiseLine": "Costa Cruises",
+    "arrival": "08:00",
+    "departure": "18:00",
+    "timeInPort": "10h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2026-12-03",
+    "ship": "Seven Seas Navigator",
+    "cruiseLine": "Regent Seven Seas Cruises",
+    "arrival": "09:30",
+    "departure": "21:30",
+    "timeInPort": "12h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2026-12-04",
+    "ship": "Silver Nova",
+    "cruiseLine": "Silversea Cruises",
+    "arrival": "08:00",
+    "departure": "19:00",
+    "timeInPort": "11h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2026-12-07",
+    "ship": "Silver Dawn",
+    "cruiseLine": "Silversea Cruises",
+    "arrival": "08:00",
+    "departure": "19:00",
+    "timeInPort": "11h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2026-12-10",
+    "ship": "AIDAprima",
+    "cruiseLine": "AIDA",
+    "arrival": "06:30",
+    "departure": "17:00",
+    "timeInPort": "10h 30m",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2026-12-10",
+    "ship": "MSC Magnifica",
+    "cruiseLine": "MSC Cruises",
+    "arrival": "07:00",
+    "departure": "17:00",
+    "timeInPort": "10h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2026-12-11",
+    "ship": "Celestyal Discovery",
+    "cruiseLine": "Celestyal Cruises",
+    "arrival": "10:00",
+    "departure": "18:00",
+    "timeInPort": "8h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2026-12-14",
+    "ship": "Iona",
+    "cruiseLine": "P & O Cruises",
+    "arrival": "",
+    "departure": "",
+    "timeInPort": null,
+    "callType": "Port of call"
+  },
+  {
+    "date": "2026-12-17",
+    "ship": "Ventura",
+    "cruiseLine": "P & O Cruises",
+    "arrival": "",
+    "departure": "",
+    "timeInPort": null,
+    "callType": "Port of call"
+  },
+  {
+    "date": "2026-12-20",
+    "ship": "MSC Magnifica",
+    "cruiseLine": "MSC Cruises",
+    "arrival": "07:00",
+    "departure": "17:00",
+    "timeInPort": "10h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2026-12-23",
+    "ship": "Oceania Sirena",
+    "cruiseLine": "Oceania Cruises",
+    "arrival": "07:00",
+    "departure": "17:00",
+    "timeInPort": "10h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2026-12-24",
+    "ship": "Viking Saturn",
+    "cruiseLine": "Viking Cruises",
+    "arrival": "",
+    "departure": "",
+    "timeInPort": null,
+    "callType": "Port of call"
+  },
+  {
+    "date": "2026-12-25",
+    "ship": "Celestyal Discovery",
+    "cruiseLine": "Celestyal Cruises",
+    "arrival": "10:00",
+    "departure": "18:00",
+    "timeInPort": "8h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2026-12-26",
+    "ship": "Azura",
+    "cruiseLine": "P & O Cruises",
+    "arrival": "",
+    "departure": "",
+    "timeInPort": null,
+    "callType": "Port of call"
+  },
+  {
+    "date": "2026-12-26",
+    "ship": "Viking Vela",
+    "cruiseLine": "Viking Cruises",
+    "arrival": "",
+    "departure": "",
+    "timeInPort": null,
+    "callType": "Port of call"
+  },
+  {
+    "date": "2026-12-28",
+    "ship": "Ambition",
+    "cruiseLine": "Ambassador Cruise Line",
+    "arrival": "08:00",
+    "departure": "20:00",
+    "timeInPort": "12h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2026-12-29",
+    "ship": "AIDAmar",
+    "cruiseLine": "AIDA",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2026-12-29",
+    "ship": "Ambience",
+    "cruiseLine": "Ambassador Cruise Line",
+    "arrival": "08:00",
+    "departure": "20:00",
+    "timeInPort": "12h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2026-12-30",
+    "ship": "Iona",
+    "cruiseLine": "P & O Cruises",
+    "arrival": "",
+    "departure": "",
+    "timeInPort": null,
+    "callType": "Port of call"
+  },
+  {
+    "date": "2026-12-30",
+    "ship": "MSC Magnifica",
+    "cruiseLine": "MSC Cruises",
+    "arrival": "08:00",
+    "departure": "",
+    "timeInPort": null,
+    "callType": "Port of call",
+    "notes": "overnight/next-day timing"
+  },
+  {
+    "date": "2026-12-31",
+    "ship": "Bolette",
+    "cruiseLine": "Fred Olsen Cruise Lines",
+    "arrival": "",
+    "departure": "",
+    "timeInPort": null,
+    "callType": "Port of call",
+    "notes": "overnight/next-day timing"
+  },
+  {
+    "date": "2027-02-03",
+    "ship": "Azamara Onward",
+    "cruiseLine": "Azamara Cruises",
+    "arrival": "09:00",
+    "departure": "",
+    "timeInPort": null,
+    "callType": "Port of call",
+    "notes": "overnight/next-day timing"
+  },
+  {
+    "date": "2027-02-04",
+    "ship": "Ventura",
+    "cruiseLine": "P & O Cruises",
+    "arrival": "",
+    "departure": "",
+    "timeInPort": null,
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-02-05",
+    "ship": "Viking Saturn",
+    "cruiseLine": "Viking Cruises",
+    "arrival": "",
+    "departure": "",
+    "timeInPort": null,
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-02-05",
+    "ship": "Wind Spirit",
+    "cruiseLine": "Windstar Cruises",
+    "arrival": "08:00",
+    "departure": "",
+    "timeInPort": null,
+    "callType": "Port of call",
+    "notes": "arrival only"
+  },
+  {
+    "date": "2027-02-08",
+    "ship": "Viking Mira",
+    "cruiseLine": "Viking Cruises",
+    "arrival": "",
+    "departure": "",
+    "timeInPort": null,
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-02-12",
+    "ship": "Viking Mira",
+    "cruiseLine": "Viking Cruises",
+    "arrival": "",
+    "departure": "",
+    "timeInPort": null,
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-02-15",
+    "ship": "Spirit Of Discovery",
+    "cruiseLine": "Saga Cruises",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-02-16",
+    "ship": "Mein Schiff 4",
+    "cruiseLine": "TUI Cruises",
+    "arrival": "08:00",
+    "departure": "21:00",
+    "timeInPort": "13h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-02-17",
+    "ship": "Viking Neptune",
+    "cruiseLine": "Viking Cruises",
+    "arrival": "",
+    "departure": "",
+    "timeInPort": null,
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-02-20",
+    "ship": "Balmoral",
+    "cruiseLine": "Fred Olsen Cruise Lines",
+    "arrival": "",
+    "departure": "",
+    "timeInPort": null,
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-02-21",
+    "ship": "Viking Neptune",
+    "cruiseLine": "Viking Cruises",
+    "arrival": "",
+    "departure": "",
+    "timeInPort": null,
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-02-22",
+    "ship": "Ventura",
+    "cruiseLine": "P & O Cruises",
+    "arrival": "",
+    "departure": "",
+    "timeInPort": null,
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-02-22",
+    "ship": "Viking Vesta",
+    "cruiseLine": "Viking Cruises",
+    "arrival": "",
+    "departure": "",
+    "timeInPort": null,
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-02-25",
+    "ship": "Explora II",
+    "cruiseLine": "Explora Journeys",
+    "arrival": "09:00",
+    "departure": "20:00",
+    "timeInPort": "11h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-03-03",
+    "ship": "Mein Schiff 4",
+    "cruiseLine": "TUI Cruises",
+    "arrival": "08:00",
+    "departure": "19:00",
+    "timeInPort": "11h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-03-05",
+    "ship": "Oceania Sirena",
+    "cruiseLine": "Oceania Cruises",
+    "arrival": "07:00",
+    "departure": "19:00",
+    "timeInPort": "12h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-03-06",
+    "ship": "Mein Schiff Flow",
+    "cruiseLine": "TUI Cruises",
+    "arrival": "11:00",
+    "departure": "20:00",
+    "timeInPort": "9h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-03-08",
+    "ship": "Iona",
+    "cruiseLine": "P & O Cruises",
+    "arrival": "",
+    "departure": "",
+    "timeInPort": null,
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-03-15",
+    "ship": "Ventura",
+    "cruiseLine": "P & O Cruises",
+    "arrival": "",
+    "departure": "",
+    "timeInPort": null,
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-03-16",
+    "ship": "Viking Sea",
+    "cruiseLine": "Viking Cruises",
+    "arrival": "",
+    "departure": "",
+    "timeInPort": null,
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-03-18",
+    "ship": "Mein Schiff Flow",
+    "cruiseLine": "TUI Cruises",
+    "arrival": "08:00",
+    "departure": "21:00",
+    "timeInPort": "13h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-03-19",
+    "ship": "Balmoral",
+    "cruiseLine": "Fred Olsen Cruise Lines",
+    "arrival": "",
+    "departure": "",
+    "timeInPort": null,
+    "callType": "Port of call",
+    "notes": "overnight/next-day timing"
+  },
+  {
+    "date": "2027-03-19",
+    "ship": "Star Legend",
+    "cruiseLine": "Windstar Cruises",
+    "arrival": "08:00",
+    "departure": "22:00",
+    "timeInPort": "14h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-03-20",
+    "ship": "Spirit Of Discovery",
+    "cruiseLine": "Saga Cruises",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-03-21",
+    "ship": "Explora I",
+    "cruiseLine": "Explora Journeys",
+    "arrival": "09:00",
+    "departure": "21:00",
+    "timeInPort": "12h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-03-23",
+    "ship": "Azura",
+    "cruiseLine": "P & O Cruises",
+    "arrival": "",
+    "departure": "",
+    "timeInPort": null,
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-03-23",
+    "ship": "Mein Schiff 4",
+    "cruiseLine": "TUI Cruises",
+    "arrival": "08:00",
+    "departure": "21:00",
+    "timeInPort": "13h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-03-23",
+    "ship": "Viking Vela",
+    "cruiseLine": "Viking Cruises",
+    "arrival": "",
+    "departure": "",
+    "timeInPort": null,
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-03-25",
+    "ship": "Queen Elizabeth",
+    "cruiseLine": "Cunard Line",
+    "arrival": "",
+    "departure": "",
+    "timeInPort": null,
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-03-25",
+    "ship": "Silver Shadow",
+    "cruiseLine": "Silversea Cruises",
+    "arrival": "08:00",
+    "departure": "23:00",
+    "timeInPort": "15h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-03-27",
+    "ship": "Celebrity Equinox",
+    "cruiseLine": "Celebrity Cruises",
+    "arrival": "09:00",
+    "departure": "19:00",
+    "timeInPort": "10h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-03-28",
+    "ship": "AIDAperla",
+    "cruiseLine": "AIDA",
+    "arrival": "18:00",
+    "departure": "",
+    "timeInPort": null,
+    "callType": "Port of call",
+    "notes": "overnight/next-day timing"
+  },
+  {
+    "date": "2027-03-28",
+    "ship": "Silver Ray",
+    "cruiseLine": "Silversea Cruises",
+    "arrival": "08:00",
+    "departure": "23:00",
+    "timeInPort": "15h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-03-29",
+    "ship": "Marella Discovery 2",
+    "cruiseLine": "Marella Cruises",
+    "arrival": "12:00",
+    "departure": "22:00",
+    "timeInPort": "10h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-03-31",
+    "ship": "Ambition",
+    "cruiseLine": "Ambassador Cruise Line",
+    "arrival": "08:00",
+    "departure": "20:00",
+    "timeInPort": "12h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-04-01",
+    "ship": "Sky Princess",
+    "cruiseLine": "Princess Cruises",
+    "arrival": "10:00",
+    "departure": "20:00",
+    "timeInPort": "10h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-04-03",
+    "ship": "Mein Schiff Flow",
+    "cruiseLine": "TUI Cruises",
+    "arrival": "07:00",
+    "departure": "17:00",
+    "timeInPort": "10h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-04-04",
+    "ship": "Oceania Marina",
+    "cruiseLine": "Oceania Cruises",
+    "arrival": "07:00",
+    "departure": "16:00",
+    "timeInPort": "9h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-04-05",
+    "ship": "Aurora",
+    "cruiseLine": "P & O Cruises",
+    "arrival": "",
+    "departure": "",
+    "timeInPort": null,
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-04-06",
+    "ship": "Balmoral",
+    "cruiseLine": "Fred Olsen Cruise Lines",
+    "arrival": "",
+    "departure": "",
+    "timeInPort": null,
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-04-07",
+    "ship": "Celebrity Equinox",
+    "cruiseLine": "Celebrity Cruises",
+    "arrival": "11:00",
+    "departure": "20:00",
+    "timeInPort": "9h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-04-07",
+    "ship": "Seven Seas Voyager",
+    "cruiseLine": "Regent Seven Seas Cruises",
+    "arrival": "08:00",
+    "departure": "18:00",
+    "timeInPort": "10h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-04-10",
+    "ship": "Crystal Symphony",
+    "cruiseLine": "Crystal Cruises",
+    "arrival": "10:00",
+    "departure": "22:00",
+    "timeInPort": "12h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-04-10",
+    "ship": "Seabourn Ovation",
+    "cruiseLine": "Seabourn",
+    "arrival": "08:00",
+    "departure": "23:00",
+    "timeInPort": "15h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-04-11",
+    "ship": "Norwegian Star",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "09:00",
+    "departure": "22:00",
+    "timeInPort": "13h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-04-11",
+    "ship": "Oceania Allura",
+    "cruiseLine": "Oceania Cruises",
+    "arrival": "07:00",
+    "departure": "23:00",
+    "timeInPort": "16h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-04-12",
+    "ship": "Marella Discovery 2",
+    "cruiseLine": "Marella Cruises",
+    "arrival": "12:00",
+    "departure": "22:00",
+    "timeInPort": "10h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-04-12",
+    "ship": "Viking Mira",
+    "cruiseLine": "Viking Cruises",
+    "arrival": "",
+    "departure": "",
+    "timeInPort": null,
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-04-13",
+    "ship": "Ventura",
+    "cruiseLine": "P & O Cruises",
+    "arrival": "",
+    "departure": "",
+    "timeInPort": null,
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-04-13",
+    "ship": "Wind Surf",
+    "cruiseLine": "Windstar Cruises",
+    "arrival": "08:00",
+    "departure": "22:00",
+    "timeInPort": "14h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-04-14",
+    "ship": "Viking Neptune",
+    "cruiseLine": "Viking Cruises",
+    "arrival": "",
+    "departure": "",
+    "timeInPort": null,
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-04-15",
+    "ship": "Azamara Journey",
+    "cruiseLine": "Azamara Cruises",
+    "arrival": "08:00",
+    "departure": "22:00",
+    "timeInPort": "14h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-04-16",
+    "ship": "Celebrity Equinox",
+    "cruiseLine": "Celebrity Cruises",
+    "arrival": "11:00",
+    "departure": "20:00",
+    "timeInPort": "9h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-04-16",
+    "ship": "Viking Saturn",
+    "cruiseLine": "Viking Cruises",
+    "arrival": "",
+    "departure": "",
+    "timeInPort": null,
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-04-17",
+    "ship": "MSC Euribia",
+    "cruiseLine": "MSC Cruises",
+    "arrival": "08:00",
+    "departure": "18:00",
+    "timeInPort": "10h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-04-17",
+    "ship": "Silver Spirit",
+    "cruiseLine": "Silversea Cruises",
+    "arrival": "08:00",
+    "departure": "21:00",
+    "timeInPort": "13h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-04-18",
+    "ship": "Viking Neptune",
+    "cruiseLine": "Viking Cruises",
+    "arrival": "",
+    "departure": "",
+    "timeInPort": null,
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-04-20",
+    "ship": "Bolette",
+    "cruiseLine": "Fred Olsen Cruise Lines",
+    "arrival": "",
+    "departure": "",
+    "timeInPort": null,
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-04-21",
+    "ship": "Celebrity Xcel",
+    "cruiseLine": "Celebrity Cruises",
+    "arrival": "11:00",
+    "departure": "20:00",
+    "timeInPort": "9h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-04-21",
+    "ship": "Explora I",
+    "cruiseLine": "Explora Journeys",
+    "arrival": "09:00",
+    "departure": "20:00",
+    "timeInPort": "11h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-04-21",
+    "ship": "Explora IV",
+    "cruiseLine": "Explora Journeys",
+    "arrival": "08:00",
+    "departure": "20:00",
+    "timeInPort": "12h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-04-22",
+    "ship": "Costa Serena",
+    "cruiseLine": "Costa Cruises",
+    "arrival": "09:00",
+    "departure": "19:00",
+    "timeInPort": "10h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-04-22",
+    "ship": "Mein Schiff Flow",
+    "cruiseLine": "TUI Cruises",
+    "arrival": "07:00",
+    "departure": "17:00",
+    "timeInPort": "10h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-04-22",
+    "ship": "Norwegian Gem",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "07:00",
+    "departure": "19:00",
+    "timeInPort": "12h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-04-23",
+    "ship": "MSC Meraviglia",
+    "cruiseLine": "MSC Cruises",
+    "arrival": "11:00",
+    "departure": "20:00",
+    "timeInPort": "9h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-04-24",
+    "ship": "Viking Saturn",
+    "cruiseLine": "Viking Cruises",
+    "arrival": "",
+    "departure": "",
+    "timeInPort": null,
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-04-25",
+    "ship": "Marella Discovery 2",
+    "cruiseLine": "Marella Cruises",
+    "arrival": "",
+    "departure": "",
+    "timeInPort": null,
+    "callType": "Port of call",
+    "notes": "overnight/next-day timing"
+  },
+  {
+    "date": "2027-04-27",
+    "ship": "AIDAcosma",
+    "cruiseLine": "AIDA",
+    "arrival": "08:00",
+    "departure": "20:00",
+    "timeInPort": "12h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-04-27",
+    "ship": "Seven Seas Grandeur",
+    "cruiseLine": "Regent Seven Seas Cruises",
+    "arrival": "07:00",
+    "departure": "15:00",
+    "timeInPort": "8h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-04-27",
+    "ship": "Seven Seas Voyager",
+    "cruiseLine": "Regent Seven Seas Cruises",
+    "arrival": "08:00",
+    "departure": "20:00",
+    "timeInPort": "12h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-04-28",
+    "ship": "Celebrity Xcel",
+    "cruiseLine": "Celebrity Cruises",
+    "arrival": "07:00",
+    "departure": "17:00",
+    "timeInPort": "10h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-04-28",
+    "ship": "SeaDream II",
+    "cruiseLine": "SeaDream Yacht Club",
+    "arrival": "",
+    "departure": "",
+    "timeInPort": null,
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-04-29",
+    "ship": "Celebrity Equinox",
+    "cruiseLine": "Celebrity Cruises",
+    "arrival": "07:00",
+    "departure": "17:00",
+    "timeInPort": "10h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-04-29",
+    "ship": "Mein Schiff 1",
+    "cruiseLine": "TUI Cruises",
+    "arrival": "08:00",
+    "departure": "20:00",
+    "timeInPort": "12h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-04-29",
+    "ship": "Queen Anne",
+    "cruiseLine": "Cunard Line",
+    "arrival": "",
+    "departure": "",
+    "timeInPort": null,
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-04-30",
+    "ship": "Spirit Of Discovery",
+    "cruiseLine": "Saga Cruises",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-05-02",
+    "ship": "Silver Spirit",
+    "cruiseLine": "Silversea Cruises",
+    "arrival": "08:00",
+    "departure": "23:00",
+    "timeInPort": "15h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-05-03",
+    "ship": "Regal Princess",
+    "cruiseLine": "Princess Cruises",
+    "arrival": "10:00",
+    "departure": "20:00",
+    "timeInPort": "10h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-05-04",
+    "ship": "Brilliance Of The Seas",
+    "cruiseLine": "Royal Caribbean Cruises",
+    "arrival": "08:00",
+    "departure": "18:00",
+    "timeInPort": "10h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-05-04",
+    "ship": "Viking Sky",
+    "cruiseLine": "Viking Cruises",
+    "arrival": "",
+    "departure": "",
+    "timeInPort": null,
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-05-05",
+    "ship": "Legend Of The Seas",
+    "cruiseLine": "Royal Caribbean Cruises",
+    "arrival": "08:00",
+    "departure": "18:00",
+    "timeInPort": "10h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-05-05",
+    "ship": "Oceania Marina",
+    "cruiseLine": "Oceania Cruises",
+    "arrival": "08:00",
+    "departure": "20:00",
+    "timeInPort": "12h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-05-06",
+    "ship": "Explorer Of The Seas",
+    "cruiseLine": "Royal Caribbean Cruises",
+    "arrival": "08:00",
+    "departure": "18:00",
+    "timeInPort": "10h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-05-08",
+    "ship": "Mariner Of The Seas",
+    "cruiseLine": "Royal Caribbean Cruises",
+    "arrival": "08:00",
+    "departure": "18:00",
+    "timeInPort": "10h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-05-09",
+    "ship": "Costa Serena",
+    "cruiseLine": "Costa Cruises",
+    "arrival": "12:00",
+    "departure": "21:00",
+    "timeInPort": "9h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-05-10",
+    "ship": "Marella Explorer 2",
+    "cruiseLine": "Marella Cruises",
+    "arrival": "13:00",
+    "departure": "22:00",
+    "timeInPort": "9h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-05-10",
+    "ship": "Seven Seas Grandeur",
+    "cruiseLine": "Regent Seven Seas Cruises",
+    "arrival": "07:00",
+    "departure": "22:00",
+    "timeInPort": "15h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-05-10",
+    "ship": "Silver Dawn",
+    "cruiseLine": "Silversea Cruises",
+    "arrival": "08:30",
+    "departure": "23:00",
+    "timeInPort": "14h 30m",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-05-11",
+    "ship": "Aurora",
+    "cruiseLine": "P & O Cruises",
+    "arrival": "",
+    "departure": "",
+    "timeInPort": null,
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-05-12",
+    "ship": "Arvia",
+    "cruiseLine": "P & O Cruises",
+    "arrival": "",
+    "departure": "",
+    "timeInPort": null,
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-05-12",
+    "ship": "Balmoral",
+    "cruiseLine": "Fred Olsen Cruise Lines",
+    "arrival": "",
+    "departure": "",
+    "timeInPort": null,
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-05-12",
+    "ship": "Europa",
+    "cruiseLine": "Hapag Lloyd",
+    "arrival": "07:00",
+    "departure": "19:00",
+    "timeInPort": "12h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-05-13",
+    "ship": "MSC Sinfonia",
+    "cruiseLine": "MSC Cruises",
+    "arrival": "09:00",
+    "departure": "20:00",
+    "timeInPort": "11h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-05-13",
+    "ship": "Mariner Of The Seas",
+    "cruiseLine": "Royal Caribbean Cruises",
+    "arrival": "08:00",
+    "departure": "18:00",
+    "timeInPort": "10h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-05-14",
+    "ship": "Mein Schiff 1",
+    "cruiseLine": "TUI Cruises",
+    "arrival": "07:30",
+    "departure": "17:00",
+    "timeInPort": "9h 30m",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-05-14",
+    "ship": "Norwegian Dawn",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "07:00",
+    "departure": "19:00",
+    "timeInPort": "12h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-05-15",
+    "ship": "Seven Seas Prestige",
+    "cruiseLine": "Regent Seven Seas Cruises",
+    "arrival": "07:00",
+    "departure": "18:00",
+    "timeInPort": "11h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-05-16",
+    "ship": "Viking Star",
+    "cruiseLine": "Viking Cruises",
+    "arrival": "",
+    "departure": "",
+    "timeInPort": null,
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-05-18",
+    "ship": "Norwegian Dawn",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "07:00",
+    "departure": "19:00",
+    "timeInPort": "12h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-05-18",
+    "ship": "Ventura",
+    "cruiseLine": "P & O Cruises",
+    "arrival": "",
+    "departure": "",
+    "timeInPort": null,
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-05-20",
+    "ship": "Celebrity Xcel",
+    "cruiseLine": "Celebrity Cruises",
+    "arrival": "07:00",
+    "departure": "17:00",
+    "timeInPort": "10h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-05-22",
+    "ship": "Ambience",
+    "cruiseLine": "Ambassador Cruise Line",
+    "arrival": "07:00",
+    "departure": "17:00",
+    "timeInPort": "10h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-05-22",
+    "ship": "Celebrity Equinox",
+    "cruiseLine": "Celebrity Cruises",
+    "arrival": "07:00",
+    "departure": "17:00",
+    "timeInPort": "10h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-05-22",
+    "ship": "Costa Favolosa",
+    "cruiseLine": "Costa Cruises",
+    "arrival": "08:00",
+    "departure": "18:00",
+    "timeInPort": "10h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-05-23",
+    "ship": "MSC Meraviglia",
+    "cruiseLine": "MSC Cruises",
+    "arrival": "08:00",
+    "departure": "18:00",
+    "timeInPort": "10h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-05-24",
+    "ship": "Marella Explorer 2",
+    "cruiseLine": "Marella Cruises",
+    "arrival": "13:00",
+    "departure": "22:00",
+    "timeInPort": "9h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-05-24",
+    "ship": "Queen Anne",
+    "cruiseLine": "Cunard Line",
+    "arrival": "",
+    "departure": "",
+    "timeInPort": null,
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-05-25",
+    "ship": "Mein Schiff 1",
+    "cruiseLine": "TUI Cruises",
+    "arrival": "07:30",
+    "departure": "17:00",
+    "timeInPort": "9h 30m",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-05-28",
+    "ship": "Norwegian Dawn",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "07:00",
+    "departure": "19:00",
+    "timeInPort": "12h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-05-31",
+    "ship": "Mein Schiff Flow",
+    "cruiseLine": "TUI Cruises",
+    "arrival": "07:30",
+    "departure": "17:00",
+    "timeInPort": "9h 30m",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-05-31",
+    "ship": "Norwegian Aura",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "07:00",
+    "departure": "19:00",
+    "timeInPort": "12h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-05-31",
+    "ship": "Viking Jupiter",
+    "cruiseLine": "Viking Cruises",
+    "arrival": "",
+    "departure": "",
+    "timeInPort": null,
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-06-01",
+    "ship": "MSC Sinfonia",
+    "cruiseLine": "MSC Cruises",
+    "arrival": "07:00",
+    "departure": "17:00",
+    "timeInPort": "10h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-06-01",
+    "ship": "Norwegian Dawn",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "07:00",
+    "departure": "19:00",
+    "timeInPort": "12h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-06-02",
+    "ship": "Norwegian Prima",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "07:00",
+    "departure": "19:00",
+    "timeInPort": "12h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-06-04",
+    "ship": "Marella Explorer 2",
+    "cruiseLine": "Marella Cruises",
+    "arrival": "08:00",
+    "departure": "15:00",
+    "timeInPort": "7h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-06-04",
+    "ship": "Viking Jupiter",
+    "cruiseLine": "Viking Cruises",
+    "arrival": "",
+    "departure": "",
+    "timeInPort": null,
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-06-08",
+    "ship": "Queen Victoria",
+    "cruiseLine": "Cunard Line",
+    "arrival": "",
+    "departure": "",
+    "timeInPort": null,
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-06-09",
+    "ship": "Arvia",
+    "cruiseLine": "P & O Cruises",
+    "arrival": "",
+    "departure": "",
+    "timeInPort": null,
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-06-10",
+    "ship": "Celebrity Xcel",
+    "cruiseLine": "Celebrity Cruises",
+    "arrival": "07:00",
+    "departure": "17:00",
+    "timeInPort": "10h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-06-10",
+    "ship": "Seven Seas Prestige",
+    "cruiseLine": "Regent Seven Seas Cruises",
+    "arrival": "08:00",
+    "departure": "22:00",
+    "timeInPort": "14h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-06-11",
+    "ship": "MSC Sinfonia",
+    "cruiseLine": "MSC Cruises",
+    "arrival": "07:00",
+    "departure": "17:00",
+    "timeInPort": "10h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-06-11",
+    "ship": "Norwegian Dawn",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "07:00",
+    "departure": "19:00",
+    "timeInPort": "12h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-06-13",
+    "ship": "Renaissance",
+    "cruiseLine": "CFC Croisieres",
+    "arrival": "08:00",
+    "departure": "18:00",
+    "timeInPort": "10h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-06-15",
+    "ship": "Norwegian Dawn",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "07:00",
+    "departure": "19:00",
+    "timeInPort": "12h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-06-18",
+    "ship": "Star Legend",
+    "cruiseLine": "Windstar Cruises",
+    "arrival": "08:00",
+    "departure": "22:00",
+    "timeInPort": "14h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-06-19",
+    "ship": "Celebrity Equinox",
+    "cruiseLine": "Celebrity Cruises",
+    "arrival": "07:00",
+    "departure": "17:00",
+    "timeInPort": "10h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-06-21",
+    "ship": "AIDAstella",
+    "cruiseLine": "AIDA",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-06-21",
+    "ship": "Carnival Sunshine",
+    "cruiseLine": "Carnival Cruises",
+    "arrival": "07:00",
+    "departure": "16:00",
+    "timeInPort": "9h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-06-21",
+    "ship": "Marella Explorer 2",
+    "cruiseLine": "Marella Cruises",
+    "arrival": "13:00",
+    "departure": "22:00",
+    "timeInPort": "9h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-06-22",
+    "ship": "Britannia",
+    "cruiseLine": "P & O Cruises",
+    "arrival": "",
+    "departure": "",
+    "timeInPort": null,
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-06-22",
+    "ship": "Oceania Vista",
+    "cruiseLine": "Oceania Cruises",
+    "arrival": "11:00",
+    "departure": "22:00",
+    "timeInPort": "11h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-06-25",
+    "ship": "Norwegian Dawn",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "07:00",
+    "departure": "19:00",
+    "timeInPort": "12h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-06-25",
+    "ship": "Spirit Of Adventure",
+    "cruiseLine": "Saga Cruises",
+    "arrival": "08:00",
+    "departure": "16:00",
+    "timeInPort": "8h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-06-26",
+    "ship": "Crystal Symphony",
+    "cruiseLine": "Crystal Cruises",
+    "arrival": "07:00",
+    "departure": "22:00",
+    "timeInPort": "15h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-06-28",
+    "ship": "Mariner Of The Seas",
+    "cruiseLine": "Royal Caribbean Cruises",
+    "arrival": "08:00",
+    "departure": "18:00",
+    "timeInPort": "10h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-06-29",
+    "ship": "Norwegian Dawn",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "07:00",
+    "departure": "19:00",
+    "timeInPort": "12h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-06-30",
+    "ship": "AIDAstella",
+    "cruiseLine": "AIDA",
+    "arrival": "08:00",
+    "departure": "18:00",
+    "timeInPort": "10h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-06-30",
+    "ship": "Viking Neptune",
+    "cruiseLine": "Viking Cruises",
+    "arrival": "",
+    "departure": "",
+    "timeInPort": null,
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-07-01",
+    "ship": "Arvia",
+    "cruiseLine": "P & O Cruises",
+    "arrival": "",
+    "departure": "",
+    "timeInPort": null,
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-07-05",
+    "ship": "Marella Explorer 2",
+    "cruiseLine": "Marella Cruises",
+    "arrival": "13:00",
+    "departure": "22:00",
+    "timeInPort": "9h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-07-06",
+    "ship": "Ventura",
+    "cruiseLine": "P & O Cruises",
+    "arrival": "",
+    "departure": "",
+    "timeInPort": null,
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-07-07",
+    "ship": "Arvia",
+    "cruiseLine": "P & O Cruises",
+    "arrival": "",
+    "departure": "",
+    "timeInPort": null,
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-07-09",
+    "ship": "Norwegian Dawn",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "07:00",
+    "departure": "19:00",
+    "timeInPort": "12h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-07-11",
+    "ship": "MSC Sinfonia",
+    "cruiseLine": "MSC Cruises",
+    "arrival": "07:00",
+    "departure": "17:00",
+    "timeInPort": "10h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-07-12",
+    "ship": "Mein Schiff 6",
+    "cruiseLine": "TUI Cruises",
+    "arrival": "07:00",
+    "departure": "17:00",
+    "timeInPort": "10h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-07-12",
+    "ship": "Viking Star",
+    "cruiseLine": "Viking Cruises",
+    "arrival": "",
+    "departure": "",
+    "timeInPort": null,
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-07-13",
+    "ship": "Norwegian Dawn",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "07:00",
+    "departure": "19:00",
+    "timeInPort": "12h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-07-15",
+    "ship": "Oceania Nautica",
+    "cruiseLine": "Oceania Cruises",
+    "arrival": "08:00",
+    "departure": "20:00",
+    "timeInPort": "12h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-07-17",
+    "ship": "Arcadia",
+    "cruiseLine": "P & O Cruises",
+    "arrival": "",
+    "departure": "",
+    "timeInPort": null,
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-07-19",
+    "ship": "Marella Explorer 2",
+    "cruiseLine": "Marella Cruises",
+    "arrival": "13:00",
+    "departure": "22:00",
+    "timeInPort": "9h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-07-20",
+    "ship": "Mariner Of The Seas",
+    "cruiseLine": "Royal Caribbean Cruises",
+    "arrival": "08:00",
+    "departure": "18:00",
+    "timeInPort": "10h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-07-21",
+    "ship": "MSC Sinfonia",
+    "cruiseLine": "MSC Cruises",
+    "arrival": "07:00",
+    "departure": "17:00",
+    "timeInPort": "10h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-07-23",
+    "ship": "Norwegian Dawn",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "07:00",
+    "departure": "19:00",
+    "timeInPort": "12h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-07-25",
+    "ship": "Mein Schiff 6",
+    "cruiseLine": "TUI Cruises",
+    "arrival": "08:00",
+    "departure": "19:00",
+    "timeInPort": "11h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-07-25",
+    "ship": "Nieuw Statendam",
+    "cruiseLine": "Holland America Line",
+    "arrival": "11:00",
+    "departure": "23:00",
+    "timeInPort": "12h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-07-26",
+    "ship": "Europa 2",
+    "cruiseLine": "Hapag Lloyd",
+    "arrival": "08:00",
+    "departure": "19:00",
+    "timeInPort": "11h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-07-26",
+    "ship": "Mein Schiff Flow",
+    "cruiseLine": "TUI Cruises",
+    "arrival": "07:30",
+    "departure": "17:00",
+    "timeInPort": "9h 30m",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-07-27",
+    "ship": "Norwegian Dawn",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "07:00",
+    "departure": "19:00",
+    "timeInPort": "12h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-07-27",
+    "ship": "Ventura",
+    "cruiseLine": "P & O Cruises",
+    "arrival": "",
+    "departure": "",
+    "timeInPort": null,
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-07-28",
+    "ship": "MSC Meraviglia",
+    "cruiseLine": "MSC Cruises",
+    "arrival": "10:00",
+    "departure": "20:00",
+    "timeInPort": "10h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-07-28",
+    "ship": "Queen Victoria",
+    "cruiseLine": "Cunard Line",
+    "arrival": "",
+    "departure": "",
+    "timeInPort": null,
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-07-29",
+    "ship": "Arvia",
+    "cruiseLine": "P & O Cruises",
+    "arrival": "",
+    "departure": "",
+    "timeInPort": null,
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-07-30",
+    "ship": "Marella Explorer 2",
+    "cruiseLine": "Marella Cruises",
+    "arrival": "08:00",
+    "departure": "15:00",
+    "timeInPort": "7h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-07-31",
+    "ship": "MSC Sinfonia",
+    "cruiseLine": "MSC Cruises",
+    "arrival": "07:00",
+    "departure": "17:00",
+    "timeInPort": "10h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-08-01",
+    "ship": "AIDAstella",
+    "cruiseLine": "AIDA",
+    "arrival": "09:00",
+    "departure": "19:30",
+    "timeInPort": "10h 30m",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-08-01",
+    "ship": "Resilient Lady",
+    "cruiseLine": "Virgin Voyages",
+    "arrival": "08:00",
+    "departure": "18:00",
+    "timeInPort": "10h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-08-02",
+    "ship": "Balmoral",
+    "cruiseLine": "Fred Olsen Cruise Lines",
+    "arrival": "",
+    "departure": "",
+    "timeInPort": null,
+    "callType": "Port of call",
+    "notes": "overnight/next-day timing"
+  },
+  {
+    "date": "2027-08-02",
+    "ship": "Britannia",
+    "cruiseLine": "P & O Cruises",
+    "arrival": "",
+    "departure": "",
+    "timeInPort": null,
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-08-03",
+    "ship": "Sky Princess",
+    "cruiseLine": "Princess Cruises",
+    "arrival": "07:00",
+    "departure": "17:00",
+    "timeInPort": "10h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-08-04",
+    "ship": "Celebrity Xcel",
+    "cruiseLine": "Celebrity Cruises",
+    "arrival": "07:00",
+    "departure": "17:00",
+    "timeInPort": "10h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-08-06",
+    "ship": "Arcadia",
+    "cruiseLine": "P & O Cruises",
+    "arrival": "",
+    "departure": "",
+    "timeInPort": null,
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-08-06",
+    "ship": "Norwegian Dawn",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "07:00",
+    "departure": "19:00",
+    "timeInPort": "12h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-08-09",
+    "ship": "Ambition",
+    "cruiseLine": "Ambassador Cruise Line",
+    "arrival": "08:00",
+    "departure": "20:00",
+    "timeInPort": "12h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-08-09",
+    "ship": "Mein Schiff 6",
+    "cruiseLine": "TUI Cruises",
+    "arrival": "07:00",
+    "departure": "17:00",
+    "timeInPort": "10h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-08-10",
+    "ship": "Sky Princess",
+    "cruiseLine": "Princess Cruises",
+    "arrival": "10:00",
+    "departure": "20:00",
+    "timeInPort": "10h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-08-11",
+    "ship": "AIDAstella",
+    "cruiseLine": "AIDA",
+    "arrival": "08:00",
+    "departure": "18:00",
+    "timeInPort": "10h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-08-13",
+    "ship": "Seven Seas Mariner",
+    "cruiseLine": "Regent Seven Seas Cruises",
+    "arrival": "08:00",
+    "departure": "22:00",
+    "timeInPort": "14h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-08-16",
+    "ship": "Carnival Sunshine",
+    "cruiseLine": "Carnival Cruises",
+    "arrival": "07:00",
+    "departure": "16:00",
+    "timeInPort": "9h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-08-16",
+    "ship": "Marella Explorer 2",
+    "cruiseLine": "Marella Cruises",
+    "arrival": "13:00",
+    "departure": "22:00",
+    "timeInPort": "9h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-08-16",
+    "ship": "Seven Seas Grandeur",
+    "cruiseLine": "Regent Seven Seas Cruises",
+    "arrival": "07:00",
+    "departure": "15:00",
+    "timeInPort": "8h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-08-17",
+    "ship": "Ventura",
+    "cruiseLine": "P & O Cruises",
+    "arrival": "",
+    "departure": "",
+    "timeInPort": null,
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-08-18",
+    "ship": "Arvia",
+    "cruiseLine": "P & O Cruises",
+    "arrival": "",
+    "departure": "",
+    "timeInPort": null,
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-08-19",
+    "ship": "Silver Shadow",
+    "cruiseLine": "Silversea Cruises",
+    "arrival": "08:00",
+    "departure": "19:00",
+    "timeInPort": "11h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-08-20",
+    "ship": "MSC Sinfonia",
+    "cruiseLine": "MSC Cruises",
+    "arrival": "07:00",
+    "departure": "17:00",
+    "timeInPort": "10h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-08-25",
+    "ship": "MSC Meraviglia",
+    "cruiseLine": "MSC Cruises",
+    "arrival": "07:00",
+    "departure": "18:00",
+    "timeInPort": "11h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-08-28",
+    "ship": "Oceania Nautica",
+    "cruiseLine": "Oceania Cruises",
+    "arrival": "08:00",
+    "departure": "",
+    "timeInPort": null,
+    "callType": "Port of call",
+    "notes": "overnight/next-day timing"
+  },
+  {
+    "date": "2027-08-29",
+    "ship": "Aurora",
+    "cruiseLine": "P & O Cruises",
+    "arrival": "",
+    "departure": "",
+    "timeInPort": null,
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-08-30",
+    "ship": "MSC Sinfonia",
+    "cruiseLine": "MSC Cruises",
+    "arrival": "07:00",
+    "departure": "17:00",
+    "timeInPort": "10h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-08-30",
+    "ship": "Marella Explorer 2",
+    "cruiseLine": "Marella Cruises",
+    "arrival": "13:00",
+    "departure": "22:00",
+    "timeInPort": "9h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-08-31",
+    "ship": "Sky Princess",
+    "cruiseLine": "Princess Cruises",
+    "arrival": "10:00",
+    "departure": "20:00",
+    "timeInPort": "10h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-09-02",
+    "ship": "Oceania Sonata",
+    "cruiseLine": "Oceania Cruises",
+    "arrival": "08:00",
+    "departure": "18:00",
+    "timeInPort": "10h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-09-03",
+    "ship": "Freedom Of The Seas",
+    "cruiseLine": "Royal Caribbean Cruises",
+    "arrival": "11:00",
+    "departure": "20:00",
+    "timeInPort": "9h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-09-03",
+    "ship": "Norwegian Dawn",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "07:00",
+    "departure": "19:00",
+    "timeInPort": "12h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-09-07",
+    "ship": "Norwegian Dawn",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "07:00",
+    "departure": "19:00",
+    "timeInPort": "12h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-09-07",
+    "ship": "Viking Star",
+    "cruiseLine": "Viking Cruises",
+    "arrival": "",
+    "departure": "",
+    "timeInPort": null,
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-09-08",
+    "ship": "Silver Spirit",
+    "cruiseLine": "Silversea Cruises",
+    "arrival": "08:00",
+    "departure": "19:00",
+    "timeInPort": "11h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-09-09",
+    "ship": "MSC Sinfonia",
+    "cruiseLine": "MSC Cruises",
+    "arrival": "07:00",
+    "departure": "17:00",
+    "timeInPort": "10h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-09-12",
+    "ship": "Freedom Of The Seas",
+    "cruiseLine": "Royal Caribbean Cruises",
+    "arrival": "11:00",
+    "departure": "20:00",
+    "timeInPort": "9h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-09-13",
+    "ship": "AIDAstella",
+    "cruiseLine": "AIDA",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-09-13",
+    "ship": "Marella Explorer 2",
+    "cruiseLine": "Marella Cruises",
+    "arrival": "13:00",
+    "departure": "22:00",
+    "timeInPort": "9h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-09-14",
+    "ship": "Ventura",
+    "cruiseLine": "P & O Cruises",
+    "arrival": "",
+    "departure": "",
+    "timeInPort": null,
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-09-15",
+    "ship": "Arvia",
+    "cruiseLine": "P & O Cruises",
+    "arrival": "",
+    "departure": "",
+    "timeInPort": null,
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-09-16",
+    "ship": "Celebrity Equinox",
+    "cruiseLine": "Celebrity Cruises",
+    "arrival": "07:00",
+    "departure": "17:00",
+    "timeInPort": "10h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-09-16",
+    "ship": "Viking Jupiter",
+    "cruiseLine": "Viking Cruises",
+    "arrival": "",
+    "departure": "",
+    "timeInPort": null,
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-09-17",
+    "ship": "Oceania Allura",
+    "cruiseLine": "Oceania Cruises",
+    "arrival": "07:00",
+    "departure": "22:00",
+    "timeInPort": "15h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-09-18",
+    "ship": "Costa Diadema",
+    "cruiseLine": "Costa Cruises",
+    "arrival": "14:00",
+    "departure": "20:00",
+    "timeInPort": "6h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-09-19",
+    "ship": "MSC Sinfonia",
+    "cruiseLine": "MSC Cruises",
+    "arrival": "07:00",
+    "departure": "17:00",
+    "timeInPort": "10h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-09-20",
+    "ship": "Viking Jupiter",
+    "cruiseLine": "Viking Cruises",
+    "arrival": "",
+    "departure": "",
+    "timeInPort": null,
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-09-21",
+    "ship": "Queen Victoria",
+    "cruiseLine": "Cunard Line",
+    "arrival": "",
+    "departure": "",
+    "timeInPort": null,
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-09-22",
+    "ship": "AIDAstella",
+    "cruiseLine": "AIDA",
+    "arrival": "08:00",
+    "departure": "18:00",
+    "timeInPort": "10h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-09-22",
+    "ship": "Celebrity Apex",
+    "cruiseLine": "Celebrity Cruises",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-09-25",
+    "ship": "Carnival Miracle",
+    "cruiseLine": "Carnival Cruises",
+    "arrival": "09:00",
+    "departure": "17:30",
+    "timeInPort": "8h 30m",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-09-26",
+    "ship": "Costa Favolosa",
+    "cruiseLine": "Costa Cruises",
+    "arrival": "13:00",
+    "departure": "21:00",
+    "timeInPort": "8h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-09-27",
+    "ship": "Costa Diadema",
+    "cruiseLine": "Costa Cruises",
+    "arrival": "14:00",
+    "departure": "20:00",
+    "timeInPort": "6h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-09-27",
+    "ship": "Marella Explorer 2",
+    "cruiseLine": "Marella Cruises",
+    "arrival": "13:00",
+    "departure": "22:00",
+    "timeInPort": "9h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-09-28",
+    "ship": "Ventura",
+    "cruiseLine": "P & O Cruises",
+    "arrival": "",
+    "departure": "",
+    "timeInPort": null,
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-09-28",
+    "ship": "Viking Libra",
+    "cruiseLine": "Viking Cruises",
+    "arrival": "",
+    "departure": "",
+    "timeInPort": null,
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-09-29",
+    "ship": "Sky Princess",
+    "cruiseLine": "Princess Cruises",
+    "arrival": "09:00",
+    "departure": "21:00",
+    "timeInPort": "12h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-09-30",
+    "ship": "Seven Seas Voyager",
+    "cruiseLine": "Regent Seven Seas Cruises",
+    "arrival": "08:00",
+    "departure": "22:00",
+    "timeInPort": "14h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-10-01",
+    "ship": "Ambition",
+    "cruiseLine": "Ambassador Cruise Line",
+    "arrival": "09:00",
+    "departure": "19:00",
+    "timeInPort": "10h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-10-01",
+    "ship": "Norwegian Dawn",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "07:00",
+    "departure": "19:00",
+    "timeInPort": "12h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-10-03",
+    "ship": "Silver Ray",
+    "cruiseLine": "Silversea Cruises",
+    "arrival": "08:00",
+    "departure": "22:00",
+    "timeInPort": "14h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-10-05",
+    "ship": "Celebrity Xcel",
+    "cruiseLine": "Celebrity Cruises",
+    "arrival": "07:00",
+    "departure": "17:00",
+    "timeInPort": "10h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-10-05",
+    "ship": "Queen Victoria",
+    "cruiseLine": "Cunard Line",
+    "arrival": "",
+    "departure": "",
+    "timeInPort": null,
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-10-07",
+    "ship": "Costa Diadema",
+    "cruiseLine": "Costa Cruises",
+    "arrival": "14:00",
+    "departure": "21:00",
+    "timeInPort": "7h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-10-07",
+    "ship": "Mein Schiff 2",
+    "cruiseLine": "TUI Cruises",
+    "arrival": "08:00",
+    "departure": "19:00",
+    "timeInPort": "11h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-10-07",
+    "ship": "SeaDream I",
+    "cruiseLine": "SeaDream Yacht Club",
+    "arrival": "",
+    "departure": "",
+    "timeInPort": null,
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-10-08",
+    "ship": "Amera",
+    "cruiseLine": "Phoenix Reisen",
+    "arrival": "09:00",
+    "departure": "19:00",
+    "timeInPort": "10h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-10-09",
+    "ship": "Silver Ray",
+    "cruiseLine": "Silversea Cruises",
+    "arrival": "08:00",
+    "departure": "19:00",
+    "timeInPort": "11h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-10-10",
+    "ship": "MSC Sinfonia",
+    "cruiseLine": "MSC Cruises",
+    "arrival": "09:00",
+    "departure": "20:00",
+    "timeInPort": "11h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-10-11",
+    "ship": "Marella Explorer 2",
+    "cruiseLine": "Marella Cruises",
+    "arrival": "13:00",
+    "departure": "22:00",
+    "timeInPort": "9h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-10-11",
+    "ship": "Queen Victoria",
+    "cruiseLine": "Cunard Line",
+    "arrival": "",
+    "departure": "",
+    "timeInPort": null,
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-10-12",
+    "ship": "Iona",
+    "cruiseLine": "P & O Cruises",
+    "arrival": "",
+    "departure": "",
+    "timeInPort": null,
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-10-13",
+    "ship": "Celebrity Equinox",
+    "cruiseLine": "Celebrity Cruises",
+    "arrival": "11:00",
+    "departure": "20:00",
+    "timeInPort": "9h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-10-14",
+    "ship": "Mein Schiff 2",
+    "cruiseLine": "TUI Cruises",
+    "arrival": "07:30",
+    "departure": "17:00",
+    "timeInPort": "9h 30m",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-10-14",
+    "ship": "Norwegian Dawn",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "10:00",
+    "departure": "21:00",
+    "timeInPort": "11h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-10-16",
+    "ship": "Crystal Symphony",
+    "cruiseLine": "Crystal Cruises",
+    "arrival": "07:00",
+    "departure": "19:00",
+    "timeInPort": "12h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-10-17",
+    "ship": "Costa Diadema",
+    "cruiseLine": "Costa Cruises",
+    "arrival": "14:00",
+    "departure": "20:00",
+    "timeInPort": "6h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-10-18",
+    "ship": "AIDAsol",
+    "cruiseLine": "AIDA",
+    "arrival": "08:00",
+    "departure": "20:00",
+    "timeInPort": "12h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-10-18",
+    "ship": "Mariner Of The Seas",
+    "cruiseLine": "Royal Caribbean Cruises",
+    "arrival": "08:00",
+    "departure": "18:00",
+    "timeInPort": "10h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-10-19",
+    "ship": "Seven Seas Splendor",
+    "cruiseLine": "Regent Seven Seas Cruises",
+    "arrival": "07:00",
+    "departure": "22:00",
+    "timeInPort": "15h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-10-19",
+    "ship": "Ventura",
+    "cruiseLine": "P & O Cruises",
+    "arrival": "",
+    "departure": "",
+    "timeInPort": null,
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-10-20",
+    "ship": "Celebrity Xcel",
+    "cruiseLine": "Celebrity Cruises",
+    "arrival": "07:00",
+    "departure": "17:00",
+    "timeInPort": "10h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-10-20",
+    "ship": "MSC Meraviglia",
+    "cruiseLine": "MSC Cruises",
+    "arrival": "08:00",
+    "departure": "18:00",
+    "timeInPort": "10h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-10-21",
+    "ship": "Europa",
+    "cruiseLine": "Hapag Lloyd",
+    "arrival": "08:00",
+    "departure": "18:00",
+    "timeInPort": "10h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-10-22",
+    "ship": "Arcadia",
+    "cruiseLine": "P & O Cruises",
+    "arrival": "",
+    "departure": "",
+    "timeInPort": null,
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-10-23",
+    "ship": "Mein Schiff 2",
+    "cruiseLine": "TUI Cruises",
+    "arrival": "07:30",
+    "departure": "17:00",
+    "timeInPort": "9h 30m",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-10-23",
+    "ship": "Viking Sea",
+    "cruiseLine": "Viking Cruises",
+    "arrival": "",
+    "departure": "",
+    "timeInPort": null,
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-10-25",
+    "ship": "Britannia",
+    "cruiseLine": "P & O Cruises",
+    "arrival": "",
+    "departure": "",
+    "timeInPort": null,
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-10-25",
+    "ship": "Marella Explorer 2",
+    "cruiseLine": "Marella Cruises",
+    "arrival": "13:00",
+    "departure": "22:00",
+    "timeInPort": "9h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-10-25",
+    "ship": "Seven Seas Voyager",
+    "cruiseLine": "Regent Seven Seas Cruises",
+    "arrival": "07:00",
+    "departure": "20:00",
+    "timeInPort": "13h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-10-26",
+    "ship": "Norwegian Gem",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "07:00",
+    "departure": "20:30",
+    "timeInPort": "13h 30m",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-10-27",
+    "ship": "Explora I",
+    "cruiseLine": "Explora Journeys",
+    "arrival": "09:00",
+    "departure": "20:00",
+    "timeInPort": "11h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-10-28",
+    "ship": "Costa Diadema",
+    "cruiseLine": "Costa Cruises",
+    "arrival": "08:00",
+    "departure": "18:00",
+    "timeInPort": "10h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-10-29",
+    "ship": "Mein Schiff 4",
+    "cruiseLine": "TUI Cruises",
+    "arrival": "07:00",
+    "departure": "17:00",
+    "timeInPort": "10h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-10-29",
+    "ship": "Star Clipper",
+    "cruiseLine": "Star Clippers",
+    "arrival": "",
+    "departure": "",
+    "timeInPort": null,
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-10-31",
+    "ship": "Norwegian Viva",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "06:00",
+    "departure": "16:00",
+    "timeInPort": "10h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-10-31",
+    "ship": "Queen Elizabeth",
+    "cruiseLine": "Cunard Line",
+    "arrival": "",
+    "departure": "",
+    "timeInPort": null,
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-11-01",
+    "ship": "Wind Spirit",
+    "cruiseLine": "Windstar Cruises",
+    "arrival": "09:00",
+    "departure": "20:00",
+    "timeInPort": "11h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-11-03",
+    "ship": "Viking Star",
+    "cruiseLine": "Viking Cruises",
+    "arrival": "",
+    "departure": "",
+    "timeInPort": null,
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-11-03",
+    "ship": "Wind Surf",
+    "cruiseLine": "Windstar Cruises",
+    "arrival": "07:00",
+    "departure": "23:59",
+    "timeInPort": "16h 59m",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-11-05",
+    "ship": "Ambition",
+    "cruiseLine": "Ambassador Cruise Line",
+    "arrival": "08:00",
+    "departure": "18:00",
+    "timeInPort": "10h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-11-05",
+    "ship": "Viking Libra",
+    "cruiseLine": "Viking Cruises",
+    "arrival": "",
+    "departure": "",
+    "timeInPort": null,
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-11-07",
+    "ship": "Norwegian Dawn",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "06:00",
+    "departure": "19:00",
+    "timeInPort": "13h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-11-07",
+    "ship": "Seven Seas Prestige",
+    "cruiseLine": "Regent Seven Seas Cruises",
+    "arrival": "07:00",
+    "departure": "19:00",
+    "timeInPort": "12h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-11-08",
+    "ship": "Explora II",
+    "cruiseLine": "Explora Journeys",
+    "arrival": "08:00",
+    "departure": "21:00",
+    "timeInPort": "13h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-11-09",
+    "ship": "Britannia",
+    "cruiseLine": "P & O Cruises",
+    "arrival": "",
+    "departure": "",
+    "timeInPort": null,
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-11-09",
+    "ship": "Silver Ray",
+    "cruiseLine": "Silversea Cruises",
+    "arrival": "08:00",
+    "departure": "22:00",
+    "timeInPort": "14h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-11-09",
+    "ship": "Viking Libra",
+    "cruiseLine": "Viking Cruises",
+    "arrival": "",
+    "departure": "",
+    "timeInPort": null,
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-11-10",
+    "ship": "MSC Armonia",
+    "cruiseLine": "MSC Cruises",
+    "arrival": "08:00",
+    "departure": "18:00",
+    "timeInPort": "10h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-11-10",
+    "ship": "MSC Magnifica",
+    "cruiseLine": "MSC Cruises",
+    "arrival": "07:00",
+    "departure": "17:00",
+    "timeInPort": "10h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-11-11",
+    "ship": "Norwegian Star",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "09:00",
+    "departure": "22:00",
+    "timeInPort": "13h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-11-11",
+    "ship": "Seabourn Ovation",
+    "cruiseLine": "Seabourn",
+    "arrival": "09:00",
+    "departure": "23:00",
+    "timeInPort": "14h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-11-14",
+    "ship": "Aurora",
+    "cruiseLine": "P & O Cruises",
+    "arrival": "",
+    "departure": "",
+    "timeInPort": null,
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-11-14",
+    "ship": "Coral Princess",
+    "cruiseLine": "Princess Cruises",
+    "arrival": "07:00",
+    "departure": "20:00",
+    "timeInPort": "13h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-11-14",
+    "ship": "Viking Sea",
+    "cruiseLine": "Viking Cruises",
+    "arrival": "",
+    "departure": "",
+    "timeInPort": null,
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-11-15",
+    "ship": "Celebrity Equinox",
+    "cruiseLine": "Celebrity Cruises",
+    "arrival": "11:00",
+    "departure": "21:00",
+    "timeInPort": "10h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-11-15",
+    "ship": "Ventura",
+    "cruiseLine": "P & O Cruises",
+    "arrival": "",
+    "departure": "",
+    "timeInPort": null,
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-11-16",
+    "ship": "Viking Sky",
+    "cruiseLine": "Viking Cruises",
+    "arrival": "",
+    "departure": "",
+    "timeInPort": null,
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-11-17",
+    "ship": "Rhapsody Of The Seas",
+    "cruiseLine": "Royal Caribbean Cruises",
+    "arrival": "08:00",
+    "departure": "18:00",
+    "timeInPort": "10h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-11-17",
+    "ship": "Silver Ray",
+    "cruiseLine": "Silversea Cruises",
+    "arrival": "08:00",
+    "departure": "18:00",
+    "timeInPort": "10h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-11-18",
+    "ship": "AIDAstella",
+    "cruiseLine": "AIDA",
+    "arrival": "07:30",
+    "departure": "16:30",
+    "timeInPort": "9h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-11-18",
+    "ship": "Star Legend",
+    "cruiseLine": "Windstar Cruises",
+    "arrival": "07:00",
+    "departure": "23:59",
+    "timeInPort": "16h 59m",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-11-20",
+    "ship": "MSC Magnifica",
+    "cruiseLine": "MSC Cruises",
+    "arrival": "07:00",
+    "departure": "17:00",
+    "timeInPort": "10h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-11-21",
+    "ship": "Oceania Sonata",
+    "cruiseLine": "Oceania Cruises",
+    "arrival": "07:00",
+    "departure": "19:00",
+    "timeInPort": "12h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-11-21",
+    "ship": "Viking Vela",
+    "cruiseLine": "Viking Cruises",
+    "arrival": "",
+    "departure": "",
+    "timeInPort": null,
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-11-24",
+    "ship": "Queen Victoria",
+    "cruiseLine": "Cunard Line",
+    "arrival": "",
+    "departure": "",
+    "timeInPort": null,
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-11-25",
+    "ship": "Nieuw Statendam",
+    "cruiseLine": "Holland America Line",
+    "arrival": "10:00",
+    "departure": "18:00",
+    "timeInPort": "8h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-11-25",
+    "ship": "Norwegian Star",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "09:00",
+    "departure": "22:00",
+    "timeInPort": "13h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-11-25",
+    "ship": "Silver Dawn",
+    "cruiseLine": "Silversea Cruises",
+    "arrival": "09:00",
+    "departure": "23:00",
+    "timeInPort": "14h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-11-25",
+    "ship": "Viking Vela",
+    "cruiseLine": "Viking Cruises",
+    "arrival": "",
+    "departure": "",
+    "timeInPort": null,
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-11-27",
+    "ship": "Britannia",
+    "cruiseLine": "P & O Cruises",
+    "arrival": "",
+    "departure": "",
+    "timeInPort": null,
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-11-27",
+    "ship": "Spirit Of Adventure",
+    "cruiseLine": "Saga Cruises",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-11-28",
+    "ship": "Silver Spirit",
+    "cruiseLine": "Silversea Cruises",
+    "arrival": "08:30",
+    "departure": "19:00",
+    "timeInPort": "10h 30m",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-11-29",
+    "ship": "Costa Deliziosa",
+    "cruiseLine": "Costa Cruises",
+    "arrival": "07:30",
+    "departure": "17:00",
+    "timeInPort": "9h 30m",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-11-29",
+    "ship": "Silver Nova",
+    "cruiseLine": "Silversea Cruises",
+    "arrival": "08:00",
+    "departure": "",
+    "timeInPort": null,
+    "callType": "Port of call",
+    "notes": "overnight/next-day timing"
+  },
+  {
+    "date": "2027-11-29",
+    "ship": "Ventura",
+    "cruiseLine": "P & O Cruises",
+    "arrival": "",
+    "departure": "",
+    "timeInPort": null,
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-11-30",
+    "ship": "MSC Magnifica",
+    "cruiseLine": "MSC Cruises",
+    "arrival": "07:00",
+    "departure": "17:00",
+    "timeInPort": "10h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-12-01",
+    "ship": "Silver Ray",
+    "cruiseLine": "Silversea Cruises",
+    "arrival": "08:00",
+    "departure": "19:00",
+    "timeInPort": "11h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-12-02",
+    "ship": "Viking Star",
+    "cruiseLine": "Viking Cruises",
+    "arrival": "",
+    "departure": "",
+    "timeInPort": null,
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-12-03",
+    "ship": "Celestyal Discovery",
+    "cruiseLine": "Celestyal Cruises",
+    "arrival": "08:00",
+    "departure": "18:00",
+    "timeInPort": "10h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-12-03",
+    "ship": "Viking Astrea",
+    "cruiseLine": "Viking Cruises",
+    "arrival": "",
+    "departure": "",
+    "timeInPort": null,
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-12-06",
+    "ship": "Oceania Marina",
+    "cruiseLine": "Oceania Cruises",
+    "arrival": "07:00",
+    "departure": "15:00",
+    "timeInPort": "8h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-12-06",
+    "ship": "Viking Mira",
+    "cruiseLine": "Viking Cruises",
+    "arrival": "",
+    "departure": "",
+    "timeInPort": null,
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-12-10",
+    "ship": "MSC Magnifica",
+    "cruiseLine": "MSC Cruises",
+    "arrival": "07:00",
+    "departure": "17:00",
+    "timeInPort": "10h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-12-10",
+    "ship": "Viking Mira",
+    "cruiseLine": "Viking Cruises",
+    "arrival": "",
+    "departure": "",
+    "timeInPort": null,
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-12-11",
+    "ship": "Borealis",
+    "cruiseLine": "Fred Olsen Cruise Lines",
+    "arrival": "",
+    "departure": "",
+    "timeInPort": null,
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-12-11",
+    "ship": "Viking Astrea",
+    "cruiseLine": "Viking Cruises",
+    "arrival": "",
+    "departure": "",
+    "timeInPort": null,
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-12-12",
+    "ship": "Queen Victoria",
+    "cruiseLine": "Cunard Line",
+    "arrival": "",
+    "departure": "",
+    "timeInPort": null,
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-12-14",
+    "ship": "Viking Saturn",
+    "cruiseLine": "Viking Cruises",
+    "arrival": "",
+    "departure": "",
+    "timeInPort": null,
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-12-15",
+    "ship": "AIDAsol",
+    "cruiseLine": "AIDA",
+    "arrival": "08:00",
+    "departure": "18:00",
+    "timeInPort": "10h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-12-15",
+    "ship": "Viking Astrea",
+    "cruiseLine": "Viking Cruises",
+    "arrival": "",
+    "departure": "",
+    "timeInPort": null,
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-12-17",
+    "ship": "Britannia",
+    "cruiseLine": "P & O Cruises",
+    "arrival": "",
+    "departure": "",
+    "timeInPort": null,
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-12-17",
+    "ship": "Celestyal Discovery",
+    "cruiseLine": "Celestyal Cruises",
+    "arrival": "10:00",
+    "departure": "18:00",
+    "timeInPort": "8h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-12-18",
+    "ship": "Arcadia",
+    "cruiseLine": "P & O Cruises",
+    "arrival": "",
+    "departure": "",
+    "timeInPort": null,
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-12-18",
+    "ship": "Viking Saturn",
+    "cruiseLine": "Viking Cruises",
+    "arrival": "",
+    "departure": "",
+    "timeInPort": null,
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-12-20",
+    "ship": "Balmoral",
+    "cruiseLine": "Fred Olsen Cruise Lines",
+    "arrival": "",
+    "departure": "",
+    "timeInPort": null,
+    "callType": "Port of call",
+    "notes": "overnight/next-day timing"
+  },
+  {
+    "date": "2027-12-20",
+    "ship": "MSC Magnifica",
+    "cruiseLine": "MSC Cruises",
+    "arrival": "07:00",
+    "departure": "17:00",
+    "timeInPort": "10h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-12-21",
+    "ship": "Azamara Journey",
+    "cruiseLine": "Azamara Cruises",
+    "arrival": "08:00",
+    "departure": "22:00",
+    "timeInPort": "14h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-12-23",
+    "ship": "Oceania Allura",
+    "cruiseLine": "Oceania Cruises",
+    "arrival": "07:00",
+    "departure": "19:00",
+    "timeInPort": "12h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-12-24",
+    "ship": "Mein Schiff Relax",
+    "cruiseLine": "TUI Cruises",
+    "arrival": "08:00",
+    "departure": "19:00",
+    "timeInPort": "11h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-12-24",
+    "ship": "Spirit Of Discovery",
+    "cruiseLine": "Saga Cruises",
+    "arrival": "08:00",
+    "departure": "16:30",
+    "timeInPort": "8h 30m",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-12-26",
+    "ship": "Arcadia",
+    "cruiseLine": "P & O Cruises",
+    "arrival": "",
+    "departure": "",
+    "timeInPort": null,
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-12-30",
+    "ship": "MSC Magnifica",
+    "cruiseLine": "MSC Cruises",
+    "arrival": "07:00",
+    "departure": "17:00",
+    "timeInPort": "10h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-12-31",
+    "ship": "Celestyal Discovery",
+    "cruiseLine": "Celestyal Cruises",
+    "arrival": "10:00",
+    "departure": "18:00",
+    "timeInPort": "8h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2027-12-31",
+    "ship": "Viking Star",
+    "cruiseLine": "Viking Cruises",
+    "arrival": "",
+    "departure": "",
+    "timeInPort": null,
+    "callType": "Port of call"
+  },
+  {
+    "date": "2028-01-02",
+    "ship": "Oceania Aurelia",
+    "cruiseLine": "Oceania Cruises",
+    "arrival": "07:00",
+    "departure": "",
+    "timeInPort": null,
+    "callType": "Port of call",
+    "notes": "overnight/next-day timing"
+  },
+  {
+    "date": "2028-01-10",
+    "ship": "Viking Neptune",
+    "cruiseLine": "Viking Cruises",
+    "arrival": "",
+    "departure": "",
+    "timeInPort": null,
+    "callType": "Port of call"
+  },
+  {
+    "date": "2028-01-12",
+    "ship": "AIDAsol",
+    "cruiseLine": "AIDA",
+    "arrival": "08:00",
+    "departure": "18:00",
+    "timeInPort": "10h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2028-01-13",
+    "ship": "Nieuw Statendam",
+    "cruiseLine": "Holland America Line",
+    "arrival": "10:00",
+    "departure": "20:00",
+    "timeInPort": "10h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2028-01-13",
+    "ship": "Oceania Allura",
+    "cruiseLine": "Oceania Cruises",
+    "arrival": "07:00",
+    "departure": "19:00",
+    "timeInPort": "12h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2028-01-14",
+    "ship": "Celestyal Discovery",
+    "cruiseLine": "Celestyal Cruises",
+    "arrival": "10:00",
+    "departure": "18:00",
+    "timeInPort": "8h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2028-01-17",
+    "ship": "Viking Libra",
+    "cruiseLine": "Viking Cruises",
+    "arrival": "",
+    "departure": "",
+    "timeInPort": null,
+    "callType": "Port of call"
+  },
+  {
+    "date": "2028-01-19",
+    "ship": "Azamara Journey",
+    "cruiseLine": "Azamara Cruises",
+    "arrival": "09:00",
+    "departure": "",
+    "timeInPort": null,
+    "callType": "Port of call",
+    "notes": "overnight/next-day timing"
+  },
+  {
+    "date": "2028-01-21",
+    "ship": "Oceania Allura",
+    "cruiseLine": "Oceania Cruises",
+    "arrival": "07:00",
+    "departure": "19:00",
+    "timeInPort": "12h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2028-01-22",
+    "ship": "AIDAmar",
+    "cruiseLine": "AIDA",
+    "arrival": "11:00",
+    "departure": "20:00",
+    "timeInPort": "9h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2028-01-22",
+    "ship": "Viking Star",
+    "cruiseLine": "Viking Cruises",
+    "arrival": "",
+    "departure": "",
+    "timeInPort": null,
+    "callType": "Port of call"
+  },
+  {
+    "date": "2028-01-26",
+    "ship": "Viking Star",
+    "cruiseLine": "Viking Cruises",
+    "arrival": "",
+    "departure": "",
+    "timeInPort": null,
+    "callType": "Port of call"
+  },
+  {
+    "date": "2028-01-27",
+    "ship": "Queen Victoria",
+    "cruiseLine": "Cunard Line",
+    "arrival": "",
+    "departure": "",
+    "timeInPort": null,
+    "callType": "Port of call"
+  },
+  {
+    "date": "2028-01-28",
+    "ship": "Celestyal Discovery",
+    "cruiseLine": "Celestyal Cruises",
+    "arrival": "10:00",
+    "departure": "18:00",
+    "timeInPort": "8h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2028-02-03",
+    "ship": "Ventura",
+    "cruiseLine": "P & O Cruises",
+    "arrival": "",
+    "departure": "",
+    "timeInPort": null,
+    "callType": "Port of call"
+  },
+  {
+    "date": "2028-02-07",
+    "ship": "Viking Mira",
+    "cruiseLine": "Viking Cruises",
+    "arrival": "",
+    "departure": "",
+    "timeInPort": null,
+    "callType": "Port of call"
+  },
+  {
+    "date": "2028-02-11",
+    "ship": "Celestyal Discovery",
+    "cruiseLine": "Celestyal Cruises",
+    "arrival": "10:00",
+    "departure": "18:00",
+    "timeInPort": "8h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2028-02-16",
+    "ship": "Viking Saturn",
+    "cruiseLine": "Viking Cruises",
+    "arrival": "",
+    "departure": "",
+    "timeInPort": null,
+    "callType": "Port of call"
+  },
+  {
+    "date": "2028-02-18",
+    "ship": "Britannia",
+    "cruiseLine": "P & O Cruises",
+    "arrival": "",
+    "departure": "",
+    "timeInPort": null,
+    "callType": "Port of call"
+  },
+  {
+    "date": "2028-02-20",
+    "ship": "Viking Vela",
+    "cruiseLine": "Viking Cruises",
+    "arrival": "",
+    "departure": "",
+    "timeInPort": null,
+    "callType": "Port of call"
+  },
+  {
+    "date": "2028-02-21",
+    "ship": "Zuiderdam",
+    "cruiseLine": "Holland America Line",
+    "arrival": "08:00",
+    "departure": "20:00",
+    "timeInPort": "12h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2028-02-24",
+    "ship": "Viking Vela",
+    "cruiseLine": "Viking Cruises",
+    "arrival": "",
+    "departure": "",
+    "timeInPort": null,
+    "callType": "Port of call"
+  },
+  {
+    "date": "2028-03-02",
+    "ship": "Viking Saturn",
+    "cruiseLine": "Viking Cruises",
+    "arrival": "",
+    "departure": "",
+    "timeInPort": null,
+    "callType": "Port of call"
+  },
+  {
+    "date": "2028-03-11",
+    "ship": "Viking Sky",
+    "cruiseLine": "Viking Cruises",
+    "arrival": "",
+    "departure": "",
+    "timeInPort": null,
+    "callType": "Port of call"
+  },
+  {
+    "date": "2028-03-14",
+    "ship": "Viking Libra",
+    "cruiseLine": "Viking Cruises",
+    "arrival": "",
+    "departure": "",
+    "timeInPort": null,
+    "callType": "Port of call"
+  },
+  {
+    "date": "2028-03-16",
+    "ship": "Britannia",
+    "cruiseLine": "P & O Cruises",
+    "arrival": "",
+    "departure": "",
+    "timeInPort": null,
+    "callType": "Port of call"
+  },
+  {
+    "date": "2028-03-20",
+    "ship": "Nieuw Statendam",
+    "cruiseLine": "Holland America Line",
+    "arrival": "07:00",
+    "departure": "15:00",
+    "timeInPort": "8h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2028-03-22",
+    "ship": "Azura",
+    "cruiseLine": "P & O Cruises",
+    "arrival": "",
+    "departure": "",
+    "timeInPort": null,
+    "callType": "Port of call"
+  },
+  {
+    "date": "2028-03-22",
+    "ship": "Viking Sea",
+    "cruiseLine": "Viking Cruises",
+    "arrival": "",
+    "departure": "",
+    "timeInPort": null,
+    "callType": "Port of call"
+  },
+  {
+    "date": "2028-03-29",
+    "ship": "Britannia",
+    "cruiseLine": "P & O Cruises",
+    "arrival": "",
+    "departure": "",
+    "timeInPort": null,
+    "callType": "Port of call"
+  },
+  {
+    "date": "2028-03-29",
+    "ship": "Oceania Sonata",
+    "cruiseLine": "Oceania Cruises",
+    "arrival": "10:00",
+    "departure": "18:00",
+    "timeInPort": "8h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2028-03-29",
+    "ship": "Seven Seas Voyager",
+    "cruiseLine": "Regent Seven Seas Cruises",
+    "arrival": "10:00",
+    "departure": "18:00",
+    "timeInPort": "8h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2028-03-30",
+    "ship": "Azamara Journey",
+    "cruiseLine": "Azamara Cruises",
+    "arrival": "08:00",
+    "departure": "22:00",
+    "timeInPort": "14h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2028-04-01",
+    "ship": "Explora II",
+    "cruiseLine": "Explora Journeys",
+    "arrival": "09:00",
+    "departure": "21:00",
+    "timeInPort": "12h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2028-04-01",
+    "ship": "Mein Schiff 5",
+    "cruiseLine": "TUI Cruises",
+    "arrival": "09:00",
+    "departure": "20:00",
+    "timeInPort": "11h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2028-04-04",
+    "ship": "Mein Schiff 7",
+    "cruiseLine": "TUI Cruises",
+    "arrival": "08:00",
+    "departure": "18:00",
+    "timeInPort": "10h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2028-04-04",
+    "ship": "Viking Mira",
+    "cruiseLine": "Viking Cruises",
+    "arrival": "",
+    "departure": "",
+    "timeInPort": null,
+    "callType": "Port of call"
+  },
+  {
+    "date": "2028-04-05",
+    "ship": "Europa 2",
+    "cruiseLine": "Hapag Lloyd",
+    "arrival": "08:00",
+    "departure": "18:00",
+    "timeInPort": "10h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2028-04-05",
+    "ship": "Oceania Marina",
+    "cruiseLine": "Oceania Cruises",
+    "arrival": "07:00",
+    "departure": "19:00",
+    "timeInPort": "12h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2028-04-05",
+    "ship": "Silver Spirit",
+    "cruiseLine": "Silversea Cruises",
+    "arrival": "08:00",
+    "departure": "23:00",
+    "timeInPort": "15h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2028-04-06",
+    "ship": "MSC Seashore",
+    "cruiseLine": "MSC Cruises",
+    "arrival": "08:00",
+    "departure": "18:00",
+    "timeInPort": "10h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2028-04-08",
+    "ship": "Seabourn Ovation",
+    "cruiseLine": "Seabourn",
+    "arrival": "08:00",
+    "departure": "23:00",
+    "timeInPort": "15h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2028-04-08",
+    "ship": "Seven Seas Prestige",
+    "cruiseLine": "Regent Seven Seas Cruises",
+    "arrival": "07:00",
+    "departure": "16:00",
+    "timeInPort": "9h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2028-04-10",
+    "ship": "AIDAprima",
+    "cruiseLine": "AIDA",
+    "arrival": "09:00",
+    "departure": "20:00",
+    "timeInPort": "11h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2028-04-11",
+    "ship": "Queen Mary 2",
+    "cruiseLine": "Cunard Line",
+    "arrival": "",
+    "departure": "",
+    "timeInPort": null,
+    "callType": "Port of call"
+  },
+  {
+    "date": "2028-04-11",
+    "ship": "Ventura",
+    "cruiseLine": "P & O Cruises",
+    "arrival": "",
+    "departure": "",
+    "timeInPort": null,
+    "callType": "Port of call"
+  },
+  {
+    "date": "2028-04-12",
+    "ship": "Mein Schiff 7",
+    "cruiseLine": "TUI Cruises",
+    "arrival": "08:00",
+    "departure": "20:00",
+    "timeInPort": "12h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2028-04-14",
+    "ship": "Viking Saturn",
+    "cruiseLine": "Viking Cruises",
+    "arrival": "",
+    "departure": "",
+    "timeInPort": null,
+    "callType": "Port of call"
+  },
+  {
+    "date": "2028-04-15",
+    "ship": "Coral Princess",
+    "cruiseLine": "Princess Cruises",
+    "arrival": "07:00",
+    "departure": "19:00",
+    "timeInPort": "12h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2028-04-15",
+    "ship": "Explora II",
+    "cruiseLine": "Explora Journeys",
+    "arrival": "08:00",
+    "departure": "20:00",
+    "timeInPort": "12h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2028-04-16",
+    "ship": "Azamara Quest",
+    "cruiseLine": "Azamara Cruises",
+    "arrival": "08:00",
+    "departure": "22:00",
+    "timeInPort": "14h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2028-04-16",
+    "ship": "Viking Vela",
+    "cruiseLine": "Viking Cruises",
+    "arrival": "",
+    "departure": "",
+    "timeInPort": null,
+    "callType": "Port of call"
+  },
+  {
+    "date": "2028-04-18",
+    "ship": "Norwegian Pearl",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "09:00",
+    "departure": "19:00",
+    "timeInPort": "10h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2028-04-18",
+    "ship": "Seven Seas Prestige",
+    "cruiseLine": "Regent Seven Seas Cruises",
+    "arrival": "07:00",
+    "departure": "16:00",
+    "timeInPort": "9h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2028-04-18",
+    "ship": "Seven Seas Prestige",
+    "cruiseLine": "Regent Seven Seas Cruises",
+    "arrival": "09:00",
+    "departure": "23:00",
+    "timeInPort": "14h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2028-04-20",
+    "ship": "Viking Vela",
+    "cruiseLine": "Viking Cruises",
+    "arrival": "",
+    "departure": "",
+    "timeInPort": null,
+    "callType": "Port of call"
+  },
+  {
+    "date": "2028-04-21",
+    "ship": "Silver Spirit",
+    "cruiseLine": "Silversea Cruises",
+    "arrival": "08:00",
+    "departure": "23:00",
+    "timeInPort": "15h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2028-04-24",
+    "ship": "Caribbean Princess",
+    "cruiseLine": "Princess Cruises",
+    "arrival": "07:00",
+    "departure": "17:00",
+    "timeInPort": "10h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2028-04-25",
+    "ship": "AIDAcosma",
+    "cruiseLine": "AIDA",
+    "arrival": "08:00",
+    "departure": "20:00",
+    "timeInPort": "12h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2028-04-25",
+    "ship": "Sky Princess",
+    "cruiseLine": "Princess Cruises",
+    "arrival": "10:00",
+    "departure": "20:00",
+    "timeInPort": "10h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2028-04-26",
+    "ship": "Seabourn Quest",
+    "cruiseLine": "Seabourn",
+    "arrival": "07:00",
+    "departure": "23:00",
+    "timeInPort": "16h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2028-04-26",
+    "ship": "Silver Spirit",
+    "cruiseLine": "Silversea Cruises",
+    "arrival": "08:00",
+    "departure": "22:00",
+    "timeInPort": "14h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2028-04-27",
+    "ship": "Explora V",
+    "cruiseLine": "Explora Journeys",
+    "arrival": "08:00",
+    "departure": "20:00",
+    "timeInPort": "12h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2028-04-29",
+    "ship": "Aurora",
+    "cruiseLine": "P & O Cruises",
+    "arrival": "",
+    "departure": "",
+    "timeInPort": null,
+    "callType": "Port of call"
+  },
+  {
+    "date": "2028-04-29",
+    "ship": "MSC Euribia",
+    "cruiseLine": "MSC Cruises",
+    "arrival": "08:00",
+    "departure": "18:00",
+    "timeInPort": "10h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2028-05-02",
+    "ship": "Ventura",
+    "cruiseLine": "P & O Cruises",
+    "arrival": "",
+    "departure": "",
+    "timeInPort": null,
+    "callType": "Port of call"
+  },
+  {
+    "date": "2028-05-04",
+    "ship": "Explora II",
+    "cruiseLine": "Explora Journeys",
+    "arrival": "08:00",
+    "departure": "20:00",
+    "timeInPort": "12h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2028-05-06",
+    "ship": "Silver Spirit",
+    "cruiseLine": "Silversea Cruises",
+    "arrival": "08:00",
+    "departure": "22:00",
+    "timeInPort": "14h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2028-05-06",
+    "ship": "Silver Spirit",
+    "cruiseLine": "Silversea Cruises",
+    "arrival": "07:00",
+    "departure": "23:00",
+    "timeInPort": "16h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2028-05-07",
+    "ship": "Crystal Serenity",
+    "cruiseLine": "Crystal Cruises",
+    "arrival": "07:00",
+    "departure": "20:00",
+    "timeInPort": "13h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2028-05-08",
+    "ship": "Britannia",
+    "cruiseLine": "P & O Cruises",
+    "arrival": "",
+    "departure": "",
+    "timeInPort": null,
+    "callType": "Port of call"
+  },
+  {
+    "date": "2028-05-08",
+    "ship": "SeaDream II",
+    "cruiseLine": "SeaDream Yacht Club",
+    "arrival": "",
+    "departure": "",
+    "timeInPort": null,
+    "callType": "Port of call"
+  },
+  {
+    "date": "2028-05-08",
+    "ship": "Seven Seas Grandeur",
+    "cruiseLine": "Regent Seven Seas Cruises",
+    "arrival": "07:00",
+    "departure": "18:00",
+    "timeInPort": "11h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2028-05-09",
+    "ship": "MSC Sinfonia",
+    "cruiseLine": "MSC Cruises",
+    "arrival": "07:00",
+    "departure": "17:00",
+    "timeInPort": "10h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2028-05-09",
+    "ship": "Viking Vesta",
+    "cruiseLine": "Viking Cruises",
+    "arrival": "",
+    "departure": "",
+    "timeInPort": null,
+    "callType": "Port of call"
+  },
+  {
+    "date": "2028-05-10",
+    "ship": "Seven Seas Voyager",
+    "cruiseLine": "Regent Seven Seas Cruises",
+    "arrival": "07:00",
+    "departure": "22:00",
+    "timeInPort": "15h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2028-05-14",
+    "ship": "Viking Vela",
+    "cruiseLine": "Viking Cruises",
+    "arrival": "",
+    "departure": "",
+    "timeInPort": null,
+    "callType": "Port of call"
+  },
+  {
+    "date": "2028-05-17",
+    "ship": "Ambition",
+    "cruiseLine": "Ambassador Cruise Line",
+    "arrival": "08:00",
+    "departure": "18:00",
+    "timeInPort": "10h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2028-05-18",
+    "ship": "Viking Vela",
+    "cruiseLine": "Viking Cruises",
+    "arrival": "",
+    "departure": "",
+    "timeInPort": null,
+    "callType": "Port of call"
+  },
+  {
+    "date": "2028-05-19",
+    "ship": "MSC Sinfonia",
+    "cruiseLine": "MSC Cruises",
+    "arrival": "07:00",
+    "departure": "17:00",
+    "timeInPort": "10h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2028-05-21",
+    "ship": "Queen Elizabeth",
+    "cruiseLine": "Cunard Line",
+    "arrival": "",
+    "departure": "",
+    "timeInPort": null,
+    "callType": "Port of call"
+  },
+  {
+    "date": "2028-05-21",
+    "ship": "Seven Seas Mariner",
+    "cruiseLine": "Regent Seven Seas Cruises",
+    "arrival": "07:00",
+    "departure": "17:30",
+    "timeInPort": "10h 30m",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2028-05-23",
+    "ship": "Ventura",
+    "cruiseLine": "P & O Cruises",
+    "arrival": "",
+    "departure": "",
+    "timeInPort": null,
+    "callType": "Port of call"
+  },
+  {
+    "date": "2028-05-29",
+    "ship": "AIDAstella",
+    "cruiseLine": "AIDA",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2028-05-29",
+    "ship": "MSC Sinfonia",
+    "cruiseLine": "MSC Cruises",
+    "arrival": "07:00",
+    "departure": "17:00",
+    "timeInPort": "10h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2028-05-30",
+    "ship": "AIDAprima",
+    "cruiseLine": "AIDA",
+    "arrival": "09:00",
+    "departure": "18:00",
+    "timeInPort": "9h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2028-05-30",
+    "ship": "Viking Star",
+    "cruiseLine": "Viking Cruises",
+    "arrival": "",
+    "departure": "",
+    "timeInPort": null,
+    "callType": "Port of call"
+  },
+  {
+    "date": "2028-06-01",
+    "ship": "Viking Jupiter",
+    "cruiseLine": "Viking Cruises",
+    "arrival": "",
+    "departure": "",
+    "timeInPort": null,
+    "callType": "Port of call"
+  },
+  {
+    "date": "2028-06-05",
+    "ship": "Viking Jupiter",
+    "cruiseLine": "Viking Cruises",
+    "arrival": "",
+    "departure": "",
+    "timeInPort": null,
+    "callType": "Port of call"
+  },
+  {
+    "date": "2028-06-07",
+    "ship": "AIDAstella",
+    "cruiseLine": "AIDA",
+    "arrival": "08:00",
+    "departure": "18:00",
+    "timeInPort": "10h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2028-06-07",
+    "ship": "Seven Seas Mariner",
+    "cruiseLine": "Regent Seven Seas Cruises",
+    "arrival": "07:00",
+    "departure": "22:00",
+    "timeInPort": "15h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2028-06-08",
+    "ship": "MSC Sinfonia",
+    "cruiseLine": "MSC Cruises",
+    "arrival": "07:00",
+    "departure": "17:00",
+    "timeInPort": "10h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2028-06-10",
+    "ship": "Arcadia",
+    "cruiseLine": "P & O Cruises",
+    "arrival": "",
+    "departure": "",
+    "timeInPort": null,
+    "callType": "Port of call"
+  },
+  {
+    "date": "2028-06-10",
+    "ship": "Crystal Serenity",
+    "cruiseLine": "Crystal Cruises",
+    "arrival": "07:00",
+    "departure": "18:00",
+    "timeInPort": "11h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2028-06-13",
+    "ship": "Ventura",
+    "cruiseLine": "P & O Cruises",
+    "arrival": "",
+    "departure": "",
+    "timeInPort": null,
+    "callType": "Port of call"
+  },
+  {
+    "date": "2028-06-18",
+    "ship": "MSC Sinfonia",
+    "cruiseLine": "MSC Cruises",
+    "arrival": "07:00",
+    "departure": "17:00",
+    "timeInPort": "10h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2028-06-18",
+    "ship": "Oceania Allura",
+    "cruiseLine": "Oceania Cruises",
+    "arrival": "10:00",
+    "departure": "20:00",
+    "timeInPort": "10h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2028-06-19",
+    "ship": "Europa",
+    "cruiseLine": "Hapag Lloyd",
+    "arrival": "07:00",
+    "departure": "19:00",
+    "timeInPort": "12h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2028-06-19",
+    "ship": "Viking Lyra",
+    "cruiseLine": "Viking Cruises",
+    "arrival": "",
+    "departure": "",
+    "timeInPort": null,
+    "callType": "Port of call"
+  },
+  {
+    "date": "2028-06-20",
+    "ship": "Britannia",
+    "cruiseLine": "P & O Cruises",
+    "arrival": "",
+    "departure": "",
+    "timeInPort": null,
+    "callType": "Port of call"
+  },
+  {
+    "date": "2028-06-20",
+    "ship": "Queen Victoria",
+    "cruiseLine": "Cunard Line",
+    "arrival": "",
+    "departure": "",
+    "timeInPort": null,
+    "callType": "Port of call"
+  },
+  {
+    "date": "2028-06-22",
+    "ship": "Aurora",
+    "cruiseLine": "P & O Cruises",
+    "arrival": "",
+    "departure": "",
+    "timeInPort": null,
+    "callType": "Port of call"
+  },
+  {
+    "date": "2028-06-25",
+    "ship": "Oceania Marina",
+    "cruiseLine": "Oceania Cruises",
+    "arrival": "07:00",
+    "departure": "",
+    "timeInPort": null,
+    "callType": "Port of call",
+    "notes": "overnight/next-day timing"
+  },
+  {
+    "date": "2028-06-28",
+    "ship": "MSC Sinfonia",
+    "cruiseLine": "MSC Cruises",
+    "arrival": "07:00",
+    "departure": "17:00",
+    "timeInPort": "10h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2028-06-29",
+    "ship": "Oceania Marina",
+    "cruiseLine": "Oceania Cruises",
+    "arrival": "08:00",
+    "departure": "",
+    "timeInPort": null,
+    "callType": "Port of call",
+    "notes": "overnight/next-day timing"
+  },
+  {
+    "date": "2028-07-03",
+    "ship": "Britannia",
+    "cruiseLine": "P & O Cruises",
+    "arrival": "",
+    "departure": "",
+    "timeInPort": null,
+    "callType": "Port of call"
+  },
+  {
+    "date": "2028-07-08",
+    "ship": "MSC Sinfonia",
+    "cruiseLine": "MSC Cruises",
+    "arrival": "07:00",
+    "departure": "17:00",
+    "timeInPort": "10h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2028-07-10",
+    "ship": "AIDAstella",
+    "cruiseLine": "AIDA",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2028-07-11",
+    "ship": "Ventura",
+    "cruiseLine": "P & O Cruises",
+    "arrival": "",
+    "departure": "",
+    "timeInPort": null,
+    "callType": "Port of call"
+  },
+  {
+    "date": "2028-07-18",
+    "ship": "MSC Sinfonia",
+    "cruiseLine": "MSC Cruises",
+    "arrival": "07:00",
+    "departure": "17:00",
+    "timeInPort": "10h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2028-07-19",
+    "ship": "AIDAstella",
+    "cruiseLine": "AIDA",
+    "arrival": "08:00",
+    "departure": "18:00",
+    "timeInPort": "10h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2028-07-22",
+    "ship": "Europa 2",
+    "cruiseLine": "Hapag Lloyd",
+    "arrival": "08:00",
+    "departure": "20:00",
+    "timeInPort": "12h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2028-07-25",
+    "ship": "Europa",
+    "cruiseLine": "Hapag Lloyd",
+    "arrival": "08:00",
+    "departure": "19:00",
+    "timeInPort": "11h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2028-07-26",
+    "ship": "MSC Meraviglia",
+    "cruiseLine": "MSC Cruises",
+    "arrival": "11:00",
+    "departure": "20:00",
+    "timeInPort": "9h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2028-07-26",
+    "ship": "Viking Star",
+    "cruiseLine": "Viking Cruises",
+    "arrival": "",
+    "departure": "",
+    "timeInPort": null,
+    "callType": "Port of call"
+  },
+  {
+    "date": "2028-07-28",
+    "ship": "MSC Sinfonia",
+    "cruiseLine": "MSC Cruises",
+    "arrival": "07:00",
+    "departure": "17:00",
+    "timeInPort": "10h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2028-07-31",
+    "ship": "Britannia",
+    "cruiseLine": "P & O Cruises",
+    "arrival": "",
+    "departure": "",
+    "timeInPort": null,
+    "callType": "Port of call"
+  },
+  {
+    "date": "2028-08-01",
+    "ship": "Queen Victoria",
+    "cruiseLine": "Cunard Line",
+    "arrival": "",
+    "departure": "",
+    "timeInPort": null,
+    "callType": "Port of call"
+  },
+  {
+    "date": "2028-08-04",
+    "ship": "Oceania Allura",
+    "cruiseLine": "Oceania Cruises",
+    "arrival": "07:00",
+    "departure": "",
+    "timeInPort": null,
+    "callType": "Port of call",
+    "notes": "overnight/next-day timing"
+  },
+  {
+    "date": "2028-08-07",
+    "ship": "MSC Sinfonia",
+    "cruiseLine": "MSC Cruises",
+    "arrival": "07:00",
+    "departure": "17:00",
+    "timeInPort": "10h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2028-08-07",
+    "ship": "Oceania Allura",
+    "cruiseLine": "Oceania Cruises",
+    "arrival": "14:00",
+    "departure": "",
+    "timeInPort": null,
+    "callType": "Port of call",
+    "notes": "overnight/next-day timing"
+  },
+  {
+    "date": "2028-08-14",
+    "ship": "Britannia",
+    "cruiseLine": "P & O Cruises",
+    "arrival": "",
+    "departure": "",
+    "timeInPort": null,
+    "callType": "Port of call"
+  },
+  {
+    "date": "2028-08-14",
+    "ship": "Seven Seas Explorer",
+    "cruiseLine": "Regent Seven Seas Cruises",
+    "arrival": "07:00",
+    "departure": "22:00",
+    "timeInPort": "15h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2028-08-15",
+    "ship": "Ambition",
+    "cruiseLine": "Ambassador Cruise Line",
+    "arrival": "08:00",
+    "departure": "19:00",
+    "timeInPort": "11h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2028-08-17",
+    "ship": "MSC Sinfonia",
+    "cruiseLine": "MSC Cruises",
+    "arrival": "07:00",
+    "departure": "17:00",
+    "timeInPort": "10h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2028-08-17",
+    "ship": "Seven Seas Explorer",
+    "cruiseLine": "Regent Seven Seas Cruises",
+    "arrival": "13:00",
+    "departure": "",
+    "timeInPort": null,
+    "callType": "Port of call",
+    "notes": "overnight/next-day timing"
+  },
+  {
+    "date": "2028-08-21",
+    "ship": "AIDAstella",
+    "cruiseLine": "AIDA",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2028-08-22",
+    "ship": "Sky Princess",
+    "cruiseLine": "Princess Cruises",
+    "arrival": "10:00",
+    "departure": "20:00",
+    "timeInPort": "10h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2028-08-22",
+    "ship": "Ventura",
+    "cruiseLine": "P & O Cruises",
+    "arrival": "",
+    "departure": "",
+    "timeInPort": null,
+    "callType": "Port of call"
+  },
+  {
+    "date": "2028-08-23",
+    "ship": "MSC Meraviglia",
+    "cruiseLine": "MSC Cruises",
+    "arrival": "07:00",
+    "departure": "18:00",
+    "timeInPort": "11h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2028-08-27",
+    "ship": "MSC Sinfonia",
+    "cruiseLine": "MSC Cruises",
+    "arrival": "07:00",
+    "departure": "17:00",
+    "timeInPort": "10h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2028-08-30",
+    "ship": "AIDAstella",
+    "cruiseLine": "AIDA",
+    "arrival": "08:00",
+    "departure": "18:00",
+    "timeInPort": "10h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2028-09-05",
+    "ship": "Ventura",
+    "cruiseLine": "P & O Cruises",
+    "arrival": "",
+    "departure": "",
+    "timeInPort": null,
+    "callType": "Port of call"
+  },
+  {
+    "date": "2028-09-06",
+    "ship": "MSC Sinfonia",
+    "cruiseLine": "MSC Cruises",
+    "arrival": "07:00",
+    "departure": "17:00",
+    "timeInPort": "10h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2028-09-16",
+    "ship": "MSC Sinfonia",
+    "cruiseLine": "MSC Cruises",
+    "arrival": "07:00",
+    "departure": "17:00",
+    "timeInPort": "10h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2028-09-18",
+    "ship": "Arcadia",
+    "cruiseLine": "P & O Cruises",
+    "arrival": "",
+    "departure": "",
+    "timeInPort": null,
+    "callType": "Port of call"
+  },
+  {
+    "date": "2028-09-21",
+    "ship": "Viking Jupiter",
+    "cruiseLine": "Viking Cruises",
+    "arrival": "",
+    "departure": "",
+    "timeInPort": null,
+    "callType": "Port of call"
+  },
+  {
+    "date": "2028-09-23",
+    "ship": "Seven Seas Voyager",
+    "cruiseLine": "Regent Seven Seas Cruises",
+    "arrival": "07:00",
+    "departure": "21:00",
+    "timeInPort": "14h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2028-09-26",
+    "ship": "Aurora",
+    "cruiseLine": "P & O Cruises",
+    "arrival": "",
+    "departure": "",
+    "timeInPort": null,
+    "callType": "Port of call"
+  },
+  {
+    "date": "2028-09-26",
+    "ship": "MSC Sinfonia",
+    "cruiseLine": "MSC Cruises",
+    "arrival": "07:00",
+    "departure": "17:00",
+    "timeInPort": "10h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2028-09-26",
+    "ship": "Sky Princess",
+    "cruiseLine": "Princess Cruises",
+    "arrival": "10:00",
+    "departure": "20:00",
+    "timeInPort": "10h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2028-09-26",
+    "ship": "Ventura",
+    "cruiseLine": "P & O Cruises",
+    "arrival": "",
+    "departure": "",
+    "timeInPort": null,
+    "callType": "Port of call"
+  },
+  {
+    "date": "2028-10-01",
+    "ship": "Queen Victoria",
+    "cruiseLine": "Cunard Line",
+    "arrival": "",
+    "departure": "",
+    "timeInPort": null,
+    "callType": "Port of call"
+  },
+  {
+    "date": "2028-10-03",
+    "ship": "Ventura",
+    "cruiseLine": "P & O Cruises",
+    "arrival": "",
+    "departure": "",
+    "timeInPort": null,
+    "callType": "Port of call"
+  },
+  {
+    "date": "2028-10-06",
+    "ship": "Europa 2",
+    "cruiseLine": "Hapag Lloyd",
+    "arrival": "08:00",
+    "departure": "18:00",
+    "timeInPort": "10h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2028-10-06",
+    "ship": "MSC Sinfonia",
+    "cruiseLine": "MSC Cruises",
+    "arrival": "07:00",
+    "departure": "17:00",
+    "timeInPort": "10h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2028-10-07",
+    "ship": "MSC Splendida",
+    "cruiseLine": "MSC Cruises",
+    "arrival": "08:00",
+    "departure": "16:00",
+    "timeInPort": "8h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2028-10-10",
+    "ship": "Iona",
+    "cruiseLine": "P & O Cruises",
+    "arrival": "",
+    "departure": "",
+    "timeInPort": null,
+    "callType": "Port of call"
+  },
+  {
+    "date": "2028-10-16",
+    "ship": "Britannia",
+    "cruiseLine": "P & O Cruises",
+    "arrival": "",
+    "departure": "",
+    "timeInPort": null,
+    "callType": "Port of call"
+  },
+  {
+    "date": "2028-10-16",
+    "ship": "MSC Sinfonia",
+    "cruiseLine": "MSC Cruises",
+    "arrival": "07:00",
+    "departure": "17:00",
+    "timeInPort": "10h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2028-10-17",
+    "ship": "Queen Victoria",
+    "cruiseLine": "Cunard Line",
+    "arrival": "",
+    "departure": "",
+    "timeInPort": null,
+    "callType": "Port of call"
+  },
+  {
+    "date": "2028-10-17",
+    "ship": "Sky Princess",
+    "cruiseLine": "Princess Cruises",
+    "arrival": "10:00",
+    "departure": "20:00",
+    "timeInPort": "10h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2028-10-18",
+    "ship": "MSC Meraviglia",
+    "cruiseLine": "MSC Cruises",
+    "arrival": "08:00",
+    "departure": "18:00",
+    "timeInPort": "10h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2028-10-21",
+    "ship": "Seven Seas Voyager",
+    "cruiseLine": "Regent Seven Seas Cruises",
+    "arrival": "07:00",
+    "departure": "20:00",
+    "timeInPort": "13h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2028-10-24",
+    "ship": "Ventura",
+    "cruiseLine": "P & O Cruises",
+    "arrival": "",
+    "departure": "",
+    "timeInPort": null,
+    "callType": "Port of call"
+  },
+  {
+    "date": "2028-10-26",
+    "ship": "MSC Sinfonia",
+    "cruiseLine": "MSC Cruises",
+    "arrival": "07:00",
+    "departure": "17:00",
+    "timeInPort": "10h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2028-10-28",
+    "ship": "SeaDream II",
+    "cruiseLine": "SeaDream Yacht Club",
+    "arrival": "",
+    "departure": "",
+    "timeInPort": null,
+    "callType": "Port of call"
+  },
+  {
+    "date": "2028-10-30",
+    "ship": "Oceania Sonata",
+    "cruiseLine": "Oceania Cruises",
+    "arrival": "07:00",
+    "departure": "22:00",
+    "timeInPort": "15h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2028-11-01",
+    "ship": "Ambition",
+    "cruiseLine": "Ambassador Cruise Line",
+    "arrival": "08:00",
+    "departure": "18:00",
+    "timeInPort": "10h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2028-11-02",
+    "ship": "Queen Victoria",
+    "cruiseLine": "Cunard Line",
+    "arrival": "",
+    "departure": "",
+    "timeInPort": null,
+    "callType": "Port of call"
+  },
+  {
+    "date": "2028-11-05",
+    "ship": "Arcadia",
+    "cruiseLine": "P & O Cruises",
+    "arrival": "",
+    "departure": "",
+    "timeInPort": null,
+    "callType": "Port of call"
+  },
+  {
+    "date": "2028-11-07",
+    "ship": "Ventura",
+    "cruiseLine": "P & O Cruises",
+    "arrival": "",
+    "departure": "",
+    "timeInPort": null,
+    "callType": "Port of call"
+  },
+  {
+    "date": "2028-11-19",
+    "ship": "Seven Seas Grandeur",
+    "cruiseLine": "Regent Seven Seas Cruises",
+    "arrival": "07:00",
+    "departure": "15:00",
+    "timeInPort": "8h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2028-11-25",
+    "ship": "Seabourn Ovation",
+    "cruiseLine": "Seabourn",
+    "arrival": "08:00",
+    "departure": "23:00",
+    "timeInPort": "15h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2028-12-24",
+    "ship": "Oceania Allura",
+    "cruiseLine": "Oceania Cruises",
+    "arrival": "07:00",
+    "departure": "23:00",
+    "timeInPort": "16h",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2028-12-26",
+    "ship": "Ambition",
+    "cruiseLine": "Ambassador Cruise Line",
+    "arrival": "08:00",
+    "departure": "18:00",
+    "timeInPort": "10h",
+    "callType": "Port of call"
+  }
 ]

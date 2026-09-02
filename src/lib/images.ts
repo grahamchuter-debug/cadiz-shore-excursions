@@ -1,44 +1,125 @@
 export interface SiteImage {
   src: string;
   alt: string;
+  /** Filename stem under /images (no extension). Used by responsive/preload helpers. */
+  base?: string;
+  /** Optional object-position for hero/card crops (portrait sources in landscape frames). */
+  objectPosition?: string;
 }
 
 const B = "/images";
 
+function img(base: string, alt: string, objectPosition?: string): SiteImage {
+  return { base, src: `${B}/${base}.jpg`, alt, objectPosition };
+}
+
+/**
+ * Approved World 2.0 commercial pack (Pexels — see image-credits.ts).
+ * Do not reintroduce legacy unknown-provenance keys for public pages.
+ */
 export const siteImages = {
-  hero: {
-    src: `${B}/hero-home.jpg`,
-    alt: "Cadiz cathedral and Atlantic waterfront above the cruise port",
-  },
-  ogDefault: {
-    src: `${B}/og-default.jpg`,
-    alt: "Cadiz cruise planning — cathedral, waterfront and Andalusian coastline",
-  },
+  hero: img(
+    "cadiz-cathedral-waterfront",
+    "Cádiz Cathedral on the waterfront",
+    "center 40%",
+  ),
+  ogDefault: img(
+    "cadiz-cathedral-coast",
+    "Cádiz Cathedral and the Andalusian coast",
+  ),
   logo: {
     src: `${B}/logo-mark.svg`,
     alt: "Cadiz Shore Excursions",
   },
-  port: {
-    src: `${B}/cruise-port.jpg`,
-    alt: "Cruise ships berthed at the Cadiz cruise terminal on the waterfront",
-  },
+  /** Editorial Cádiz city — not a cruise-pier photograph. */
+  port: img(
+    "cadiz-cathedral-coast",
+    "Cádiz Cathedral and waterfront skyline",
+    "center 45%",
+  ),
 } as const;
 
 export const subjectImages: Record<string, SiteImage> = {
-  seville: { src: `${B}/seville.jpg`, alt: "Plaza de España and Seville's historic centre" },
-  "old-town": { src: `${B}/old-town.jpg`, alt: "Narrow streets and plazas in Cadiz old town" },
-  cathedral: { src: `${B}/cathedral.jpg`, alt: "Cadiz cathedral and golden dome above the Atlantic" },
-  "la-caleta": { src: `${B}/la-caleta.jpg`, alt: "La Caleta beach and castle walls in Cadiz" },
-  sherry: { src: `${B}/sherry.jpg`, alt: "Sherry bodega barrels in Jerez de la Frontera" },
-  "white-villages": { src: `${B}/white-villages.jpg`, alt: "Whitewashed hill town in Andalusia's White Villages" },
-  vejer: { src: `${B}/vejer.jpg`, alt: "Vejer de la Frontera perched above the Andalusian coast" },
-  tapas: { src: `${B}/tapas.jpg`, alt: "Andalusian tapas and fresh seafood in Cadiz" },
-  markets: { src: `${B}/markets.jpg`, alt: "Cadiz central market and local produce stalls" },
-  flamenco: { src: `${B}/flamenco.jpg`, alt: "Flamenco performance in Andalusia" },
-  "city-highlights": { src: `${B}/city-highlights.jpg`, alt: "Cadiz waterfront promenade and Atlantic views" },
-  "private-tour": { src: `${B}/private-tour.jpg`, alt: "Private guided tour exploring Andalusia from Cadiz" },
-  family: { src: `${B}/family.jpg`, alt: "Family-friendly Cadiz sights and open spaces" },
-  planner: { src: `${B}/city-highlights.jpg`, alt: "Planning a Cadiz cruise day in Andalusia" },
+  "seville-plaza-espana-hero": img(
+    "seville-plaza-espana-hero",
+    "Plaza de España in Seville",
+    "center 35%",
+  ),
+  "seville-plaza-espana-canal": img(
+    "seville-plaza-espana-canal",
+    "Canal and tiled balustrade at Plaza de España in Seville",
+    "center 40%",
+  ),
+  "seville-old-town-street": img(
+    "seville-old-town-street",
+    "Narrow historic street in Seville's old town",
+    "center center",
+  ),
+  "seville-street-cafe": img(
+    "seville-street-cafe",
+    "Outdoor café under orange trees in Seville",
+    "center 30%",
+  ),
+  "seville-torre-del-oro": img(
+    "seville-torre-del-oro",
+    "Torre del Oro beside the Guadalquivir in Seville",
+    "center 30%",
+  ),
+  "seville-cathedral-giralda": img(
+    "seville-cathedral-giralda",
+    "Seville Cathedral and the Giralda",
+    "center 35%",
+  ),
+  "seville-giralda-detail": img(
+    "seville-giralda-detail",
+    "Upper stonework of the Giralda bell tower in Seville",
+    "center 25%",
+  ),
+  "seville-alcazar-hero": img(
+    "seville-alcazar-hero",
+    "Courtyard at the Real Alcázar of Seville",
+    "center 40%",
+  ),
+  "seville-alcazar-gardens": img(
+    "seville-alcazar-gardens",
+    "Palm trees and gardens at the Real Alcázar of Seville",
+    "center 40%",
+  ),
+  "seville-alcazar-garden-view": img(
+    "seville-alcazar-garden-view",
+    "Mercury Pond and gallery at the Real Alcázar of Seville",
+    "center 45%",
+  ),
+  "cadiz-cathedral-waterfront": img(
+    "cadiz-cathedral-waterfront",
+    "Cádiz Cathedral on the waterfront",
+    "center 40%",
+  ),
+  "cadiz-cathedral-coast": img(
+    "cadiz-cathedral-coast",
+    "Cádiz Cathedral and the coast",
+    "center 40%",
+  ),
+  "andalusia-vejer-white-village": img(
+    "andalusia-vejer-white-village",
+    "Whitewashed buildings in Vejer de la Frontera",
+    "center 35%",
+  ),
+  "andalusia-vejer-street": img(
+    "andalusia-vejer-street",
+    "Flower-lined whitewashed doorway in Vejer de la Frontera",
+    "center 40%",
+  ),
+  "seville-flamenco": img(
+    "seville-flamenco",
+    "Flamenco performance under the arches of Plaza de España in Seville",
+    "center 40%",
+  ),
+  "seville-tapas-bar": img(
+    "seville-tapas-bar",
+    "Traditional tapas bar interior in Seville",
+    "center 40%",
+  ),
 };
 
 function pick(key: string): SiteImage {
@@ -46,53 +127,71 @@ function pick(key: string): SiteImage {
 }
 
 const excursionImageKeys: Record<string, string> = {
-  "seville-highlights": "seville",
-  "seville-cathedral-and-alcazar": "seville",
-  "cadiz-walking-tour": "old-town",
-  "jerez-and-sherry-experience": "sherry",
-  "white-villages-tour": "white-villages",
-  "andalusian-food-experience": "tapas",
-  "flamenco-experience": "flamenco",
-  "cadiz-highlights": "city-highlights",
-  "private-andalusia-shore-excursion": "private-tour",
-  "small-group-seville-tour": "seville",
+  "seville-on-your-own": "seville-plaza-espana-hero",
+  "small-group-seville": "seville-alcazar-hero",
+  "seville-highlights": "seville-plaza-espana-canal",
+  "seville-cathedral-and-alcazar": "seville-cathedral-giralda",
+  "cadiz-walking-tour": "cadiz-cathedral-coast",
+  /** Jerez bodega image not yet sourced — Cádiz gateway context only. */
+  "jerez-and-sherry-experience": "cadiz-cathedral-waterfront",
+  "white-villages-tour": "andalusia-vejer-white-village",
+  "andalusian-food-experience": "seville-tapas-bar",
+  "flamenco-experience": "seville-flamenco",
+  "cadiz-highlights": "cadiz-cathedral-waterfront",
+  "private-andalusia-shore-excursion": "andalusia-vejer-white-village",
+  "small-group-seville-tour": "seville-alcazar-gardens",
+};
+
+const excursionAltOverrides: Record<string, string> = {
+  "jerez-and-sherry-experience":
+    "Cádiz waterfront — gateway for inland Andalusian days including Jerez",
+  "sherry-bodegas-tour":
+    "Cádiz waterfront — gateway for inland Andalusian days including Jerez",
+  "la-caleta-beach-from-cruise-port": "Cádiz Cathedral and the Atlantic coast near the old town",
 };
 
 export function getExcursionImage(slug: string): SiteImage {
-  return pick(excursionImageKeys[slug] ?? "city-highlights");
+  const image = pick(excursionImageKeys[slug] ?? "cadiz-cathedral-coast");
+  const alt = excursionAltOverrides[slug];
+  return alt ? { ...image, alt } : image;
 }
 
-export const excursionsHubImage = pick("seville");
+export const excursionsHubImage = pick("seville-plaza-espana-hero");
 
 const attractionImageKeys: Record<string, string> = {
-  "seville-from-cadiz-cruise-port": "seville",
-  "la-caleta-beach-from-cruise-port": "la-caleta",
-  "jerez-from-cadiz-cruise-port": "sherry",
+  "seville-from-cadiz-cruise-port": "seville-plaza-espana-hero",
+  "la-caleta-beach-from-cruise-port": "cadiz-cathedral-coast",
+  "jerez-from-cadiz-cruise-port": "cadiz-cathedral-waterfront",
 };
 
 export function getAttractionImage(slug: string): SiteImage {
-  return pick(attractionImageKeys[slug] ?? "city-highlights");
+  return pick(attractionImageKeys[slug] ?? "cadiz-cathedral-coast");
 }
 
 const guideImageKeys: Record<string, string> = {
-  "cadiz-old-town-walking-guide": "old-town",
-  "cadiz-cathedral-guide": "cathedral",
-  "best-things-to-do-in-cadiz-from-a-cruise-ship": "city-highlights",
-  "one-day-in-cadiz-from-a-cruise-ship": "city-highlights",
-  "sherry-bodegas-tour": "sherry",
-  "white-villages-from-cadiz": "white-villages",
-  "vejer-de-la-frontera-guide": "vejer",
-  "andalusian-food-guide": "tapas",
-  "flamenco-experiences-from-cadiz": "flamenco",
-  "cadiz-markets-and-tapas-guide": "markets",
-  "independent-vs-cruise-line-excursions": "private-tour",
-  "best-cadiz-excursions-for-first-time-visitors": "city-highlights",
-  "best-cadiz-excursions-for-repeat-visitors": "white-villages",
-  "best-cadiz-excursions-for-food-and-wine-lovers": "tapas",
-  "best-cadiz-excursions-for-history-lovers": "cathedral",
+  "cadiz-old-town-walking-guide": "cadiz-cathedral-coast",
+  "cadiz-cathedral-guide": "cadiz-cathedral-waterfront",
+  "best-things-to-do-in-cadiz-from-a-cruise-ship": "cadiz-cathedral-waterfront",
+  "one-day-in-cadiz-from-a-cruise-ship": "cadiz-cathedral-coast",
+  "sherry-bodegas-tour": "cadiz-cathedral-waterfront",
+  "white-villages-from-cadiz": "andalusia-vejer-white-village",
+  "vejer-de-la-frontera-guide": "andalusia-vejer-street",
+  "andalusian-food-guide": "seville-tapas-bar",
+  "flamenco-experiences-from-cadiz": "seville-flamenco",
+  "cadiz-markets-and-tapas-guide": "seville-tapas-bar",
+  "independent-vs-cruise-line-excursions": "cadiz-cathedral-coast",
+  "best-cadiz-excursions-for-first-time-visitors": "cadiz-cathedral-waterfront",
+  "best-cadiz-excursions-for-repeat-visitors": "andalusia-vejer-white-village",
+  "best-cadiz-excursions-for-food-and-wine-lovers": "seville-tapas-bar",
+  "best-cadiz-excursions-for-history-lovers": "cadiz-cathedral-waterfront",
 };
 
-export function getGuideImage(slug: string): SiteImage {
-  const key = guideImageKeys[slug] ?? "city-highlights";
-  return pick(key);
+/**
+ * Resolve a subject key (e.g. seville-plaza-espana-hero) or a guide slug.
+ * Product galleries pass subject keys; GuideArticle may pass page slugs.
+ */
+export function getGuideImage(key: string): SiteImage {
+  if (subjectImages[key]) return subjectImages[key];
+  const mapped = guideImageKeys[key];
+  return pick(mapped ?? key);
 }

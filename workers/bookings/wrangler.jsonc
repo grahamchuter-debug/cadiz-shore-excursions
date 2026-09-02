@@ -1,0 +1,61 @@
+{
+  "$schema": "../../node_modules/wrangler/config-schema.json",
+  "name": "cadiz-bookings",
+  "main": "src/index.ts",
+  "compatibility_date": "2026-07-07",
+  "compatibility_flags": ["nodejs_compat"],
+  "observability": {
+    "enabled": true
+  },
+  "dev": {
+    "ip": "localhost",
+    "port": 8788,
+    "local_protocol": "http"
+  },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "cadiz-bookings-test",
+      "database_id": "f68dbb97-1bbd-4d72-b0b7-7af10a0305c6",
+      "migrations_dir": "migrations"
+    }
+  ],
+  "vars": {
+    "PAYMENTS_MODE": "test",
+    "BOOKINGS_ENABLED": "true",
+    "EMAIL_SENDING_ENABLED": "true",
+    "EMAIL_FROM": "bookings@notifications.wowatour.com",
+    "EMAIL_FROM_NAME": "Cadiz Shore Excursions",
+    "CORS_ALLOWED_ORIGINS": "http://localhost:3000,http://127.0.0.1:3000,http://localhost:3001,https://cadizshoreexcursions.com,https://www.cadizshoreexcursions.com,https://cadiz-shore-excursions.pages.dev,https://116274e1.cadiz-shore-excursions.pages.dev",
+    "SITE_BASE_URL": "https://cadizshoreexcursions.com",
+    "ORIGINATING_SITE": "cadizshoreexcursions.com",
+    "ORIGINATING_PORT": "Cadiz (Alfonso XIII)",
+    "OPERATOR_PORTAL_BASE_URL": "https://cadiz-bookings.dark-violet-8d91.workers.dev"
+  },
+  "env": {
+    "production": {
+      "name": "cadiz-bookings-prod",
+      "d1_databases": [
+        {
+          "binding": "DB",
+          "database_name": "cadiz-bookings-prod",
+          "database_id": "d4378f93-608d-40ff-8f56-442e247d4238",
+          "migrations_dir": "migrations"
+        }
+      ],
+      "vars": {
+        "PAYMENTS_MODE": "test",
+        "LIVE_PAYMENTS_UNLOCK": "CADIZ_LIVE_UNLOCK",
+        "BOOKINGS_ENABLED": "false",
+        "EMAIL_SENDING_ENABLED": "false",
+        "EMAIL_FROM": "bookings@notifications.wowatour.com",
+        "EMAIL_FROM_NAME": "Cadiz Shore Excursions",
+        "CORS_ALLOWED_ORIGINS": "https://cadizshoreexcursions.com,https://www.cadizshoreexcursions.com,http://localhost:3000,http://127.0.0.1:3000",
+        "SITE_BASE_URL": "https://cadizshoreexcursions.com",
+        "ORIGINATING_SITE": "cadizshoreexcursions.com",
+        "ORIGINATING_PORT": "Cadiz (Alfonso XIII)",
+        "OPERATOR_PORTAL_BASE_URL": "https://bookings.cadizshoreexcursions.com"
+      }
+    }
+  }
+}

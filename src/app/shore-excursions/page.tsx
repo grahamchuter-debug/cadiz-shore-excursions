@@ -6,7 +6,9 @@ import { PlanningLinks } from "@/components/PlanningLinks";
 import { JsonLd } from "@/components/JsonLd";
 import { breadcrumbSchema, webPageSchema } from "@/lib/schema";
 import { excursions } from "@/data/excursions";
+import { getPriorityProducts, isPriorityProductSlug } from "@/data/bookable-products";
 import { excursionsHubImage, getExcursionImage } from "@/lib/images";
+import { PriorityProductCard } from "@/components/PriorityProductCard";
 
 export const metadata = buildMetadata({
   title: "Cadiz Shore Excursions",
@@ -30,6 +32,9 @@ const AVAILABILITY_BADGES = {
 };
 
 export default function ShoreExcursionsPage() {
+  const recommended = getPriorityProducts();
+  const moreWays = excursions.filter((e) => !isPriorityProductSlug(e.slug));
+
   return (
     <>
       <JsonLd data={[breadcrumbSchema(breadcrumbs), webPageSchema({ title: "Cadiz Shore Excursions", description: "Premium Cadiz shore excursions for cruise passengers.", path: "/shore-excursions" })]} />
@@ -44,14 +49,28 @@ export default function ShoreExcursionsPage() {
         <div className="container-wide">
           <Breadcrumbs items={breadcrumbs} />
 
-          <div className="mb-10 card-feature max-w-3xl">
-            <p className="text-sm text-gray-700 leading-relaxed">
-              Direct and small-group tours are launching soon. Browse excursion options below and <Link href="/enquire" className="font-semibold text-coastal-700 hover:underline">register your interest</Link> — we will notify you when bookable tours go live, including future Viator, GetYourGuide and Shore Excursions Group partnerships.
+          <div className="max-w-3xl">
+            <p className="section-eyebrow">Recommended</p>
+            <h2 className="section-title mt-2">Bookable Seville from Cádiz</h2>
+            <p className="section-subtitle">
+              Two priority products for a long Cadiz call: Best Value free time, or Best Overall with Cathedral and Real Alcázar included.
             </p>
           </div>
+          <div className="mt-10 grid gap-6 sm:grid-cols-2">
+            {recommended.map((product) => (
+              <PriorityProductCard key={product.id} product={product} />
+            ))}
+          </div>
 
-          <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-            {excursions.map((e) => {
+          <div className="mt-20 max-w-3xl">
+            <p className="section-eyebrow">More ways to experience Andalusia</p>
+            <h2 className="section-title mt-2">Planning guides &amp; upcoming tours</h2>
+            <p className="section-subtitle">
+              Editorial excursion ideas and register-interest pages — useful for choosing a Cadiz day beyond the two bookable Seville products above.
+            </p>
+          </div>
+          <div className="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+            {moreWays.map((e) => {
               const image = getExcursionImage(e.slug);
               const badge = e.availability ? AVAILABILITY_BADGES[e.availability] : AVAILABILITY_BADGES["register-interest"];
               return (
