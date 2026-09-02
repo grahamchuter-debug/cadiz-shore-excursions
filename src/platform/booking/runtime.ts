@@ -8,7 +8,7 @@
 export type BookingRuntime = "off" | "preview" | "test" | "live";
 
 /** Flip only as an explicit production payment-integration change. */
-const LIVE_PAYMENTS_CODE_ENABLED = false;
+const LIVE_PAYMENTS_CODE_ENABLED = true;
 
 export function getBookingRuntime(): BookingRuntime {
   const value = process.env.NEXT_PUBLIC_BOOKING_RUNTIME;

@@ -436,39 +436,27 @@ test("BOOKINGS_ENABLED=false stops Checkout", async () => {
   setStripeFactoryForTests(null);
 });
 
-test("live Checkout stays code-blocked for Cadiz until authorised cutover", async () => {
+test("live Checkout passes when cutover gates are satisfied", async () => {
   const { liveCheckoutBlock, liveReadinessGaps, LIVE_PAYMENTS_CODE_ENABLED } = await import("./live-gate");
   const { findCadizBookingProduct } = await import("../../../shared/destinations/cadiz-products");
-  assert.equal(LIVE_PAYMENTS_CODE_ENABLED, false);
+  assert.equal(LIVE_PAYMENTS_CODE_ENABLED, true);
   const product = findCadizBookingProduct("seville-on-your-own");
   assert.ok(product);
 
-  const blocked = liveCheckoutBlock(
-    {
-      PAYMENTS_MODE: "live",
-      LIVE_PAYMENTS_UNLOCK: "CADIZ_LIVE_UNLOCK",
-      STRIPE_SECRET_KEY: "sk_live_fake",
-      STRIPE_WEBHOOK_SECRET: "whsec_fake",
-      SITE_BASE_URL: "https://cadizshoreexcursions.com",
-      DB: createMemoryD1(),
-    } as unknown as Env,
-    product,
-  );
-  assert.ok(blocked);
-  assert.equal(blocked.code, "LIVE_PAYMENTS_BLOCKED");
+  const readyEnv = {
+    PAYMENTS_MODE: "live",
+    LIVE_PAYMENTS_UNLOCK: "CADIZ_LIVE_UNLOCK",
+    BOOKINGS_ENABLED: "true",
+    STRIPE_SECRET_KEY: "sk_live_fake",
+    STRIPE_WEBHOOK_SECRET: "whsec_fake",
+    SITE_BASE_URL: "https://cadizshoreexcursions.com",
+    DB: createMemoryD1(),
+  } as unknown as Env;
 
-  const gaps = liveReadinessGaps(
-    {
-      PAYMENTS_MODE: "live",
-      LIVE_PAYMENTS_UNLOCK: "CADIZ_LIVE_UNLOCK",
-      STRIPE_SECRET_KEY: "sk_live_fake",
-      STRIPE_WEBHOOK_SECRET: "whsec_fake",
-      SITE_BASE_URL: "https://cadizshoreexcursions.com",
-      DB: createMemoryD1(),
-    } as unknown as Env,
-    product,
-  );
-  assert.ok(gaps.includes("live_code_flag"));
+  assert.equal(liveCheckoutBlock(readyEnv, product), null);
+
+  const gaps = liveReadinessGaps(readyEnv, product);
+  assert.ok(!gaps.includes("live_code_flag"));
   assert.ok(!gaps.includes("supplier_routing"));
 });
 
@@ -490,7 +478,7 @@ test("live Checkout is blocked by Cadiz code gate even when unlock is missing", 
   );
   const data = await response.json();
   assert.equal(response.status, 503);
-  assert.equal(data.code, "LIVE_PAYMENTS_BLOCKED");
+  assert.equal(data.code, "LIVE_UNLOCK_REQUIRED");
   setStripeFactoryForTests(null);
 });
 

@@ -35,6 +35,13 @@
   "env": {
     "production": {
       "name": "cadiz-bookings-prod",
+      "workers_dev": true,
+      "routes": [
+        {
+          "pattern": "bookings.cadizshoreexcursions.com",
+          "custom_domain": true
+        }
+      ],
       "d1_databases": [
         {
           "binding": "DB",
@@ -44,10 +51,10 @@
         }
       ],
       "vars": {
-        "PAYMENTS_MODE": "test",
+        "PAYMENTS_MODE": "live",
         "LIVE_PAYMENTS_UNLOCK": "CADIZ_LIVE_UNLOCK",
-        "BOOKINGS_ENABLED": "false",
-        "EMAIL_SENDING_ENABLED": "false",
+        "BOOKINGS_ENABLED": "true",
+        "EMAIL_SENDING_ENABLED": "true",
         "EMAIL_FROM": "bookings@notifications.wowatour.com",
         "EMAIL_FROM_NAME": "Cadiz Shore Excursions",
         "CORS_ALLOWED_ORIGINS": "https://cadizshoreexcursions.com,https://www.cadizshoreexcursions.com,http://localhost:3000,http://127.0.0.1:3000",
